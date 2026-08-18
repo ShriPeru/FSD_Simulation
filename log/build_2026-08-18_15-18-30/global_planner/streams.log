@@ -1,0 +1,55 @@
+[0.030s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shriperu/ros2_ws/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/global_planner
+[0.054s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.363s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.987s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.001s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.031s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.103s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.104s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.669s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.704s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.747s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.872s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.874s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.891s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.892s] -- Configured cppcheck include dirs: /home/shriperu/ros2_ws/src/global_planner/include
+[2.892s] -- Configured cppcheck exclude dirs and/or files: 
+[2.893s] -- Added test 'lint_cmake' to check CMake code style
+[2.894s] -- Added test 'xmllint' to check XML markup files
+[2.897s] -- Configuring done (2.8s)
+[2.943s] -- Generating done (0.0s)
+[2.951s] -- Build files have been written to: /home/shriperu/ros2_ws/build/global_planner
+[2.971s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shriperu/ros2_ws/src/global_planner -DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/global_planner
+[2.972s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[3.073s] [ 23%] Built target gtest_main
+[3.073s] [ 30%] Built target test_trajectory_following
+[3.075s] [ 46%] Built target gtest
+[3.086s] [ 61%] Built target test_ompl_dubins
+[3.091s] [ 69%] [32mBuilding CXX object CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o[0m
+[3.119s] [ 92%] Built target test_dubins
+[11.677s] [100%] [32m[1mLinking CXX executable global_planner_node[0m
+[12.580s] [100%] Built target global_planner_node
+[12.597s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[12.616s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shriperu/ros2_ws/build/global_planner
+[12.627s] -- Install configuration: ""
+[12.628s] -- Execute custom install script
+[12.628s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/lib/global_planner/global_planner_node
+[12.628s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+[12.629s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+[12.629s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+[12.629s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+[12.629s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.sh
+[12.630s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.dsv
+[12.630s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.bash
+[12.631s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.sh
+[12.631s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.zsh
+[12.631s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.dsv
+[12.631s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.dsv
+[12.646s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/packages/global_planner
+[12.646s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+[12.647s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+[12.647s] -- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.xml
+[12.650s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shriperu/ros2_ws/build/global_planner

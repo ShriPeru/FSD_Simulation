@@ -1,0 +1,13 @@
+[ 38%] Built target test_trajectory_following
+[ 38%] Built target gtest
+[ 46%] Built target gtest_main
+[ 61%] Built target test_ompl_dubins
+[ 69%] [32mBuilding CXX object CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o[0m
+[ 92%] Built target test_dubins
+[01m[K/home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp:[m[K In constructor ‘[01m[KGlobalPlannerNode::[01;32m[KGlobalPlannerNode[m[K()[m[K’:
+[01m[K/home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturning_radius_[m[K’ was not declared in this scope
+   82 |         [01;31m[Kturning_radius_[m[K = this->get_parameter("turning_radius").as_double();
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/global_planner_node.dir/build.make:76: CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/global_planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

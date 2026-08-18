@@ -66,6 +66,7 @@ CMAKE_BINARY_DIR = /home/shriperu/ros2_ws/build/global_planner
 all: CMakeFiles/test_dubins.dir/all
 all: CMakeFiles/global_planner_node.dir/all
 all: CMakeFiles/test_ompl_dubins.dir/all
+all: CMakeFiles/test_trajectory_following.dir/all
 all: gtest/all
 .PHONY : all
 
@@ -79,6 +80,7 @@ clean: CMakeFiles/global_planner_uninstall.dir/clean
 clean: CMakeFiles/test_dubins.dir/clean
 clean: CMakeFiles/global_planner_node.dir/clean
 clean: CMakeFiles/test_ompl_dubins.dir/clean
+clean: CMakeFiles/test_trajectory_following.dir/clean
 clean: gtest/clean
 .PHONY : clean
 
@@ -228,6 +230,32 @@ test_ompl_dubins: CMakeFiles/test_ompl_dubins.dir/rule
 CMakeFiles/test_ompl_dubins.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ompl_dubins.dir/build.make CMakeFiles/test_ompl_dubins.dir/clean
 .PHONY : CMakeFiles/test_ompl_dubins.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test_trajectory_following.dir
+
+# All Build rule for target.
+CMakeFiles/test_trajectory_following.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/shriperu/ros2_ws/build/global_planner/CMakeFiles --progress-num=12,13 "Built target test_trajectory_following"
+.PHONY : CMakeFiles/test_trajectory_following.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test_trajectory_following.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shriperu/ros2_ws/build/global_planner/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_trajectory_following.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shriperu/ros2_ws/build/global_planner/CMakeFiles 0
+.PHONY : CMakeFiles/test_trajectory_following.dir/rule
+
+# Convenience name for target.
+test_trajectory_following: CMakeFiles/test_trajectory_following.dir/rule
+.PHONY : test_trajectory_following
+
+# clean rule for target.
+CMakeFiles/test_trajectory_following.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/clean
+.PHONY : CMakeFiles/test_trajectory_following.dir/clean
 
 #=============================================================================
 # Target rules for target gtest/CMakeFiles/gtest.dir

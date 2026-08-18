@@ -4,6 +4,8 @@
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/point.hpp>
 #include <ament_index_cpp/get_package_share_directory.hpp>
+#include <vehicle_msgs/msg/steering_command.hpp>
+
 
 mjModel* model = nullptr;
 mjData* data = nullptr;
@@ -20,9 +22,13 @@ double lasty = 0;
 double car_x = 0.0;
 double car_y = 0.0;
 double car_theta = 0.0;
-double wheelbase = 0.4;  
+double wheelbase;  
 rclcpp::Node::SharedPtr ros_node;
 rclcpp::Publisher<geometry_msgs::msg::Point>::SharedPtr pos_publisher;
+rclcpp::Subscription<vehicle_msgs::msg::SteeringCommand>::SharedPtr command_sub_;
+double current_speed = 0.0;      // no motion until a real command arrives
+double current_steering = 0.0;
+
 
 void mouse_button(GLFWwindow* window, int button, int act, int mods) {
     button_left   = (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT)   == GLFW_PRESS);
@@ -68,7 +74,10 @@ void keyboard(GLFWwindow* window, int key, int scancode, int act, int mods) {
         glfwSetWindowShouldClose(window, GLFW_TRUE);
     }
 }
-
+void steeringCommandCallback(const vehicle_msgs::msg::SteeringCommand::SharedPtr msg) {
+    current_speed = msg->speed;
+    current_steering = msg->steering_angle;
+}
 int main() {
     char error[1000] = "";
     std::string model_path = ament_index_cpp::get_package_share_directory("mujoco_sim_node") + "/model.xml";
@@ -82,7 +91,10 @@ int main() {
     rclcpp::init(0, nullptr);
     ros_node = std::make_shared<rclcpp::Node>("mujoco_sim_node");
     pos_publisher = ros_node->create_publisher<geometry_msgs::msg::Point>("ball_position", 10);
-    
+    ros_node->declare_parameter("wheelbase", 0.15);
+    wheelbase = ros_node->get_parameter("wheelbase").as_double();
+    command_sub_ = ros_node->create_subscription<vehicle_msgs::msg::SteeringCommand>(
+    "steering_command", 10, steeringCommandCallback);
     if (!glfwInit()) {
         printf("Could not initialize GLFW\n");
         return 1;
@@ -109,8 +121,8 @@ int main() {
     while (!glfwWindowShouldClose(window)) {
         mjtNum simstart = data->time;
         while (data->time - simstart < 1.0 / 60.0) {
-            double v = 0.5;
-            double delta = 0.3;
+            double v = current_speed;
+            double delta = current_steering;
             double dt = model->opt.timestep;
 
             car_x += v * cos(car_theta) * dt;
@@ -139,6 +151,7 @@ int main() {
 
         glfwSwapBuffers(window);
         glfwPollEvents();
+        rclcpp::spin_some(ros_node);
     }
 
     mjv_freeScene(&scn);
@@ -149,6 +162,7 @@ int main() {
 
     pos_publisher.reset();
     ros_node.reset();
+    command_sub_.reset();
     rclcpp::shutdown();
     return 0;
 }

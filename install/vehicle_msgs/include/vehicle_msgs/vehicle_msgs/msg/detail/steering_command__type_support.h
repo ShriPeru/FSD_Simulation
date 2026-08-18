@@ -1,0 +1,1 @@
+/home/shriperu/ros2_ws/build/vehicle_msgs/rosidl_generator_c/vehicle_msgs/msg/detail/steering_command__type_support.h

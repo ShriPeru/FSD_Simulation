@@ -1,0 +1,16 @@
+/home/shriperu/ros2_ws/install/local_planner/lib/local_planner/local_planner_node
+/home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner
+/home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.sh
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/path.sh
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/path.dsv
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.bash
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.sh
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.zsh
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.dsv
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/package.dsv
+/home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/packages/local_planner
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+/home/shriperu/ros2_ws/install/local_planner/share/local_planner/package.xml

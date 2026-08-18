@@ -1,0 +1,15 @@
+[0.019s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[0.113s] [ 38%] Built target test_trajectory_following
+[0.113s] [ 38%] Built target gtest
+[0.113s] [ 46%] Built target gtest_main
+[0.124s] [ 61%] Built target test_ompl_dubins
+[0.137s] [ 69%] [32mBuilding CXX object CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o[0m
+[0.151s] [ 92%] Built target test_dubins
+[5.506s] [01m[K/home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp:[m[K In constructor ‘[01m[KGlobalPlannerNode::[01;32m[KGlobalPlannerNode[m[K()[m[K’:
+[5.506s] [01m[K/home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp:82:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturning_radius_[m[K’ was not declared in this scope
+[5.506s]    82 |         [01;31m[Kturning_radius_[m[K = this->get_parameter("turning_radius").as_double();
+[5.506s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[7.014s] gmake[2]: *** [CMakeFiles/global_planner_node.dir/build.make:76: CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o] Error 1
+[7.014s] gmake[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/global_planner_node.dir/all] Error 2
+[7.015s] gmake: *** [Makefile:146: all] Error 2
+[7.019s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16

@@ -754,6 +754,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_dubins.dir/DependInfo.cmake"
   "CMakeFiles/global_planner_node.dir/DependInfo.cmake"
   "CMakeFiles/test_ompl_dubins.dir/DependInfo.cmake"
+  "CMakeFiles/test_trajectory_following.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

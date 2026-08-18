@@ -1,0 +1,7 @@
+[0.020s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[0.119s] [ 46%] Built target gtest
+[0.120s] [ 46%] Built target test_trajectory_following
+[0.120s] [ 46%] Built target gtest_main
+[0.130s] [ 61%] Built target test_ompl_dubins
+[0.135s] [ 76%] Built target global_planner_node
+[0.158s] [100%] Built target test_dubins

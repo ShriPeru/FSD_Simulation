@@ -237,6 +237,19 @@ test_ompl_dubins/fast:
 .PHONY : test_ompl_dubins/fast
 
 #=============================================================================
+# Target rules for targets named test_trajectory_following
+
+# Build rule for target.
+test_trajectory_following: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_trajectory_following
+.PHONY : test_trajectory_following
+
+# fast build rule for target.
+test_trajectory_following/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/build
+.PHONY : test_trajectory_following/fast
+
+#=============================================================================
 # Target rules for targets named gtest
 
 # Build rule for target.
@@ -358,6 +371,30 @@ test/test_ompl_dubins.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_ompl_dubins.dir/build.make CMakeFiles/test_ompl_dubins.dir/test/test_ompl_dubins.cpp.s
 .PHONY : test/test_ompl_dubins.cpp.s
 
+test/test_trajectory_following.o: test/test_trajectory_following.cpp.o
+.PHONY : test/test_trajectory_following.o
+
+# target to build an object file
+test/test_trajectory_following.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/test/test_trajectory_following.cpp.o
+.PHONY : test/test_trajectory_following.cpp.o
+
+test/test_trajectory_following.i: test/test_trajectory_following.cpp.i
+.PHONY : test/test_trajectory_following.i
+
+# target to preprocess a source file
+test/test_trajectory_following.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/test/test_trajectory_following.cpp.i
+.PHONY : test/test_trajectory_following.cpp.i
+
+test/test_trajectory_following.s: test/test_trajectory_following.cpp.s
+.PHONY : test/test_trajectory_following.s
+
+# target to generate assembly for a file
+test/test_trajectory_following.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_trajectory_following.dir/build.make CMakeFiles/test_trajectory_following.dir/test/test_trajectory_following.cpp.s
+.PHONY : test/test_trajectory_following.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -378,6 +415,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... test_dubins"
 	@echo "... test_ompl_dubins"
+	@echo "... test_trajectory_following"
 	@echo "... src/dubins.o"
 	@echo "... src/dubins.i"
 	@echo "... src/dubins.s"
@@ -390,6 +428,9 @@ help:
 	@echo "... test/test_ompl_dubins.o"
 	@echo "... test/test_ompl_dubins.i"
 	@echo "... test/test_ompl_dubins.s"
+	@echo "... test/test_trajectory_following.o"
+	@echo "... test/test_trajectory_following.i"
+	@echo "... test/test_trajectory_following.s"
 .PHONY : help
 
 

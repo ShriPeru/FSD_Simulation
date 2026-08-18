@@ -1,0 +1,39 @@
+[0.025s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[0.129s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.421s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.042s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.058s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.212s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.215s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.061s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.726s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.773s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.815s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.922s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.923s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.940s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.940s] -- Configured cppcheck include dirs: /home/shriperu/ros2_ws/src/global_planner/include
+[2.941s] -- Configured cppcheck exclude dirs and/or files: 
+[2.941s] -- Added test 'lint_cmake' to check CMake code style
+[2.942s] -- Added test 'xmllint' to check XML markup files
+[2.945s] -- Configuring done (2.8s)
+[2.952s] [31mCMake Error at CMakeLists.txt:33 (add_executable):
+[2.952s]   Cannot find source file:
+[2.952s] 
+[2.952s]     tests/test_trajectory_following.cpp
+[2.952s] 
+[2.953s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[2.953s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[2.953s]   .f95 .f03 .hip .ispc
+[2.953s] 
+[2.953s] [0m
+[2.953s] [31mCMake Error at CMakeLists.txt:33 (add_executable):
+[2.953s]   No SOURCES given to target: test_trajectory_following
+[2.954s] 
+[2.954s] [0m
+[2.954s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.964s] gmake: *** [Makefile:404: cmake_check_build_system] Error 1
+[2.968s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16

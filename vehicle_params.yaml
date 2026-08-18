@@ -1,0 +1,12 @@
+global_planner_node:
+  ros__parameters:
+    turning_radius: 0.8
+
+local_planner_node:
+  ros__parameters:
+    wheelbase: 0.15
+    lookahead_distance: 1.0
+
+mujoco_sim_node:
+  ros__parameters:
+    wheelbase: 0.15

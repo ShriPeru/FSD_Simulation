@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.000497] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.000558] (-) JobUnselected: {'identifier': 'mujoco_sim_node'}
+[0.000599] (vehicle_msgs) JobQueued: {'identifier': 'vehicle_msgs', 'dependencies': OrderedDict()}
+[0.001657] (vehicle_msgs) JobStarted: {'identifier': 'vehicle_msgs'}
+[0.024138] (vehicle_msgs) JobProgress: {'identifier': 'vehicle_msgs', 'progress': 'cmake'}
+[0.028901] (vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/shriperu/ros2_ws/src/vehicle_msgs', '-DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/vehicle_msgs'], 'cwd': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64:', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src/vehicle_msgs', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099739] (-) TimerEvent: {}
+[0.200218] (-) TimerEvent: {}
+[0.300601] (-) TimerEvent: {}
+[0.401074] (-) TimerEvent: {}
+[0.501560] (-) TimerEvent: {}
+[0.601957] (-) TimerEvent: {}
+[0.702361] (-) TimerEvent: {}
+[0.802763] (-) TimerEvent: {}
+[0.843907] (vehicle_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.902912] (-) TimerEvent: {}
+[1.003250] (-) TimerEvent: {}
+[1.103590] (-) TimerEvent: {}
+[1.203993] (-) TimerEvent: {}
+[1.304412] (-) TimerEvent: {}
+[1.404761] (-) TimerEvent: {}
+[1.505126] (-) TimerEvent: {}
+[1.605484] (-) TimerEvent: {}
+[1.705846] (-) TimerEvent: {}
+[1.806216] (-) TimerEvent: {}
+[1.906601] (-) TimerEvent: {}
+[2.007047] (-) TimerEvent: {}
+[2.107398] (-) TimerEvent: {}
+[2.207846] (-) TimerEvent: {}
+[2.308228] (-) TimerEvent: {}
+[2.408616] (-) TimerEvent: {}
+[2.509045] (-) TimerEvent: {}
+[2.609428] (-) TimerEvent: {}
+[2.709889] (-) TimerEvent: {}
+[2.810339] (-) TimerEvent: {}
+[2.910780] (-) TimerEvent: {}
+[3.011213] (-) TimerEvent: {}
+[3.111657] (-) TimerEvent: {}
+[3.212197] (-) TimerEvent: {}
+[3.312662] (-) TimerEvent: {}
+[3.413168] (-) TimerEvent: {}
+[3.513590] (-) TimerEvent: {}
+[3.613981] (-) TimerEvent: {}
+[3.714480] (-) TimerEvent: {}
+[3.814936] (-) TimerEvent: {}
+[3.841555] (vehicle_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.915118] (-) TimerEvent: {}
+[4.015574] (-) TimerEvent: {}
+[4.116127] (-) TimerEvent: {}
+[4.216483] (-) TimerEvent: {}
+[4.316882] (-) TimerEvent: {}
+[4.417273] (-) TimerEvent: {}
+[4.517734] (-) TimerEvent: {}
+[4.618113] (-) TimerEvent: {}
+[4.718564] (-) TimerEvent: {}
+[4.818957] (-) TimerEvent: {}
+[4.919468] (-) TimerEvent: {}
+[5.019851] (-) TimerEvent: {}
+[5.120252] (-) TimerEvent: {}
+[5.220600] (-) TimerEvent: {}
+[5.321036] (-) TimerEvent: {}
+[5.421432] (-) TimerEvent: {}
+[5.521914] (-) TimerEvent: {}
+[5.622266] (-) TimerEvent: {}
+[5.722654] (-) TimerEvent: {}
+[5.823038] (-) TimerEvent: {}
+[5.923382] (-) TimerEvent: {}
+[6.023721] (-) TimerEvent: {}
+[6.124090] (-) TimerEvent: {}
+[6.224427] (-) TimerEvent: {}
+[6.324785] (-) TimerEvent: {}
+[6.425287] (-) TimerEvent: {}
+[6.525648] (-) TimerEvent: {}
+[6.626043] (-) TimerEvent: {}
+[6.726386] (-) TimerEvent: {}
+[6.746128] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.826526] (-) TimerEvent: {}
+[6.926859] (-) TimerEvent: {}
+[7.027246] (-) TimerEvent: {}
+[7.127638] (-) TimerEvent: {}
+[7.228093] (-) TimerEvent: {}
+[7.328549] (-) TimerEvent: {}
+[7.428978] (-) TimerEvent: {}
+[7.529409] (-) TimerEvent: {}
+[7.629743] (-) TimerEvent: {}
+[7.730113] (-) TimerEvent: {}
+[7.830475] (-) TimerEvent: {}
+[7.930878] (-) TimerEvent: {}
+[8.031374] (-) TimerEvent: {}
+[8.074651] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.084409] (vehicle_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.084930] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.085548] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.131517] (-) TimerEvent: {}
+[8.231914] (-) TimerEvent: {}
+[8.332260] (-) TimerEvent: {}
+[8.432601] (-) TimerEvent: {}
+[8.532947] (-) TimerEvent: {}
+[8.633302] (-) TimerEvent: {}
+[8.680246] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.733437] (-) TimerEvent: {}
+[8.833924] (-) TimerEvent: {}
+[8.934374] (-) TimerEvent: {}
+[9.034732] (-) TimerEvent: {}
+[9.135145] (-) TimerEvent: {}
+[9.235488] (-) TimerEvent: {}
+[9.335890] (-) TimerEvent: {}
+[9.436269] (-) TimerEvent: {}
+[9.536842] (-) TimerEvent: {}
+[9.637358] (-) TimerEvent: {}
+[9.737689] (-) TimerEvent: {}
+[9.838028] (-) TimerEvent: {}
+[9.938364] (-) TimerEvent: {}
+[9.982248] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.991902] (vehicle_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.992241] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.992951] (vehicle_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.028223] (vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.038510] (-) TimerEvent: {}
+[10.138890] (-) TimerEvent: {}
+[10.235902] (vehicle_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.239011] (-) TimerEvent: {}
+[10.339404] (-) TimerEvent: {}
+[10.422158] (vehicle_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[10.439579] (-) TimerEvent: {}
+[10.441268] (vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.539745] (-) TimerEvent: {}
+[10.640166] (-) TimerEvent: {}
+[10.740509] (-) TimerEvent: {}
+[10.840913] (-) TimerEvent: {}
+[10.941328] (-) TimerEvent: {}
+[11.041714] (-) TimerEvent: {}
+[11.077103] (vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.141869] (-) TimerEvent: {}
+[11.185668] (vehicle_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[11.242045] (-) TimerEvent: {}
+[11.342414] (-) TimerEvent: {}
+[11.442810] (-) TimerEvent: {}
+[11.543273] (-) TimerEvent: {}
+[11.643761] (-) TimerEvent: {}
+[11.744177] (-) TimerEvent: {}
+[11.844530] (-) TimerEvent: {}
+[11.879796] (vehicle_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[11.944668] (-) TimerEvent: {}
+[12.044985] (-) TimerEvent: {}
+[12.145333] (-) TimerEvent: {}
+[12.245757] (-) TimerEvent: {}
+[12.346256] (-) TimerEvent: {}
+[12.412718] (vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.446435] (-) TimerEvent: {}
+[12.546893] (-) TimerEvent: {}
+[12.647715] (-) TimerEvent: {}
+[12.748168] (-) TimerEvent: {}
+[12.848601] (-) TimerEvent: {}
+[12.949100] (-) TimerEvent: {}
+[13.049554] (-) TimerEvent: {}
+[13.074763] (vehicle_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.083652] (vehicle_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[13.149725] (-) TimerEvent: {}
+[13.250106] (-) TimerEvent: {}
+[13.254959] (vehicle_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[13.350257] (-) TimerEvent: {}
+[13.450650] (-) TimerEvent: {}
+[13.551113] (-) TimerEvent: {}
+[13.651438] (-) TimerEvent: {}
+[13.751934] (-) TimerEvent: {}
+[13.852496] (-) TimerEvent: {}
+[13.854104] (vehicle_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[13.935582] (vehicle_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[13.952777] (-) TimerEvent: {}
+[13.957958] (vehicle_msgs) StdoutLine: {'line': b'-- Configuring done (13.9s)\n'}
+[14.032105] (vehicle_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[14.046638] (vehicle_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/shriperu/ros2_ws/build/vehicle_msgs\n'}
+[14.053113] (-) TimerEvent: {}
+[14.062150] (vehicle_msgs) CommandEnded: {'returncode': 0}
+[14.062844] (vehicle_msgs) JobProgress: {'identifier': 'vehicle_msgs', 'progress': 'build'}
+[14.063754] (vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shriperu/ros2_ws/build/vehicle_msgs', '--', '-j16', '-l16'], 'cwd': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64:', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src/vehicle_msgs', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[14.143580] (vehicle_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[14.143884] (vehicle_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[14.153261] (-) TimerEvent: {}
+[14.160569] (vehicle_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_vehicle_msgs\n'}
+[14.253385] (-) TimerEvent: {}
+[14.353724] (-) TimerEvent: {}
+[14.411261] (vehicle_msgs) StdoutLine: {'line': b'[  5%] Built target vehicle_msgs__rosidl_generator_type_description\n'}
+[14.424559] (vehicle_msgs) StdoutLine: {'line': b'[  5%] Built target vehicle_msgs__rs\n'}
+[14.425401] (vehicle_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.441356] (vehicle_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[14.442208] (vehicle_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.442494] (vehicle_msgs) StdoutLine: {'line': b'creating vehicle_msgs.egg-info\n'}
+[14.453877] (-) TimerEvent: {}
+[14.470918] (vehicle_msgs) StdoutLine: {'line': b'writing vehicle_msgs.egg-info/PKG-INFO\n'}
+[14.471223] (vehicle_msgs) StdoutLine: {'line': b'writing dependency_links to vehicle_msgs.egg-info/dependency_links.txt\n'}
+[14.471669] (vehicle_msgs) StdoutLine: {'line': b'writing top-level names to vehicle_msgs.egg-info/top_level.txt\n'}
+[14.471933] (vehicle_msgs) StdoutLine: {'line': b"writing manifest file 'vehicle_msgs.egg-info/SOURCES.txt'\n"}
+[14.534368] (vehicle_msgs) StdoutLine: {'line': b"reading manifest file 'vehicle_msgs.egg-info/SOURCES.txt'\n"}
+[14.534839] (vehicle_msgs) StdoutLine: {'line': b"writing manifest file 'vehicle_msgs.egg-info/SOURCES.txt'\n"}
+[14.554052] (-) TimerEvent: {}
+[14.578663] (vehicle_msgs) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_vehicle_msgs_egg\n'}
+[14.654206] (-) TimerEvent: {}
+[14.691012] (vehicle_msgs) StdoutLine: {'line': b'[ 11%] Built target vehicle_msgs__cpp\n'}
+[14.708959] (vehicle_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/steering_command__description.c.o\x1b[0m\n'}
+[14.709170] (vehicle_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/steering_command__functions.c.o\x1b[0m\n'}
+[14.709317] (vehicle_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msgs/msg/detail/steering_command__type_support.c.o\x1b[0m\n'}
+[14.754358] (-) TimerEvent: {}
+[14.772084] (vehicle_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libvehicle_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[14.854489] (-) TimerEvent: {}
+[14.954806] (-) TimerEvent: {}
+[15.055166] (-) TimerEvent: {}
+[15.155824] (-) TimerEvent: {}
+[15.256319] (-) TimerEvent: {}
+[15.356653] (-) TimerEvent: {}
+[15.401619] (vehicle_msgs) StdoutLine: {'line': b'[ 22%] Built target vehicle_msgs__rosidl_generator_c\n'}
+[15.420839] (vehicle_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.421549] (vehicle_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.422754] (vehicle_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.424374] (vehicle_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.424561] (vehicle_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.428803] (vehicle_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.456787] (-) TimerEvent: {}
+[15.557139] (-) TimerEvent: {}
+[15.657591] (-) TimerEvent: {}
+[15.701275] (vehicle_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msgs/msg/steering_command__type_support.cpp.o\x1b[0m\n'}
+[15.748316] (vehicle_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msgs/msg/steering_command__type_support.cpp.o\x1b[0m\n'}
+[15.748580] (vehicle_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msgs/msg/detail/steering_command__type_support.cpp.o\x1b[0m\n'}
+[15.748959] (vehicle_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msgs/msg/detail/steering_command__type_support.c.o\x1b[0m\n'}
+[15.756021] (vehicle_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/steering_command__type_support_c.cpp.o\x1b[0m\n'}
+[15.757704] (-) TimerEvent: {}
+[15.764381] (vehicle_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.775424] (vehicle_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msgs/msg/detail/dds_fastrtps/steering_command__type_support.cpp.o\x1b[0m\n'}
+[15.801132] (vehicle_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libvehicle_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.857913] (-) TimerEvent: {}
+[15.958406] (-) TimerEvent: {}
+[16.058777] (-) TimerEvent: {}
+[16.159223] (-) TimerEvent: {}
+[16.237162] (vehicle_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[16.237590] (vehicle_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.259380] (-) TimerEvent: {}
+[16.359897] (-) TimerEvent: {}
+[16.456240] (vehicle_msgs) StdoutLine: {'line': b'[ 68%] Built target vehicle_msgs__rosidl_typesupport_c\n'}
+[16.459129] (vehicle_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.460021] (-) TimerEvent: {}
+[16.479703] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[16.495002] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs__rosidl_typesupport_introspection_c\n'}
+[16.560157] (-) TimerEvent: {}
+[16.660516] (-) TimerEvent: {}
+[16.704321] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs__rosidl_typesupport_cpp\n'}
+[16.705781] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs__rosidl_typesupport_introspection_cpp\n'}
+[16.760744] (-) TimerEvent: {}
+[16.861169] (-) TimerEvent: {}
+[16.961498] (-) TimerEvent: {}
+[17.061958] (-) TimerEvent: {}
+[17.082788] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[17.083135] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs__rosidl_typesupport_fastrtps_c\n'}
+[17.114995] (vehicle_msgs) StdoutLine: {'line': b'[ 74%] Built target vehicle_msgs\n'}
+[17.148217] (vehicle_msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[17.162071] (-) TimerEvent: {}
+[17.262479] (-) TimerEvent: {}
+[17.363057] (-) TimerEvent: {}
+[17.453065] (vehicle_msgs) StdoutLine: {'line': b'[ 77%] Built target vehicle_msgs__py\n'}
+[17.463359] (-) TimerEvent: {}
+[17.484887] (vehicle_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs__rosidl_generator_py.dir/rosidl_generator_py/vehicle_msgs/msg/_steering_command_s.c.o\x1b[0m\n'}
+[17.563461] (-) TimerEvent: {}
+[17.655332] (vehicle_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libvehicle_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[17.663604] (-) TimerEvent: {}
+[17.764159] (-) TimerEvent: {}
+[17.864654] (-) TimerEvent: {}
+[17.965069] (-) TimerEvent: {}
+[18.065419] (-) TimerEvent: {}
+[18.165763] (-) TimerEvent: {}
+[18.266106] (-) TimerEvent: {}
+[18.287151] (vehicle_msgs) StdoutLine: {'line': b'[ 82%] Built target vehicle_msgs__rosidl_generator_py\n'}
+[18.318526] (vehicle_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.318884] (vehicle_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.318995] (vehicle_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/vehicle_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.366278] (-) TimerEvent: {}
+[18.444958] (vehicle_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.447312] (vehicle_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.456484] (vehicle_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.466411] (-) TimerEvent: {}
+[18.566737] (-) TimerEvent: {}
+[18.667076] (-) TimerEvent: {}
+[18.767487] (-) TimerEvent: {}
+[18.853423] (vehicle_msgs) StdoutLine: {'line': b'[100%] Built target vehicle_msgs_s__rosidl_typesupport_c\n'}
+[18.853694] (vehicle_msgs) StdoutLine: {'line': b'[100%] Built target vehicle_msgs_s__rosidl_typesupport_introspection_c\n'}
+[18.867683] (-) TimerEvent: {}
+[18.968034] (-) TimerEvent: {}
+[19.068394] (-) TimerEvent: {}
+[19.088739] (vehicle_msgs) StdoutLine: {'line': b'[100%] Built target vehicle_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[19.108493] (vehicle_msgs) CommandEnded: {'returncode': 0}
+[19.109575] (vehicle_msgs) JobProgress: {'identifier': 'vehicle_msgs', 'progress': 'install'}
+[19.124220] (vehicle_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shriperu/ros2_ws/build/vehicle_msgs'], 'cwd': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64:', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src/vehicle_msgs', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/vehicle_msgs', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[19.136738] (vehicle_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.140200] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/vehicle_msgs\n'}
+[19.141302] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/msg/SteeringCommand.json\n'}
+[19.141543] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.142854] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.143451] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.144056] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__type_support.c\n'}
+[19.144246] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__type_support.h\n'}
+[19.144431] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__functions.c\n'}
+[19.144584] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__description.c\n'}
+[19.144760] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__functions.h\n'}
+[19.144930] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__struct.h\n'}
+[19.145146] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/steering_command.h\n'}
+[19.145390] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.146362] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/library_path.sh\n'}
+[19.146629] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/library_path.dsv\n'}
+[19.147250] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_c.so\n'}
+[19.147804] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_c.so" to ""\n'}
+[19.148134] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.148224] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.148293] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.148686] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__rosidl_typesupport_fastrtps_c.h\n'}
+[19.148959] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.149042] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[19.149298] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.149505] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.149659] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.149854] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.150167] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.150417] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__type_support.c\n'}
+[19.150656] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__rosidl_typesupport_introspection_c.h\n'}
+[19.150969] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_c.so\n'}
+[19.151124] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.151222] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_c.so\n'}
+[19.151578] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_c.so" to ""\n'}
+[19.151751] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.152262] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.152832] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/steering_command.hpp\n'}
+[19.153034] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.153233] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__type_support.hpp\n'}
+[19.153403] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__traits.hpp\n'}
+[19.153541] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__builder.hpp\n'}
+[19.153785] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__struct.hpp\n'}
+[19.153992] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.154118] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.154186] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.154292] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.154361] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.154427] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/dds_fastrtps\n'}
+[19.154483] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.154535] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.154720] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.155072] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs\n'}
+[19.155167] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg\n'}
+[19.155341] (vehicle_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail\n'}
+[19.155840] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.155946] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/include/vehicle_msgs/vehicle_msgs/msg/detail/steering_command__type_support.cpp\n'}
+[19.156130] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[19.156702] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.156868] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_cpp.so\n'}
+[19.157214] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[19.157398] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/pythonpath.sh\n'}
+[19.157593] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/pythonpath.dsv\n'}
+[19.157788] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs-0.0.0-py3.12.egg-info\n'}
+[19.159789] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[19.160076] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[19.160346] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[19.160563] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[19.160799] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs\n'}
+[19.161296] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[19.161559] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.161752] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/__init__.py\n'}
+[19.161970] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.162212] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg\n'}
+[19.162812] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg/_steering_command.py\n'}
+[19.162987] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg/__init__.py\n'}
+[19.163167] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg/_steering_command_s.c\n'}
+[19.163336] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.163575] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.so\n'}
+[19.163821] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/_vehicle_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[19.168508] (-) TimerEvent: {}
+[19.208622] (vehicle_msgs) StdoutLine: {'line': b"Listing '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs'...\n"}
+[19.208881] (vehicle_msgs) StdoutLine: {'line': b"Compiling '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/__init__.py'...\n"}
+[19.208990] (vehicle_msgs) StdoutLine: {'line': b"Listing '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg'...\n"}
+[19.209079] (vehicle_msgs) StdoutLine: {'line': b"Compiling '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg/__init__.py'...\n"}
+[19.209170] (vehicle_msgs) StdoutLine: {'line': b"Compiling '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/msg/_steering_command.py'...\n"}
+[19.217384] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.217662] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.217859] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[19.218246] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.218496] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.so\n'}
+[19.218898] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages/vehicle_msgs/vehicle_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[19.219414] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_py.so\n'}
+[19.219681] (vehicle_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/vehicle_msgs/lib/libvehicle_msgs__rosidl_generator_py.so" to ""\n'}
+[19.220354] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/ament_index/resource_index/rust_packages/vehicle_msgs\n'}
+[19.220531] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust\n'}
+[19.220992] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/build.rs\n'}
+[19.221169] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/src\n'}
+[19.221721] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/src/lib.rs\n'}
+[19.222072] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/src/msg.rs\n'}
+[19.222258] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/src/msg\n'}
+[19.222856] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/src/msg/rmw.rs\n'}
+[19.223017] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/rust/Cargo.toml\n'}
+[19.223215] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/msg/SteeringCommand.idl\n'}
+[19.223395] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/msg/SteeringCommand.msg\n'}
+[19.224087] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/vehicle_msgs\n'}
+[19.224763] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/vehicle_msgs\n'}
+[19.224959] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/ament_prefix_path.sh\n'}
+[19.225336] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/ament_prefix_path.dsv\n'}
+[19.225571] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/path.sh\n'}
+[19.225662] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/environment/path.dsv\n'}
+[19.225796] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.bash\n'}
+[19.225972] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.sh\n'}
+[19.226151] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.zsh\n'}
+[19.226373] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/local_setup.dsv\n'}
+[19.226586] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/package.dsv\n'}
+[19.227209] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/ament_index/resource_index/packages/vehicle_msgs\n'}
+[19.228006] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cExport.cmake\n'}
+[19.228295] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.228576] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.228874] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.229095] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.229479] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.229713] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cExport.cmake\n'}
+[19.229910] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.230144] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_cppExport.cmake\n'}
+[19.230351] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.230608] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.230697] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.230896] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.231105] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[19.231337] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.231597] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_pyExport.cmake\n'}
+[19.231907] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/export_vehicle_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.232153] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.232361] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.232550] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.232786] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.232971] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.233175] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.233364] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.233620] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[19.233890] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig.cmake\n'}
+[19.234102] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake/vehicle_msgsConfig-version.cmake\n'}
+[19.234529] (vehicle_msgs) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/package.xml\n'}
+[19.237367] (vehicle_msgs) CommandEnded: {'returncode': 0}
+[19.267088] (vehicle_msgs) JobEnded: {'identifier': 'vehicle_msgs', 'rc': 0}
+[19.268237] (-) EventReactorShutdown: {}

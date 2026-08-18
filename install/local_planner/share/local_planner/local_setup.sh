@@ -1,0 +1,1 @@
+/home/shriperu/ros2_ws/build/local_planner/ament_cmake_environment_hooks/local_setup.sh

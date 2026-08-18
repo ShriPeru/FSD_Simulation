@@ -1,0 +1,7 @@
+{
+  "package_name": "vehicle_msgs",
+  "output_dir": "/home/shriperu/ros2_ws/build/vehicle_msgs/rosidl_generator_type_description/vehicle_msgs",
+  "idl_tuples": [
+    "/home/shriperu/ros2_ws/build/vehicle_msgs/rosidl_adapter/vehicle_msgs:msg/SteeringCommand.idl"
+  ]
+}

@@ -1,0 +1,58 @@
+[0.703s] Invoking command in '/home/shriperu/ros2_ws/build/mujoco_sim_node': CMAKE_PREFIX_PATH=/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/local_planner:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shriperu/ros2_ws/install/vehicle_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64 /usr/bin/cmake /home/shriperu/ros2_ws/src/mujoco_sim_node -DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/mujoco_sim_node
+[0.724s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.993s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.002s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.341s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.352s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.464s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.469s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.201s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.767s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.808s] -- Found vehicle_msgs: 0.0.0 (/home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake)
+[2.821s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.923s] Error parsing '/home/shriperu/ros2_ws/src/mujoco_sim_node/package.xml':
+[6.818s] Traceback (most recent call last):
+[6.818s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[6.818s]     root = dom.parseString(data)
+[6.818s]            ^^^^^^^^^^^^^^^^^^^^^
+[6.818s]   File "/usr/lib/python3.12/xml/dom/minidom.py", line 1995, in parseString
+[6.819s]     return expatbuilder.parseString(string)
+[6.819s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.819s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString
+[6.819s]     return builder.parseString(string)
+[6.820s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6.820s]   File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString
+[6.820s]     parser.Parse(string, True)
+[6.820s] xml.parsers.expat.ExpatError: mismatched tag: line 15, column 24
+[6.820s] 
+[6.820s] During handling of the above exception, another exception occurred:
+[6.820s] 
+[6.821s] Traceback (most recent call last):
+[6.821s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[6.821s]     main()
+[6.821s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[6.821s]     raise e
+[6.821s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[6.821s]     package = parse_package_string(
+[6.821s]               ^^^^^^^^^^^^^^^^^^^^^
+[6.821s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[6.821s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[6.821s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shriperu/ros2_ws/src/mujoco_sim_node/package.xml':
+[6.821s] The manifest contains invalid XML:
+[6.821s] mismatched tag: line 15, column 24
+[6.894s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.894s]   execute_process(/usr/bin/python3
+[6.894s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.894s]   /home/shriperu/ros2_ws/src/mujoco_sim_node/package.xml
+[6.894s]   /home/shriperu/ros2_ws/build/mujoco_sim_node/ament_cmake_core/package.cmake)
+[6.894s]   returned error code 1
+[6.894s] Call Stack (most recent call first):
+[6.895s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.895s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[6.895s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[6.895s] 
+[6.895s] [0m
+[6.895s] -- Configuring incomplete, errors occurred!
+[6.915s] Invoked command in '/home/shriperu/ros2_ws/build/mujoco_sim_node' returned '1': CMAKE_PREFIX_PATH=/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/local_planner:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/shriperu/ros2_ws/install/vehicle_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64 /usr/bin/cmake /home/shriperu/ros2_ws/src/mujoco_sim_node -DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/mujoco_sim_node

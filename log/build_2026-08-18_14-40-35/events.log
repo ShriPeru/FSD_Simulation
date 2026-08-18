@@ -1,0 +1,357 @@
+[0.000000] (-) TimerEvent: {}
+[0.001390] (-) JobUnselected: {'identifier': 'global_planner'}
+[0.001459] (-) JobUnselected: {'identifier': 'mujoco_sim_node'}
+[0.001496] (-) JobUnselected: {'identifier': 'vehicle_msgs'}
+[0.001532] (local_planner) JobQueued: {'identifier': 'local_planner', 'dependencies': OrderedDict({'vehicle_msgs': '/home/shriperu/ros2_ws/install/vehicle_msgs'})}
+[0.001573] (local_planner) JobStarted: {'identifier': 'local_planner'}
+[0.099635] (-) TimerEvent: {}
+[0.200032] (-) TimerEvent: {}
+[0.300375] (-) TimerEvent: {}
+[0.400696] (-) TimerEvent: {}
+[0.501016] (-) TimerEvent: {}
+[0.601385] (-) TimerEvent: {}
+[0.701887] (-) TimerEvent: {}
+[0.802218] (-) TimerEvent: {}
+[0.902544] (-) TimerEvent: {}
+[0.961316] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'cmake'}
+[0.964468] (local_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/shriperu/ros2_ws/src/local_planner', '-DCMAKE_INSTALL_PREFIX=/home/shriperu/ros2_ws/install/local_planner'], 'cwd': '/home/shriperu/ros2_ws/build/local_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/local_planner', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[1.002794] (-) TimerEvent: {}
+[1.103295] (-) TimerEvent: {}
+[1.203616] (-) TimerEvent: {}
+[1.303965] (-) TimerEvent: {}
+[1.404381] (-) TimerEvent: {}
+[1.504767] (-) TimerEvent: {}
+[1.605112] (-) TimerEvent: {}
+[1.705492] (-) TimerEvent: {}
+[1.706259] (local_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.805631] (-) TimerEvent: {}
+[1.906002] (-) TimerEvent: {}
+[2.006381] (-) TimerEvent: {}
+[2.106775] (-) TimerEvent: {}
+[2.207155] (-) TimerEvent: {}
+[2.307560] (-) TimerEvent: {}
+[2.407935] (-) TimerEvent: {}
+[2.508316] (-) TimerEvent: {}
+[2.608683] (-) TimerEvent: {}
+[2.709171] (-) TimerEvent: {}
+[2.809582] (-) TimerEvent: {}
+[2.910061] (-) TimerEvent: {}
+[3.010446] (-) TimerEvent: {}
+[3.110910] (-) TimerEvent: {}
+[3.211390] (-) TimerEvent: {}
+[3.311785] (-) TimerEvent: {}
+[3.412173] (-) TimerEvent: {}
+[3.512519] (-) TimerEvent: {}
+[3.612870] (-) TimerEvent: {}
+[3.713234] (-) TimerEvent: {}
+[3.813642] (-) TimerEvent: {}
+[3.914058] (-) TimerEvent: {}
+[4.014869] (-) TimerEvent: {}
+[4.115239] (-) TimerEvent: {}
+[4.215690] (-) TimerEvent: {}
+[4.316134] (-) TimerEvent: {}
+[4.416572] (-) TimerEvent: {}
+[4.516929] (-) TimerEvent: {}
+[4.608056] (local_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.617034] (-) TimerEvent: {}
+[4.717361] (-) TimerEvent: {}
+[4.817753] (-) TimerEvent: {}
+[4.918173] (-) TimerEvent: {}
+[5.018571] (-) TimerEvent: {}
+[5.118978] (-) TimerEvent: {}
+[5.219663] (-) TimerEvent: {}
+[5.320053] (-) TimerEvent: {}
+[5.420468] (-) TimerEvent: {}
+[5.520967] (-) TimerEvent: {}
+[5.621334] (-) TimerEvent: {}
+[5.721694] (-) TimerEvent: {}
+[5.822057] (-) TimerEvent: {}
+[5.922829] (-) TimerEvent: {}
+[6.023226] (-) TimerEvent: {}
+[6.123658] (-) TimerEvent: {}
+[6.224028] (-) TimerEvent: {}
+[6.324423] (-) TimerEvent: {}
+[6.424791] (-) TimerEvent: {}
+[6.525152] (-) TimerEvent: {}
+[6.625535] (-) TimerEvent: {}
+[6.725941] (-) TimerEvent: {}
+[6.826360] (-) TimerEvent: {}
+[6.926929] (-) TimerEvent: {}
+[7.027277] (-) TimerEvent: {}
+[7.127652] (-) TimerEvent: {}
+[7.227996] (-) TimerEvent: {}
+[7.328367] (-) TimerEvent: {}
+[7.428758] (-) TimerEvent: {}
+[7.452239] (local_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.528887] (-) TimerEvent: {}
+[7.629229] (-) TimerEvent: {}
+[7.729705] (-) TimerEvent: {}
+[7.830094] (-) TimerEvent: {}
+[7.930466] (-) TimerEvent: {}
+[8.030762] (-) TimerEvent: {}
+[8.131094] (-) TimerEvent: {}
+[8.231431] (-) TimerEvent: {}
+[8.331800] (-) TimerEvent: {}
+[8.432243] (-) TimerEvent: {}
+[8.532606] (-) TimerEvent: {}
+[8.632954] (-) TimerEvent: {}
+[8.712142] (local_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.723095] (local_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.723869] (local_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.724945] (local_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.733061] (-) TimerEvent: {}
+[8.833383] (-) TimerEvent: {}
+[8.933726] (-) TimerEvent: {}
+[9.034106] (-) TimerEvent: {}
+[9.134508] (-) TimerEvent: {}
+[9.234912] (-) TimerEvent: {}
+[9.315493] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.335030] (-) TimerEvent: {}
+[9.435415] (-) TimerEvent: {}
+[9.535800] (-) TimerEvent: {}
+[9.636149] (-) TimerEvent: {}
+[9.736486] (-) TimerEvent: {}
+[9.836812] (-) TimerEvent: {}
+[9.937262] (-) TimerEvent: {}
+[10.037688] (-) TimerEvent: {}
+[10.138082] (-) TimerEvent: {}
+[10.238449] (-) TimerEvent: {}
+[10.338808] (-) TimerEvent: {}
+[10.439138] (-) TimerEvent: {}
+[10.539499] (-) TimerEvent: {}
+[10.611535] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.621271] (local_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.621578] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.622483] (local_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.639603] (-) TimerEvent: {}
+[10.646761] (local_planner) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.739755] (-) TimerEvent: {}
+[10.834825] (local_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.839879] (-) TimerEvent: {}
+[10.940210] (-) TimerEvent: {}
+[11.017799] (local_planner) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[11.040319] (-) TimerEvent: {}
+[11.140690] (-) TimerEvent: {}
+[11.241075] (-) TimerEvent: {}
+[11.341485] (-) TimerEvent: {}
+[11.441873] (-) TimerEvent: {}
+[11.542315] (-) TimerEvent: {}
+[11.630256] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[11.642459] (-) TimerEvent: {}
+[11.660479] (local_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[11.702014] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.740412] (local_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.742566] (-) TimerEvent: {}
+[11.842939] (-) TimerEvent: {}
+[11.888376] (local_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[11.895556] (local_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.943059] (-) TimerEvent: {}
+[12.044431] (-) TimerEvent: {}
+[12.072665] (local_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[12.144501] (-) TimerEvent: {}
+[12.244916] (-) TimerEvent: {}
+[12.345297] (-) TimerEvent: {}
+[12.445681] (-) TimerEvent: {}
+[12.546075] (-) TimerEvent: {}
+[12.646566] (-) TimerEvent: {}
+[12.747003] (-) TimerEvent: {}
+[12.847485] (-) TimerEvent: {}
+[12.881366] (local_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[12.947618] (-) TimerEvent: {}
+[13.047980] (-) TimerEvent: {}
+[13.148439] (-) TimerEvent: {}
+[13.248876] (-) TimerEvent: {}
+[13.302842] (local_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.349049] (-) TimerEvent: {}
+[13.449470] (-) TimerEvent: {}
+[13.549820] (-) TimerEvent: {}
+[13.650322] (-) TimerEvent: {}
+[13.750720] (-) TimerEvent: {}
+[13.851132] (-) TimerEvent: {}
+[13.951481] (-) TimerEvent: {}
+[14.005495] (local_planner) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[14.051641] (-) TimerEvent: {}
+[14.109288] (local_planner) StdoutLine: {'line': b'-- Found vehicle_msgs: 0.0.0 (/home/shriperu/ros2_ws/install/vehicle_msgs/share/vehicle_msgs/cmake)\n'}
+[14.131120] (local_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.151772] (-) TimerEvent: {}
+[14.252103] (-) TimerEvent: {}
+[14.298578] (local_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.298967] (local_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.299074] (local_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.301348] (local_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.305036] (local_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.305200] (local_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.307330] (local_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.311990] (local_planner) StdoutLine: {'line': b'-- Configuring done (13.3s)\n'}
+[14.334912] (local_planner) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[14.339861] (local_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/shriperu/ros2_ws/build/local_planner\n'}
+[14.352250] (-) TimerEvent: {}
+[14.358513] (local_planner) CommandEnded: {'returncode': 0}
+[14.359351] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'build'}
+[14.359969] (local_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shriperu/ros2_ws/build/local_planner', '--', '-j16', '-l16'], 'cwd': '/home/shriperu/ros2_ws/build/local_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/local_planner', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[14.442899] (local_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/local_planner_node.dir/src/local_planner_node.cpp.o\x1b[0m\n'}
+[14.452400] (-) TimerEvent: {}
+[14.552784] (-) TimerEvent: {}
+[14.653212] (-) TimerEvent: {}
+[14.753662] (-) TimerEvent: {}
+[14.854006] (-) TimerEvent: {}
+[14.954367] (-) TimerEvent: {}
+[15.054745] (-) TimerEvent: {}
+[15.155136] (-) TimerEvent: {}
+[15.255863] (-) TimerEvent: {}
+[15.356226] (-) TimerEvent: {}
+[15.456671] (-) TimerEvent: {}
+[15.557027] (-) TimerEvent: {}
+[15.657415] (-) TimerEvent: {}
+[15.757818] (-) TimerEvent: {}
+[15.858201] (-) TimerEvent: {}
+[15.958641] (-) TimerEvent: {}
+[16.059117] (-) TimerEvent: {}
+[16.159677] (-) TimerEvent: {}
+[16.260067] (-) TimerEvent: {}
+[16.360502] (-) TimerEvent: {}
+[16.460862] (-) TimerEvent: {}
+[16.561277] (-) TimerEvent: {}
+[16.661694] (-) TimerEvent: {}
+[16.762373] (-) TimerEvent: {}
+[16.862844] (-) TimerEvent: {}
+[16.963325] (-) TimerEvent: {}
+[17.063781] (-) TimerEvent: {}
+[17.164194] (-) TimerEvent: {}
+[17.264591] (-) TimerEvent: {}
+[17.364981] (-) TimerEvent: {}
+[17.465419] (-) TimerEvent: {}
+[17.565883] (-) TimerEvent: {}
+[17.666268] (-) TimerEvent: {}
+[17.766750] (-) TimerEvent: {}
+[17.867123] (-) TimerEvent: {}
+[17.967567] (-) TimerEvent: {}
+[18.067918] (-) TimerEvent: {}
+[18.168308] (-) TimerEvent: {}
+[18.268778] (-) TimerEvent: {}
+[18.369162] (-) TimerEvent: {}
+[18.469533] (-) TimerEvent: {}
+[18.569922] (-) TimerEvent: {}
+[18.670294] (-) TimerEvent: {}
+[18.770765] (-) TimerEvent: {}
+[18.871229] (-) TimerEvent: {}
+[18.971703] (-) TimerEvent: {}
+[19.072164] (-) TimerEvent: {}
+[19.172611] (-) TimerEvent: {}
+[19.272999] (-) TimerEvent: {}
+[19.373540] (-) TimerEvent: {}
+[19.473997] (-) TimerEvent: {}
+[19.574449] (-) TimerEvent: {}
+[19.674977] (-) TimerEvent: {}
+[19.775365] (-) TimerEvent: {}
+[19.875859] (-) TimerEvent: {}
+[19.976344] (-) TimerEvent: {}
+[20.076802] (-) TimerEvent: {}
+[20.177256] (-) TimerEvent: {}
+[20.277748] (-) TimerEvent: {}
+[20.378154] (-) TimerEvent: {}
+[20.478598] (-) TimerEvent: {}
+[20.579048] (-) TimerEvent: {}
+[20.679428] (-) TimerEvent: {}
+[20.779937] (-) TimerEvent: {}
+[20.880300] (-) TimerEvent: {}
+[20.980785] (-) TimerEvent: {}
+[21.081272] (-) TimerEvent: {}
+[21.181652] (-) TimerEvent: {}
+[21.282025] (-) TimerEvent: {}
+[21.382388] (-) TimerEvent: {}
+[21.483226] (-) TimerEvent: {}
+[21.583667] (-) TimerEvent: {}
+[21.684056] (-) TimerEvent: {}
+[21.784490] (-) TimerEvent: {}
+[21.884921] (-) TimerEvent: {}
+[21.985311] (-) TimerEvent: {}
+[22.085858] (-) TimerEvent: {}
+[22.186883] (-) TimerEvent: {}
+[22.287294] (-) TimerEvent: {}
+[22.387639] (-) TimerEvent: {}
+[22.488054] (-) TimerEvent: {}
+[22.588447] (-) TimerEvent: {}
+[22.688842] (-) TimerEvent: {}
+[22.789186] (-) TimerEvent: {}
+[22.889587] (-) TimerEvent: {}
+[22.990189] (-) TimerEvent: {}
+[23.090567] (-) TimerEvent: {}
+[23.191003] (-) TimerEvent: {}
+[23.291417] (-) TimerEvent: {}
+[23.391834] (-) TimerEvent: {}
+[23.492248] (-) TimerEvent: {}
+[23.592796] (-) TimerEvent: {}
+[23.693194] (-) TimerEvent: {}
+[23.793548] (-) TimerEvent: {}
+[23.893881] (-) TimerEvent: {}
+[23.994297] (-) TimerEvent: {}
+[24.094936] (-) TimerEvent: {}
+[24.195281] (-) TimerEvent: {}
+[24.295697] (-) TimerEvent: {}
+[24.396475] (-) TimerEvent: {}
+[24.496878] (-) TimerEvent: {}
+[24.597296] (-) TimerEvent: {}
+[24.697713] (-) TimerEvent: {}
+[24.798098] (-) TimerEvent: {}
+[24.898467] (-) TimerEvent: {}
+[24.998962] (-) TimerEvent: {}
+[25.099349] (-) TimerEvent: {}
+[25.199709] (-) TimerEvent: {}
+[25.300115] (-) TimerEvent: {}
+[25.400672] (-) TimerEvent: {}
+[25.501703] (-) TimerEvent: {}
+[25.602212] (-) TimerEvent: {}
+[25.702613] (-) TimerEvent: {}
+[25.803027] (-) TimerEvent: {}
+[25.903469] (-) TimerEvent: {}
+[26.003864] (-) TimerEvent: {}
+[26.104210] (-) TimerEvent: {}
+[26.204552] (-) TimerEvent: {}
+[26.304981] (-) TimerEvent: {}
+[26.405357] (-) TimerEvent: {}
+[26.505864] (-) TimerEvent: {}
+[26.606279] (-) TimerEvent: {}
+[26.706714] (-) TimerEvent: {}
+[26.807148] (-) TimerEvent: {}
+[26.907626] (-) TimerEvent: {}
+[27.008095] (-) TimerEvent: {}
+[27.082428] (local_planner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable local_planner_node\x1b[0m\n'}
+[27.108245] (-) TimerEvent: {}
+[27.208617] (-) TimerEvent: {}
+[27.308961] (-) TimerEvent: {}
+[27.409339] (-) TimerEvent: {}
+[27.509734] (-) TimerEvent: {}
+[27.610104] (-) TimerEvent: {}
+[27.710800] (-) TimerEvent: {}
+[27.811161] (-) TimerEvent: {}
+[27.911518] (-) TimerEvent: {}
+[28.011890] (-) TimerEvent: {}
+[28.112320] (-) TimerEvent: {}
+[28.212767] (-) TimerEvent: {}
+[28.255520] (local_planner) StdoutLine: {'line': b'[100%] Built target local_planner_node\n'}
+[28.272429] (local_planner) CommandEnded: {'returncode': 0}
+[28.273400] (local_planner) JobProgress: {'identifier': 'local_planner', 'progress': 'install'}
+[28.287770] (local_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shriperu/ros2_ws/build/local_planner'], 'cwd': '/home/shriperu/ros2_ws/build/local_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/279_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '99dc9d44-411b-4e0d-b99c-73cc3797f387', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/local_planner', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shriperu/ros2_ws/install/vehicle_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/vehicle_msgs:/home/shriperu/ros2_ws/install/mujoco_sim_node:/home/shriperu/ros2_ws/install/global_planner:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[28.300581] (local_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.302214] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/lib/local_planner/local_planner_node\n'}
+[28.309586] (local_planner) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/shriperu/ros2_ws/install/local_planner/lib/local_planner/local_planner_node" to ""\n'}
+[28.311783] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/package_run_dependencies/local_planner\n'}
+[28.312384] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/parent_prefix_path/local_planner\n'}
+[28.312835] (-) TimerEvent: {}
+[28.313616] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.sh\n'}
+[28.313925] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/ament_prefix_path.dsv\n'}
+[28.314104] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/path.sh\n'}
+[28.314331] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/environment/path.dsv\n'}
+[28.314616] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.bash\n'}
+[28.314791] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.sh\n'}
+[28.314966] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.zsh\n'}
+[28.315181] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/local_setup.dsv\n'}
+[28.315388] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/package.dsv\n'}
+[28.316105] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/ament_index/resource_index/packages/local_planner\n'}
+[28.316850] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig.cmake\n'}
+[28.317100] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake\n'}
+[28.317322] (local_planner) StdoutLine: {'line': b'-- Installing: /home/shriperu/ros2_ws/install/local_planner/share/local_planner/package.xml\n'}
+[28.320112] (local_planner) CommandEnded: {'returncode': 0}
+[28.345583] (local_planner) JobEnded: {'identifier': 'local_planner', 'rc': 0}
+[28.347052] (-) EventReactorShutdown: {}

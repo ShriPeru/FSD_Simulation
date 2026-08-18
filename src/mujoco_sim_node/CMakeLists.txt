@@ -12,7 +12,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(ament_index_cpp REQUIRED)
 set(MUJOCO_DIR "$ENV{HOME}/mujoco")
 find_package(glfw3 REQUIRED)
-
+find_package(vehicle_msgs REQUIRED)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -30,8 +30,8 @@ target_include_directories(mujoco_sim_node PRIVATE ${MUJOCO_DIR}/include)
 target_link_directories(mujoco_sim_node PRIVATE ${MUJOCO_DIR}/lib)
 target_link_libraries(mujoco_sim_node mujoco glfw)
 
-ament_target_dependencies(mujoco_sim_node rclcpp geometry_msgs ament_index_cpp)
 
+ament_target_dependencies(mujoco_sim_node rclcpp geometry_msgs ament_index_cpp vehicle_msgs)
 set_target_properties(mujoco_sim_node PROPERTIES
     INSTALL_RPATH "${MUJOCO_DIR}/lib"
     BUILD_WITH_INSTALL_RPATH TRUE

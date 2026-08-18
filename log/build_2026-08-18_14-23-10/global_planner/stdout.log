@@ -1,0 +1,26 @@
+[ 23%] [32mBuilding CXX object CMakeFiles/test_trajectory_following.dir/test/test_trajectory_following.cpp.o[0m
+[ 23%] Built target gtest
+[ 38%] Built target gtest_main
+[ 53%] Built target test_ompl_dubins
+[ 69%] Built target global_planner_node
+[ 92%] Built target test_dubins
+[100%] [32m[1mLinking CXX executable test_trajectory_following[0m
+[100%] Built target test_trajectory_following
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/lib/global_planner/global_planner_node
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.sh
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.dsv
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.bash
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.sh
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.zsh
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.dsv
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.dsv
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/packages/global_planner
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.xml

@@ -77,6 +77,10 @@ public:
         // Transient-local durability "latches" the last published message,
         // so late-joining subscribers (e.g. a local planner started after
         // this node already planned) still receive the path.
+        
+        this->declare_parameter("turning_radius", 0.8);
+        turning_radius_ = this->get_parameter("turning_radius").as_double();
+
         rclcpp::QoS qos(1);
         qos.transient_local();
 
@@ -96,14 +100,17 @@ private:
     void planAndPublish() {
         const double start_x = 0.0, start_y = 0.0, start_theta = 0.0;
         const double goal_x = 10.0, goal_y = 10.0, goal_theta = 0.0;
-        const double turning_radius = 4.0;
-
+        double turning_radius_;
         currentObstacles = {
-            {5.0, 5.0, 1.5},
-            {3.0, 7.0, 1.0}
+          {5.0, 5.0, 1.5},
+          {3.0, 7.0, 1.0},
+          {7.0, 3.0, 1.2},
+          {8.0, 8.0, 1.0},
+          {2.0, 3.0, 0.8}
         };
 
-        auto space = std::make_shared<ob::DubinsStateSpace>(turning_radius);
+
+        auto space = std::make_shared<ob::DubinsStateSpace>(turning_radius_);
 
         ob::RealVectorBounds bounds(2);
         bounds.setLow(-20);
@@ -166,6 +173,7 @@ private:
     }
 
     rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr path_publisher_;
+    double turning_radius_;
 };
 
 int main(int argc, char** argv) {

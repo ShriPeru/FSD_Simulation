@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "vehicle_msgs/msg/SteeringCommand",
+      "fields": [
+        {
+          "name": "steering_angle",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "speed",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "vehicle_msgs/msg/SteeringCommand",
+      "hash_string": "RIHS01_fc6e51dafaf073ab5bff7f738422abdb042e8f400b80dd7894904b27a99c108f"
+    }
+  ]
+}

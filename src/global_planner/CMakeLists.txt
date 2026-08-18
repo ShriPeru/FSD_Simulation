@@ -30,4 +30,6 @@ add_executable(test_ompl_dubins test/test_ompl_dubins.cpp)
 target_include_directories(test_ompl_dubins PRIVATE ${OMPL_INCLUDE_DIRS})
 target_link_libraries(test_ompl_dubins ${OMPL_LIBRARIES})
 
+add_executable(test_trajectory_following test/test_trajectory_following.cpp)
+
 ament_package()

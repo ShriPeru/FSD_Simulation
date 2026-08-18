@@ -1,0 +1,1 @@
+/home/shriperu/ros2_ws/build/vehicle_msgs/rosidl_typesupport_fastrtps_c/vehicle_msgs/msg/detail/steering_command__rosidl_typesupport_fastrtps_c.h

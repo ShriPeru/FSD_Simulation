@@ -1,0 +1,6 @@
+[ 46%] Built target gtest
+[ 46%] Built target test_trajectory_following
+[ 46%] Built target gtest_main
+[ 61%] Built target test_ompl_dubins
+[ 76%] Built target global_planner_node
+[100%] Built target test_dubins

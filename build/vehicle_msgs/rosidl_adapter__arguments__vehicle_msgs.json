@@ -1,0 +1,6 @@
+{
+  "package_name": "vehicle_msgs",
+  "non_idl_tuples": [
+    "/home/shriperu/ros2_ws/src/vehicle_msgs:msg/SteeringCommand.msg"
+  ]
+}

@@ -3,6 +3,7 @@
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/test_dubins.dir
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/global_planner_node.dir
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/test_ompl_dubins.dir
+/home/shriperu/ros2_ws/build/global_planner/CMakeFiles/test_trajectory_following.dir
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/test.dir
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/edit_cache.dir
 /home/shriperu/ros2_ws/build/global_planner/CMakeFiles/rebuild_cache.dir
