@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="0" disabled="0" errors="0" time="0." timestamp="2026-08-17T18:23:14.514" name="AllTests">
+  <testsuite name="DubinsTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-08-17T18:23:14.514">
+    <testcase name="PathLengthAtLeastStraightLineDistance" file="/home/shriperu/ros2_ws/src/global_planner/test/test_dubins.cpp" line="8" status="run" result="completed" time="0." timestamp="2026-08-17T18:23:14.514" classname="global_planner.DubinsTest" />
+    <testcase name="SamplingAtZeroReturnsStart" file="/home/shriperu/ros2_ws/src/global_planner/test/test_dubins.cpp" line="23" status="run" result="completed" time="0." timestamp="2026-08-17T18:23:14.514" classname="global_planner.DubinsTest" />
+    <testcase name="EndpointMatchesGoal" file="/home/shriperu/ros2_ws/src/global_planner/test/test_dubins.cpp" line="39" status="run" result="completed" time="0." timestamp="2026-08-17T18:23:14.514" classname="global_planner.DubinsTest" />
+  </testsuite>
+</testsuites>

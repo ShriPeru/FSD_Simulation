@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml'

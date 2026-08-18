@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260818-0120-Experimental"
+	Name="ShriComputer"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="ShriComputer"
+	OSRelease="6.18.33.2-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="68"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="5120"
+	TotalPhysicalMemory="19613"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3293.81"
+	>
+	<Testing>
+		<StartDateTime>Aug 17 18:20 PDT</StartDateTime>
+		<StartTestTime>1787016016</StartTestTime>
+		<TestList>
+			<Test>./test_dubins</Test>
+			<Test>./cppcheck</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>test_dubins</Name>
+			<Path>.</Path>
+			<FullName>./test_dubins</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cmake_gtest/test_dubins.txt" "--command" "/home/shriperu/ros2_ws/build/global_planner/test_dubins" "--gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0881197</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cmake_gtest/test_dubins.txt" "--command" "/home/shriperu/ros2_ws/build/global_planner/test_dubins" "--gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/build/global_planner':
+ - /home/shriperu/ros2_ws/build/global_planner/test_dubins --gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml
+Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from DubinsTest
+[ RUN      ] DubinsTest.PathLengthAtLeastStraightLineDistance
+[       OK ] DubinsTest.PathLengthAtLeastStraightLineDistance (0 ms)
+[ RUN      ] DubinsTest.SamplingAtZeroReturnsStart
+[       OK ] DubinsTest.SamplingAtZeroReturnsStart (0 ms)
+[ RUN      ] DubinsTest.EndpointMatchesGoal
+[       OK ] DubinsTest.EndpointMatchesGoal (0 ms)
+[----------] 3 tests from DubinsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--include_dirs" "/home/shriperu/ros2_ws/src/global_planner/include"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.219066</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--include_dirs" "/home/shriperu/ros2_ws/src/global_planner/include"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml --include_dirs /home/shriperu/ros2_ws/src/global_planner/include
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.177276</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.252935</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml
+Code style divergence in file 'include/dubins.h':
+
+--- include/dubins.h
++++ include/dubins.h.uncrustify
+@@ -25 +25 @@
+-typedef enum 
++typedef enum
+@@ -27,6 +27,6 @@
+-    LSL = 0,
+-    LSR = 1,
+-    RSL = 2,
+-    RSR = 3,
+-    RLR = 4,
+-    LRL = 5
++  LSL = 0,
++  LSR = 1,
++  RSL = 2,
++  RSR = 3,
++  RLR = 4,
++  LRL = 5
+@@ -35 +35 @@
+-typedef struct 
++typedef struct
+@@ -38 +38 @@
+-    double qi[3];        
++  double qi[3];
+@@ -40 +40 @@
+-    double param[3];     
++  double param[3];
+@@ -42 +42 @@
+-    double rho;          
++  double rho;
+@@ -44 +44 @@
+-    DubinsPathType type; 
++  DubinsPathType type;
+@@ -61 +61 @@
+-typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void* user_data);
++typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void * user_data);
+@@ -77 +77 @@
+-int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho);
++int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho);
+@@ -81 +81 @@
+- * a target configuration, with a specified turning radius 
++ * a target configuration, with a specified turning radius
+@@ -90 +90 @@
+-int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType);
++int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType);
+@@ -97 +97 @@
+-double dubins_path_length(DubinsPath* path);
++double dubins_path_length(DubinsPath * path);
+@@ -105 +105 @@
+-double dubins_segment_length(DubinsPath* path, int i);
++double dubins_segment_length(DubinsPath * path, int i);
+@@ -113 +113 @@
+-double dubins_segment_length_normalized( DubinsPath* path, int i );
++double dubins_segment_length_normalized(DubinsPath * path, int i);
+@@ -119 +119 @@
+- * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL 
++ * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL
+@@ -121 +121 @@
+-DubinsPathType dubins_path_type(DubinsPath* path);
++DubinsPathType dubins_path_type(DubinsPath * path);
+@@ -131 +131 @@
+-int dubins_path_sample(DubinsPath* path, double t, double q[3]);
++int dubins_path_sample(DubinsPath * path, double t, double q[3]);
+@@ -146,4 +146,5 @@
+-int dubins_path_sample_many(DubinsPath* path, 
+-                            double stepSize, 
+-                            DubinsPathSamplingCallback cb, 
+-                            void* user_data);
++int dubins_path_sample_many(
++  DubinsPath * path,
++  double stepSize,
++  DubinsPathSamplingCallback cb,
++  void * user_data);
+@@ -157 +158 @@
+-int dubins_path_endpoint(DubinsPath* path, double q[3]);
++int dubins_path_endpoint(DubinsPath * path, double q[3]);
+@@ -166 +167 @@
+-int dubins_extract_subpath(DubinsPath* path, double t, DubinsPath* newpath);
++int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath);
+@@ -170 +170,0 @@
+-
+
+Code style divergence in file 'src/dubins.c':
+
+--- src/dubins.c
++++ src/dubins.c.uncrustify
+@@ -30,5 +30,5 @@
+-typedef enum 
+-{
+-    L_SEG = 0,
+-    S_SEG = 1,
+-    R_SEG = 2
++typedef enum
++{
++  L_SEG = 0,
++  S_SEG = 1,
++  R_SEG = 2
+@@ -39,6 +39,6 @@
+-    { L_SEG, S_SEG, L_SEG },
+-    { L_SEG, S_SEG, R_SEG },
+-    { R_SEG, S_SEG, L_SEG },
+-    { R_SEG, S_SEG, R_SEG },
+-    { R_SEG, L_SEG, R_SEG },
+-    { L_SEG, R_SEG, L_SEG }
++  {L_SEG, S_SEG, L_SEG},
++  {L_SEG, S_SEG, R_SEG},
++  {R_SEG, S_SEG, L_SEG},
++  {R_SEG, S_SEG, R_SEG},
++  {R_SEG, L_SEG, R_SEG},
++  {L_SEG, R_SEG, L_SEG}
+@@ -47,11 +47,11 @@
+-typedef struct 
+-{
+-    double alpha;
+-    double beta;
+-    double d;
+-    double sa;
+-    double sb;
+-    double ca;
+-    double cb;
+-    double c_ab;
+-    double d_sq;
++typedef struct
++{
++  double alpha;
++  double beta;
++  double d;
++  double sa;
++  double sb;
++  double ca;
++  double cb;
++  double c_ab;
++  double d_sq;
+@@ -61,2 +61,4 @@
+-int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]);
+-int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho);
++int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3]);
++int dubins_intermediate_results(
++  DubinsIntermediateResults * in, double q0[3], double q1[3],
++  double rho);
+@@ -69,14 +71,56 @@
+-double fmodr( double x, double y)
+-{
+-    return x - y*floor(x/y);
+-}
+-
+-double mod2pi( double theta )
+-{
+-    return fmodr( theta, 2 * M_PI );
+-}
+-
+-int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho)
+-{
+-    int i, errcode;
+-    DubinsIntermediateResults in;
++double fmodr(double x, double y)
++{
++  return x - y * floor(x / y);
++}
++
++double mod2pi(double theta)
++{
++  return fmodr(theta, 2 * M_PI);
++}
++
++int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho)
++{
++  int i, errcode;
++  DubinsIntermediateResults in;
++  double params[3];
++  double cost;
++  double best_cost = INFINITY;
++  int best_word = -1;
++  errcode = dubins_intermediate_results(&amp;in, q0, q1, rho);
++  if(errcode != EDUBOK) {
++    return errcode;
++  }
++
++
++  path-&gt;qi[0] = q0[0];
++  path-&gt;qi[1] = q0[1];
++  path-&gt;qi[2] = q0[2];
++  path-&gt;rho = rho;
++
++  for( i = 0; i &lt; 6; i++ ) {
++    DubinsPathType pathType = (DubinsPathType)i;
++    errcode = dubins_word(&amp;in, pathType, params);
++    if(errcode == EDUBOK) {
++      cost = params[0] + params[1] + params[2];
++      if(cost &lt; best_cost) {
++        best_word = i;
++        best_cost = cost;
++        path-&gt;param[0] = params[0];
++        path-&gt;param[1] = params[1];
++        path-&gt;param[2] = params[2];
++        path-&gt;type = pathType;
++      }
++    }
++  }
++  if(best_word == -1) {
++    return EDUBNOPATH;
++  }
++  return EDUBOK;
++}
++
++int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType)
++{
++  int errcode;
++  DubinsIntermediateResults in;
++  errcode = dubins_intermediate_results(&amp;in, q0, q1, rho);
++  if(errcode == EDUBOK) {
+@@ -84,6 +128,10 @@
+-    double cost;
+-    double best_cost = INFINITY;
+-    int best_word = -1;
+-    errcode = dubins_intermediate_results(&amp;in, q0, q1, rho);
+-    if(errcode != EDUBOK) {
+-        return errcode;
++    errcode = dubins_word(&amp;in, pathType, params);
++    if(errcode == EDUBOK) {
++      path-&gt;param[0] = params[0];
++      path-&gt;param[1] = params[1];
++      path-&gt;param[2] = params[2];
++      path-&gt;qi[0] = q0[0];
++      path-&gt;qi[1] = q0[1];
++      path-&gt;qi[2] = q0[2];
++      path-&gt;rho = rho;
++      path-&gt;type = pathType;
+@@ -91,21 +139,110 @@
+-
+-
+-    path-&gt;qi[0] = q0[0];
+-    path-&gt;qi[1] = q0[1];
+-    path-&gt;qi[2] = q0[2];
+-    path-&gt;rho = rho;
+- 
+-    for( i = 0; i &lt; 6; i++ ) {
+-        DubinsPathType pathType = (DubinsPathType)i;
+-        errcode = dubins_word(&amp;in, pathType, params);
+-        if(errcode == EDUBOK) {
+-            cost = params[0] + params[1] + params[2];
+-            if(cost &lt; best_cost) {
+-                best_word = i;
+-                best_cost = cost;
+-                path-&gt;param[0] = params[0];
+-                path-&gt;param[1] = params[1];
+-                path-&gt;param[2] = params[2];
+-                path-&gt;type = pathType;
+-            }
+-        }
++  }
++  return errcode;
++}
++
++double dubins_path_length(DubinsPath * path)
++{
++  double length = 0.;
++  length += path-&gt;param[0];
++  length += path-&gt;param[1];
++  length += path-&gt;param[2];
++  length = length * path-&gt;rho;
++  return length;
++}
++
++double dubins_segment_length(DubinsPath * path, int i)
++{
++  if( (i &lt; 0) || (i &gt; 2) ) {
++    return INFINITY;
++  }
++  return path-&gt;param[i] * path-&gt;rho;
++}
++
++double dubins_segment_length_normalized(DubinsPath * path, int i)
++{
++  if( (i &lt; 0) || (i &gt; 2) ) {
++    return INFINITY;
++  }
++  return path-&gt;param[i];
++}
++
++DubinsPathType dubins_path_type(DubinsPath * path)
++{
++  return path-&gt;type;
++}
++
++void dubins_segment(double t, double qi[3], double qt[3], SegmentType type)
++{
++  double st = sin(qi[2]);
++  double ct = cos(qi[2]);
++  if(type == L_SEG) {
++    qt[0] = +sin(qi[2] + t) - st;
++    qt[1] = -cos(qi[2] + t) + ct;
++    qt[2] = t;
++  } else if(type == R_SEG) {
++    qt[0] = -sin(qi[2] - t) + st;
++    qt[1] = +cos(qi[2] - t) - ct;
++    qt[2] = -t;
++  } else if(type == S_SEG) {
++    qt[0] = ct * t;
++    qt[1] = st * t;
++    qt[2] = 0.0;
++  }
++  qt[0] += qi[0];
++  qt[1] += qi[1];
++  qt[2] += qi[2];
++}
++
++int dubins_path_sample(DubinsPath * path, double t, double q[3])
++{
++    /* tprime is the normalised variant of the parameter t */
++  double tprime = t / path-&gt;rho;
++  double qi[3];   /* The translated initial configuration */
++  double q1[3];   /* end-of segment 1 */
++  double q2[3];   /* end-of segment 2 */
++  const SegmentType * types = DIRDATA[path-&gt;type];
++  double p1, p2;
++
++  if(t &lt; 0 || t &gt; dubins_path_length(path) ) {
++    return EDUBPARAM;
++  }
++
++    /* initial configuration */
++  qi[0] = 0.0;
++  qi[1] = 0.0;
++  qi[2] = path-&gt;qi[2];
++
++    /* generate the target configuration */
++  p1 = path-&gt;param[0];
++  p2 = path-&gt;param[1];
++  dubins_segment(p1, qi, q1, types[0]);
++  dubins_segment(p2, q1, q2, types[1]);
++  if(tprime &lt; p1) {
++    dubins_segment(tprime, qi, q, types[0]);
++  } else if(tprime &lt; (p1 + p2) ) {
++    dubins_segment(tprime - p1, q1, q, types[1]);
++  } else {
++    dubins_segment(tprime - p1 - p2, q2, q, types[2]);
++  }
++
++    /* scale the target configuration, translate back to the original starting point */
++  q[0] = q[0] * path-&gt;rho + path-&gt;qi[0];
++  q[1] = q[1] * path-&gt;rho + path-&gt;qi[1];
++  q[2] = mod2pi(q[2]);
++
++  return EDUBOK;
++}
++
++int dubins_path_sample_many(
++  DubinsPath * path, double stepSize,
++  DubinsPathSamplingCallback cb, void * user_data)
++{
++  int retcode;
++  double q[3];
++  double x = 0.0;
++  double length = dubins_path_length(path);
++  while(x &lt; length) {
++    dubins_path_sample(path, x, q);
++    retcode = cb(q, x, user_data);
++    if(retcode != 0) {
++      return retcode;
+@@ -113,151 +250,11 @@
+-    if(best_word == -1) {
+-        return EDUBNOPATH;
+-    }
+-    return EDUBOK;
+-}
+-
+-int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType)
+-{
+-    int errcode;
+-    DubinsIntermediateResults in;
+-    errcode = dubins_intermediate_results(&amp;in, q0, q1, rho);
+-    if(errcode == EDUBOK) {
+-        double params[3];
+-        errcode = dubins_word(&amp;in, pathType, params);
+-        if(errcode == EDUBOK) {
+-            path-&gt;param[0] = params[0];
+-            path-&gt;param[1] = params[1];
+-            path-&gt;param[2] = params[2];
+-            path-&gt;qi[0] = q0[0];
+-            path-&gt;qi[1] = q0[1];
+-            path-&gt;qi[2] = q0[2];
+-            path-&gt;rho = rho;
+-            path-&gt;type = pathType;
+-        }
+-    }
+-    return errcode;
+-}
+-
+-double dubins_path_length( DubinsPath* path )
+-{
+-    double length = 0.;
+-    length += path-&gt;param[0];
+-    length += path-&gt;param[1];
+-    length += path-&gt;param[2];
+-    length = length * path-&gt;rho;
+-    return length;
+-}
+-
+-double dubins_segment_length( DubinsPath* path, int i )
+-{
+-    if( (i &lt; 0) || (i &gt; 2) )
+-    {
+-        return INFINITY;
+-    }
+-    return path-&gt;param[i] * path-&gt;rho;
+-}
+-
+-double dubins_segment_length_normalized( DubinsPath* path, int i )
+-{
+-    if( (i &lt; 0) || (i &gt; 2) )
+-    {
+-        return INFINITY;
+-    }
+-    return path-&gt;param[i];
+-} 
+-
+-DubinsPathType dubins_path_type( DubinsPath* path ) 
+-{
+-    return path-&gt;type;
+-}
+-
+-void dubins_segment( double t, double qi[3], double qt[3], SegmentType type)
+-{
+-    double st = sin(qi[2]);
+-    double ct = cos(qi[2]);
+-    if( type == L_SEG ) {
+-        qt[0] = +sin(qi[2]+t) - st;
+-        qt[1] = -cos(qi[2]+t) + ct;
+-        qt[2] = t;
+-    }
+-    else if( type == R_SEG ) {
+-        qt[0] = -sin(qi[2]-t) + st;
+-        qt[1] = +cos(qi[2]-t) - ct;
+-        qt[2] = -t;
+-    }
+-    else if( type == S_SEG ) {
+-        qt[0] = ct * t;
+-        qt[1] = st * t;
+-        qt[2] = 0.0;
+-    }
+-    qt[0] += qi[0];
+-    qt[1] += qi[1];
+-    qt[2] += qi[2];
+-}
+-
+-int dubins_path_sample( DubinsPath* path, double t, double q[3] )
+-{
+-    /* tprime is the normalised variant of the parameter t */
+-    double tprime = t / path-&gt;rho;
+-    double qi[3]; /* The translated initial configuration */
+-    double q1[3]; /* end-of segment 1 */
+-    double q2[3]; /* end-of segment 2 */
+-    const SegmentType* types = DIRDATA[path-&gt;type];
+-    double p1, p2;
+-
+-    if( t &lt; 0 || t &gt; dubins_path_length(path) ) {
+-        return EDUBPARAM;
+-    }
+-
+-    /* initial configuration */
+-    qi[0] = 0.0;
+-    qi[1] = 0.0;
+-    qi[2] = path-&gt;qi[2];
+-
+-    /* generate the target configuration */
+-    p1 = path-&gt;param[0];
+-    p2 = path-&gt;param[1];
+-    dubins_segment( p1,      qi,    q1, types[0] );
+-    dubins_segment( p2,      q1,    q2, types[1] );
+-    if( tprime &lt; p1 ) {
+-        dubins_segment( tprime, qi, q, types[0] );
+-    }
+-    else if( tprime &lt; (p1+p2) ) {
+-        dubins_segment( tprime-p1, q1, q,  types[1] );
+-    }
+-    else {
+-        dubins_segment( tprime-p1-p2, q2, q,  types[2] );
+-    }
+-
+-    /* scale the target configuration, translate back to the original starting point */
+-    q[0] = q[0] * path-&gt;rho + path-&gt;qi[0];
+-    q[1] = q[1] * path-&gt;rho + path-&gt;qi[1];
+-    q[2] = mod2pi(q[2]);
+-
+-    return EDUBOK;
+-}
+-
+-int dubins_path_sample_many(DubinsPath* path, double stepSize, 
+-                            DubinsPathSamplingCallback cb, void* user_data)
+-{
+-    int retcode;
+-    double q[3];
+-    double x = 0.0;
+-    double length = dubins_path_length(path);
+-    while( x &lt;  length ) {
+-        dubins_path_sample( path, x, q );
+-        retcode = cb(q, x, user_data);
+-        if( retcode != 0 ) {
+-            return retcode;
+-        }
+-        x += stepSize;
+-    }
+-    return 0;
+-}
+-
+-int dubins_path_endpoint( DubinsPath* path, double q[3] )
+-{
+-    return dubins_path_sample( path, dubins_path_length(path) - EPSILON, q );
+-}
+-
+-int dubins_extract_subpath( DubinsPath* path, double t, DubinsPath* newpath )
++    x += stepSize;
++  }
++  return 0;
++}
++
++int dubins_path_endpoint(DubinsPath * path, double q[3])
++{
++  return dubins_path_sample(path, dubins_path_length(path) - EPSILON, q);
++}
++
++int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath)
+@@ -266,6 +263,5 @@
+-    double tprime = t / path-&gt;rho;
+-
+-    if((t &lt; 0) || (t &gt; dubins_path_length(path)))
+-    {
+-        return EDUBPARAM; 
+-    }
++  double tprime = t / path-&gt;rho;
++
++  if((t &lt; 0) || (t &gt; dubins_path_length(path))) {
++    return EDUBPARAM;
++  }
+@@ -274,5 +270,5 @@
+-    newpath-&gt;qi[0] = path-&gt;qi[0];
+-    newpath-&gt;qi[1] = path-&gt;qi[1];
+-    newpath-&gt;qi[2] = path-&gt;qi[2];
+-    newpath-&gt;rho   = path-&gt;rho;
+-    newpath-&gt;type  = path-&gt;type;
++  newpath-&gt;qi[0] = path-&gt;qi[0];
++  newpath-&gt;qi[1] = path-&gt;qi[1];
++  newpath-&gt;qi[2] = path-&gt;qi[2];
++  newpath-&gt;rho = path-&gt;rho;
++  newpath-&gt;type = path-&gt;type;
+@@ -281,18 +277,20 @@
+-    newpath-&gt;param[0] = fmin( path-&gt;param[0], tprime );
+-    newpath-&gt;param[1] = fmin( path-&gt;param[1], tprime - newpath-&gt;param[0]);
+-    newpath-&gt;param[2] = fmin( path-&gt;param[2], tprime - newpath-&gt;param[0] - newpath-&gt;param[1]);
+-    return 0;
+-}
+-
+-int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho)
+-{
+-    double dx, dy, D, d, theta, alpha, beta;
+-    if( rho &lt;= 0.0 ) {
+-        return EDUBBADRHO;
+-    }
+-
+-    dx = q1[0] - q0[0];
+-    dy = q1[1] - q0[1];
+-    D = sqrt( dx * dx + dy * dy );
+-    d = D / rho;
+-    theta = 0;
++  newpath-&gt;param[0] = fmin(path-&gt;param[0], tprime);
++  newpath-&gt;param[1] = fmin(path-&gt;param[1], tprime - newpath-&gt;param[0]);
++  newpath-&gt;param[2] = fmin(path-&gt;param[2], tprime - newpath-&gt;param[0] - newpath-&gt;param[1]);
++  return 0;
++}
++
++int dubins_intermediate_results(
++  DubinsIntermediateResults * in, double q0[3], double q1[3],
++  double rho)
++{
++  double dx, dy, D, d, theta, alpha, beta;
++  if(rho &lt;= 0.0) {
++    return EDUBBADRHO;
++  }
++
++  dx = q1[0] - q0[0];
++  dy = q1[1] - q0[1];
++  D = sqrt(dx * dx + dy * dy);
++  d = D / rho;
++  theta = 0;
+@@ -301,114 +299,113 @@
+-    if(d &gt; 0) {
+-        theta = mod2pi(atan2( dy, dx ));
+-    }
+-    alpha = mod2pi(q0[2] - theta);
+-    beta  = mod2pi(q1[2] - theta);
+-
+-    in-&gt;alpha = alpha;
+-    in-&gt;beta  = beta;
+-    in-&gt;d     = d;
+-    in-&gt;sa    = sin(alpha);
+-    in-&gt;sb    = sin(beta);
+-    in-&gt;ca    = cos(alpha);
+-    in-&gt;cb    = cos(beta);
+-    in-&gt;c_ab  = cos(alpha - beta);
+-    in-&gt;d_sq  = d * d;
+-
+-    return EDUBOK;
+-}
+-
+-int dubins_LSL(DubinsIntermediateResults* in, double out[3]) 
+-{
+-    double tmp0, tmp1, p_sq;
+-    
+-    tmp0 = in-&gt;d + in-&gt;sa - in-&gt;sb;
+-    p_sq = 2 + in-&gt;d_sq - (2*in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sa - in-&gt;sb));
+-
+-    if(p_sq &gt;= 0) {
+-        tmp1 = atan2( (in-&gt;cb - in-&gt;ca), tmp0 );
+-        out[0] = mod2pi(tmp1 - in-&gt;alpha);
+-        out[1] = sqrt(p_sq);
+-        out[2] = mod2pi(in-&gt;beta - tmp1);
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-
+-int dubins_RSR(DubinsIntermediateResults* in, double out[3]) 
+-{
+-    double tmp0 = in-&gt;d - in-&gt;sa + in-&gt;sb;
+-    double p_sq = 2 + in-&gt;d_sq - (2 * in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sb - in-&gt;sa));
+-    if( p_sq &gt;= 0 ) {
+-        double tmp1 = atan2( (in-&gt;ca - in-&gt;cb), tmp0 );
+-        out[0] = mod2pi(in-&gt;alpha - tmp1);
+-        out[1] = sqrt(p_sq);
+-        out[2] = mod2pi(tmp1 -in-&gt;beta);
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-int dubins_LSR(DubinsIntermediateResults* in, double out[3]) 
+-{
+-    double p_sq = -2 + (in-&gt;d_sq) + (2 * in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sa + in-&gt;sb));
+-    if( p_sq &gt;= 0 ) {
+-        double p    = sqrt(p_sq);
+-        double tmp0 = atan2( (-in-&gt;ca - in-&gt;cb), (in-&gt;d + in-&gt;sa + in-&gt;sb) ) - atan2(-2.0, p);
+-        out[0] = mod2pi(tmp0 - in-&gt;alpha);
+-        out[1] = p;
+-        out[2] = mod2pi(tmp0 - mod2pi(in-&gt;beta));
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-int dubins_RSL(DubinsIntermediateResults* in, double out[3]) 
+-{
+-    double p_sq = -2 + in-&gt;d_sq + (2 * in-&gt;c_ab) - (2 * in-&gt;d * (in-&gt;sa + in-&gt;sb));
+-    if( p_sq &gt;= 0 ) {
+-        double p    = sqrt(p_sq);
+-        double tmp0 = atan2( (in-&gt;ca + in-&gt;cb), (in-&gt;d - in-&gt;sa - in-&gt;sb) ) - atan2(2.0, p);
+-        out[0] = mod2pi(in-&gt;alpha - tmp0);
+-        out[1] = p;
+-        out[2] = mod2pi(in-&gt;beta - tmp0);
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-int dubins_RLR(DubinsIntermediateResults* in, double out[3]) 
+-{
+-    double tmp0 = (6. - in-&gt;d_sq + 2*in-&gt;c_ab + 2*in-&gt;d*(in-&gt;sa - in-&gt;sb)) / 8.;
+-    double phi  = atan2( in-&gt;ca - in-&gt;cb, in-&gt;d - in-&gt;sa + in-&gt;sb );
+-    if( fabs(tmp0) &lt;= 1) {
+-        double p = mod2pi((2*M_PI) - acos(tmp0) );
+-        double t = mod2pi(in-&gt;alpha - phi + mod2pi(p/2.));
+-        out[0] = t;
+-        out[1] = p;
+-        out[2] = mod2pi(in-&gt;alpha - in-&gt;beta - t + mod2pi(p));
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-int dubins_LRL(DubinsIntermediateResults* in, double out[3])
+-{
+-    double tmp0 = (6. - in-&gt;d_sq + 2*in-&gt;c_ab + 2*in-&gt;d*(in-&gt;sb - in-&gt;sa)) / 8.;
+-    double phi = atan2( in-&gt;ca - in-&gt;cb, in-&gt;d + in-&gt;sa - in-&gt;sb );
+-    if( fabs(tmp0) &lt;= 1) {
+-        double p = mod2pi( 2*M_PI - acos( tmp0) );
+-        double t = mod2pi(-in-&gt;alpha - phi + p/2.);
+-        out[0] = t;
+-        out[1] = p;
+-        out[2] = mod2pi(mod2pi(in-&gt;beta) - in-&gt;alpha -t + mod2pi(p));
+-        return EDUBOK;
+-    }
+-    return EDUBNOPATH;
+-}
+-
+-int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]) 
+-{
+-    int result;
+-    switch(pathType)
+-    {
++  if(d &gt; 0) {
++    theta = mod2pi(atan2(dy, dx));
++  }
++  alpha = mod2pi(q0[2] - theta);
++  beta = mod2pi(q1[2] - theta);
++
++  in-&gt;alpha = alpha;
++  in-&gt;beta = beta;
++  in-&gt;d = d;
++  in-&gt;sa = sin(alpha);
++  in-&gt;sb = sin(beta);
++  in-&gt;ca = cos(alpha);
++  in-&gt;cb = cos(beta);
++  in-&gt;c_ab = cos(alpha - beta);
++  in-&gt;d_sq = d * d;
++
++  return EDUBOK;
++}
++
++int dubins_LSL(DubinsIntermediateResults * in, double out[3])
++{
++  double tmp0, tmp1, p_sq;
++
++  tmp0 = in-&gt;d + in-&gt;sa - in-&gt;sb;
++  p_sq = 2 + in-&gt;d_sq - (2 * in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sa - in-&gt;sb));
++
++  if(p_sq &gt;= 0) {
++    tmp1 = atan2( (in-&gt;cb - in-&gt;ca), tmp0);
++    out[0] = mod2pi(tmp1 - in-&gt;alpha);
++    out[1] = sqrt(p_sq);
++    out[2] = mod2pi(in-&gt;beta - tmp1);
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++
++int dubins_RSR(DubinsIntermediateResults * in, double out[3])
++{
++  double tmp0 = in-&gt;d - in-&gt;sa + in-&gt;sb;
++  double p_sq = 2 + in-&gt;d_sq - (2 * in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sb - in-&gt;sa));
++  if(p_sq &gt;= 0) {
++    double tmp1 = atan2( (in-&gt;ca - in-&gt;cb), tmp0);
++    out[0] = mod2pi(in-&gt;alpha - tmp1);
++    out[1] = sqrt(p_sq);
++    out[2] = mod2pi(tmp1 - in-&gt;beta);
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++int dubins_LSR(DubinsIntermediateResults * in, double out[3])
++{
++  double p_sq = -2 + (in-&gt;d_sq) + (2 * in-&gt;c_ab) + (2 * in-&gt;d * (in-&gt;sa + in-&gt;sb));
++  if(p_sq &gt;= 0) {
++    double p = sqrt(p_sq);
++    double tmp0 = atan2( (-in-&gt;ca - in-&gt;cb), (in-&gt;d + in-&gt;sa + in-&gt;sb) ) - atan2(-2.0, p);
++    out[0] = mod2pi(tmp0 - in-&gt;alpha);
++    out[1] = p;
++    out[2] = mod2pi(tmp0 - mod2pi(in-&gt;beta));
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++int dubins_RSL(DubinsIntermediateResults * in, double out[3])
++{
++  double p_sq = -2 + in-&gt;d_sq + (2 * in-&gt;c_ab) - (2 * in-&gt;d * (in-&gt;sa + in-&gt;sb));
++  if(p_sq &gt;= 0) {
++    double p = sqrt(p_sq);
++    double tmp0 = atan2( (in-&gt;ca + in-&gt;cb), (in-&gt;d - in-&gt;sa - in-&gt;sb) ) - atan2(2.0, p);
++    out[0] = mod2pi(in-&gt;alpha - tmp0);
++    out[1] = p;
++    out[2] = mod2pi(in-&gt;beta - tmp0);
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++int dubins_RLR(DubinsIntermediateResults * in, double out[3])
++{
++  double tmp0 = (6. - in-&gt;d_sq + 2 * in-&gt;c_ab + 2 * in-&gt;d * (in-&gt;sa - in-&gt;sb)) / 8.;
++  double phi = atan2(in-&gt;ca - in-&gt;cb, in-&gt;d - in-&gt;sa + in-&gt;sb);
++  if(fabs(tmp0) &lt;= 1) {
++    double p = mod2pi((2 * M_PI) - acos(tmp0) );
++    double t = mod2pi(in-&gt;alpha - phi + mod2pi(p / 2.));
++    out[0] = t;
++    out[1] = p;
++    out[2] = mod2pi(in-&gt;alpha - in-&gt;beta - t + mod2pi(p));
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++int dubins_LRL(DubinsIntermediateResults * in, double out[3])
++{
++  double tmp0 = (6. - in-&gt;d_sq + 2 * in-&gt;c_ab + 2 * in-&gt;d * (in-&gt;sb - in-&gt;sa)) / 8.;
++  double phi = atan2(in-&gt;ca - in-&gt;cb, in-&gt;d + in-&gt;sa - in-&gt;sb);
++  if(fabs(tmp0) &lt;= 1) {
++    double p = mod2pi(2 * M_PI - acos(tmp0) );
++    double t = mod2pi(-in-&gt;alpha - phi + p / 2.);
++    out[0] = t;
++    out[1] = p;
++    out[2] = mod2pi(mod2pi(in-&gt;beta) - in-&gt;alpha - t + mod2pi(p));
++    return EDUBOK;
++  }
++  return EDUBNOPATH;
++}
++
++int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3])
++{
++  int result;
++  switch(pathType) {
+@@ -416,2 +413,2 @@
+-        result = dubins_LSL(in, out);
+-        break;
++      result = dubins_LSL(in, out);
++      break;
+@@ -419,2 +416,2 @@
+-        result = dubins_RSL(in, out);
+-        break;
++      result = dubins_RSL(in, out);
++      break;
+@@ -422,2 +419,2 @@
+-        result = dubins_LSR(in, out);
+-        break;
++      result = dubins_LSR(in, out);
++      break;
+@@ -425,2 +422,2 @@
+-        result = dubins_RSR(in, out);
+-        break;
++      result = dubins_RSR(in, out);
++      break;
+@@ -428,2 +425,2 @@
+-        result = dubins_LRL(in, out);
+-        break;
++      result = dubins_LRL(in, out);
++      break;
+@@ -431,2 +428,2 @@
+-        result = dubins_RLR(in, out);
+-        break;
++      result = dubins_RLR(in, out);
++      break;
+@@ -434,6 +431,4 @@
+-        result = EDUBNOPATH;
+-    }
+-    return result;
+-}
+-
+-
++      result = EDUBNOPATH;
++  }
++  return result;
++}
+
+Code style divergence in file 'src/global_planner_node.cpp':
+
+--- src/global_planner_node.cpp
++++ src/global_planner_node.cpp.uncrustify
+@@ -9,4 +9,5 @@
+-int main() {
+-    double q0[3] = {0, 0, 0};
+-    double q1[3] = {10, 10, 0};
+-    double turning_radius = 4.0;
++int main()
++{
++  double q0[3] = {0, 0, 0};
++  double q1[3] = {10, 10, 0};
++  double turning_radius = 4.0;
+@@ -14,6 +15,6 @@
+-    DubinsPath path;
+-    int result = dubins_shortest_path(&amp;path, q0, q1, turning_radius);
+-    if (result != EDUBOK) {
+-        printf("No valid Dubins path found, error code: %d\n", result);
+-        return 1;
+-    }
++  DubinsPath path;
++  int result = dubins_shortest_path(&amp;path, q0, q1, turning_radius);
++  if (result != EDUBOK) {
++    printf("No valid Dubins path found, error code: %d\n", result);
++    return 1;
++  }
+@@ -21,2 +22,2 @@
+-    double length = dubins_path_length(&amp;path);
+-    printf("Path length: %.2f\n", length);
++  double length = dubins_path_length(&amp;path);
++  printf("Path length: %.2f\n", length);
+@@ -24,5 +25,5 @@
+-    for (double t = 0; t &lt; length; t += 1.0) {
+-        double q[3];
+-        dubins_path_sample(&amp;path, t, q);
+-        printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\n", t, q[0], q[1], q[2]);
+-    }
++  for (double t = 0; t &lt; length; t += 1.0) {
++    double q[3];
++    dubins_path_sample(&amp;path, t, q);
++    printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\n", t, q[0], q[1], q[2]);
++  }
+@@ -30 +31 @@
+-    return 0;
++  return 0;
+
+Code style divergence in file 'test/test_dubins.cpp':
+
+--- test/test_dubins.cpp
++++ test/test_dubins.cpp.uncrustify
+@@ -17 +17 @@
+-    double straight_line_dist = std::sqrt(10.0*10.0 + 10.0*10.0);
++    double straight_line_dist = std::sqrt(10.0 * 10.0 + 10.0 * 10.0);
+
+4 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.644942</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Aug 17 18:20 PDT</EndDateTime>
+		<EndTestTime>1787016017</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,1 @@
+/home/shriperu/ros2_ws/build/global_planner/ament_cmake_core/global_plannerConfig.cmake

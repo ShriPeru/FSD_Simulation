@@ -1,0 +1,94 @@
+[0.296s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.306s] UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+[0.306s] Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+[0.306s]    Site: ShriComputer
+[0.306s]    Build name: (empty)
+[0.307s]  Add coverage exclude regular expressions.
+[0.307s] Create new tag: 20260818-0123 - Experimental
+[0.307s] UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+[0.307s] Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+[0.307s] Test project /home/shriperu/ros2_ws/build/global_planner
+[0.308s] Constructing a list of tests
+[0.308s] Done constructing a list of tests
+[0.308s] Updating test list for fixtures
+[0.308s] Added 0 tests to meet fixture requirements
+[0.308s] Checking test dependency graph...
+[0.308s] Checking test dependency graph end
+[0.308s] test 1
+[0.309s]     Start 1: test_dubins
+[0.309s] 
+[0.309s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cmake_gtest/test_dubins.txt" "--command" "/home/shriperu/ros2_ws/build/global_planner/test_dubins" "--gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml"
+[0.309s] 1: Working Directory: /home/shriperu/ros2_ws/build/global_planner
+[0.309s] 1: Test timeout computed to be: 60
+[0.373s] 1: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/build/global_planner':
+[0.373s] 1:  - /home/shriperu/ros2_ws/build/global_planner/test_dubins --gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml
+[0.375s] 1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[0.375s] 1: [==========] Running 3 tests from 1 test suite.
+[0.375s] 1: [----------] Global test environment set-up.
+[0.376s] 1: [----------] 3 tests from DubinsTest
+[0.376s] 1: [ RUN      ] DubinsTest.PathLengthAtLeastStraightLineDistance
+[0.376s] 1: [       OK ] DubinsTest.PathLengthAtLeastStraightLineDistance (0 ms)
+[0.376s] 1: [ RUN      ] DubinsTest.SamplingAtZeroReturnsStart
+[0.376s] 1: [       OK ] DubinsTest.SamplingAtZeroReturnsStart (0 ms)
+[0.376s] 1: [ RUN      ] DubinsTest.EndpointMatchesGoal
+[0.376s] 1: [       OK ] DubinsTest.EndpointMatchesGoal (0 ms)
+[0.376s] 1: [----------] 3 tests from DubinsTest (0 ms total)
+[0.376s] 1: 
+[0.377s] 1: [----------] Global test environment tear-down
+[0.377s] 1: [==========] 3 tests from 1 test suite ran. (0 ms total)
+[0.377s] 1: [  PASSED  ] 3 tests.
+[0.377s] 1: -- run_test.py: return code 0
+[0.377s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+[0.377s] 1: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+[0.389s] 1/4 Test #1: test_dubins ......................   Passed    0.08 sec
+[0.389s] test 2
+[0.389s]     Start 2: cppcheck
+[0.389s] 
+[0.389s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--include_dirs" "/home/shriperu/ros2_ws/src/global_planner/include"
+[0.389s] 2: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+[0.389s] 2: Test timeout computed to be: 300
+[0.456s] 2: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+[0.456s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml --include_dirs /home/shriperu/ros2_ws/src/global_planner/include
+[0.572s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.605s] 2: -- run_test.py: return code 0
+[0.605s] 2: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml'
+[0.622s] 2/4 Test #2: cppcheck .........................   Passed    0.23 sec
+[0.622s] test 3
+[0.623s]     Start 3: lint_cmake
+[0.623s] 
+[0.623s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml"
+[0.623s] 3: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+[0.623s] 3: Test timeout computed to be: 60
+[0.691s] 3: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+[0.692s] 3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml
+[0.768s] 3: 
+[0.769s] 3: No problems found
+[0.781s] 3: -- run_test.py: return code 0
+[0.781s] 3: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml'
+[0.791s] 3/4 Test #3: lint_cmake .......................   Passed    0.17 sec
+[0.792s] test 4
+[0.792s]     Start 4: xmllint
+[0.792s] 
+[0.792s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml"
+[0.792s] 4: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+[0.792s] 4: Test timeout computed to be: 60
+[0.849s] 4: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+[0.850s] 4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml
+[1.136s] 4: File 'package.xml' is valid
+[1.136s] 4: 
+[1.136s] 4: No problems found
+[1.156s] 4: -- run_test.py: return code 0
+[1.156s] 4: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml'
+[1.166s] 4/4 Test #4: xmllint ..........................   Passed    0.37 sec
+[1.167s] 
+[1.167s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 4
+[1.167s] 
+[1.167s] Label Time Summary:
+[1.167s] cppcheck      =   0.23 sec*proc (1 test)
+[1.167s] gtest         =   0.08 sec*proc (1 test)
+[1.167s] lint_cmake    =   0.17 sec*proc (1 test)
+[1.168s] linter        =   0.78 sec*proc (3 tests)
+[1.168s] xmllint       =   0.37 sec*proc (1 test)
+[1.168s] 
+[1.168s] Total Test time (real) =   0.86 sec
+[1.174s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,1023 @@
+UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+   Site: ShriComputer
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260818-0120 - Experimental
+UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini
+Test project /home/shriperu/ros2_ws/build/global_planner
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_dubins
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cmake_gtest/test_dubins.txt" "--command" "/home/shriperu/ros2_ws/build/global_planner/test_dubins" "--gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml"
+1: Working Directory: /home/shriperu/ros2_ws/build/global_planner
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/build/global_planner':
+1:  - /home/shriperu/ros2_ws/build/global_planner/test_dubins --gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml
+1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 3 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 3 tests from DubinsTest
+1: [ RUN      ] DubinsTest.PathLengthAtLeastStraightLineDistance
+1: [       OK ] DubinsTest.PathLengthAtLeastStraightLineDistance (0 ms)
+1: [ RUN      ] DubinsTest.SamplingAtZeroReturnsStart
+1: [       OK ] DubinsTest.SamplingAtZeroReturnsStart (0 ms)
+1: [ RUN      ] DubinsTest.EndpointMatchesGoal
+1: [       OK ] DubinsTest.EndpointMatchesGoal (0 ms)
+1: [----------] 3 tests from DubinsTest (0 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 3 tests from 1 test suite ran. (0 ms total)
+1: [  PASSED  ] 3 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+1: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+1/5 Test #1: test_dubins ......................   Passed    0.09 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--include_dirs" "/home/shriperu/ros2_ws/src/global_planner/include"
+2: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml --include_dirs /home/shriperu/ros2_ws/src/global_planner/include
+2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml'
+2/5 Test #2: cppcheck .........................   Passed    0.22 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml"
+3: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml'
+3/5 Test #3: lint_cmake .......................   Passed    0.18 sec
+test 4
+    Start 4: uncrustify
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml"
+4: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+4:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml
+4: Code style divergence in file 'include/dubins.h':
+4: 
+4: --- include/dubins.h
+4: +++ include/dubins.h.uncrustify
+4: @@ -25 +25 @@
+4: -typedef enum 
+4: +typedef enum
+4: @@ -27,6 +27,6 @@
+4: -    LSL = 0,
+4: -    LSR = 1,
+4: -    RSL = 2,
+4: -    RSR = 3,
+4: -    RLR = 4,
+4: -    LRL = 5
+4: +  LSL = 0,
+4: +  LSR = 1,
+4: +  RSL = 2,
+4: +  RSR = 3,
+4: +  RLR = 4,
+4: +  LRL = 5
+4: @@ -35 +35 @@
+4: -typedef struct 
+4: +typedef struct
+4: @@ -38 +38 @@
+4: -    double qi[3];        
+4: +  double qi[3];
+4: @@ -40 +40 @@
+4: -    double param[3];     
+4: +  double param[3];
+4: @@ -42 +42 @@
+4: -    double rho;          
+4: +  double rho;
+4: @@ -44 +44 @@
+4: -    DubinsPathType type; 
+4: +  DubinsPathType type;
+4: @@ -61 +61 @@
+4: -typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void* user_data);
+4: +typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void * user_data);
+4: @@ -77 +77 @@
+4: -int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho);
+4: +int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho);
+4: @@ -81 +81 @@
+4: - * a target configuration, with a specified turning radius 
+4: + * a target configuration, with a specified turning radius
+4: @@ -90 +90 @@
+4: -int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType);
+4: +int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType);
+4: @@ -97 +97 @@
+4: -double dubins_path_length(DubinsPath* path);
+4: +double dubins_path_length(DubinsPath * path);
+4: @@ -105 +105 @@
+4: -double dubins_segment_length(DubinsPath* path, int i);
+4: +double dubins_segment_length(DubinsPath * path, int i);
+4: @@ -113 +113 @@
+4: -double dubins_segment_length_normalized( DubinsPath* path, int i );
+4: +double dubins_segment_length_normalized(DubinsPath * path, int i);
+4: @@ -119 +119 @@
+4: - * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL 
+4: + * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL
+4: @@ -121 +121 @@
+4: -DubinsPathType dubins_path_type(DubinsPath* path);
+4: +DubinsPathType dubins_path_type(DubinsPath * path);
+4: @@ -131 +131 @@
+4: -int dubins_path_sample(DubinsPath* path, double t, double q[3]);
+4: +int dubins_path_sample(DubinsPath * path, double t, double q[3]);
+4: @@ -146,4 +146,5 @@
+4: -int dubins_path_sample_many(DubinsPath* path, 
+4: -                            double stepSize, 
+4: -                            DubinsPathSamplingCallback cb, 
+4: -                            void* user_data);
+4: +int dubins_path_sample_many(
+4: +  DubinsPath * path,
+4: +  double stepSize,
+4: +  DubinsPathSamplingCallback cb,
+4: +  void * user_data);
+4: @@ -157 +158 @@
+4: -int dubins_path_endpoint(DubinsPath* path, double q[3]);
+4: +int dubins_path_endpoint(DubinsPath * path, double q[3]);
+4: @@ -166 +167 @@
+4: -int dubins_extract_subpath(DubinsPath* path, double t, DubinsPath* newpath);
+4: +int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath);
+4: @@ -170 +170,0 @@
+4: -
+4: 
+4: Code style divergence in file 'src/dubins.c':
+4: 
+4: --- src/dubins.c
+4: +++ src/dubins.c.uncrustify
+4: @@ -30,5 +30,5 @@
+4: -typedef enum 
+4: -{
+4: -    L_SEG = 0,
+4: -    S_SEG = 1,
+4: -    R_SEG = 2
+4: +typedef enum
+4: +{
+4: +  L_SEG = 0,
+4: +  S_SEG = 1,
+4: +  R_SEG = 2
+4: @@ -39,6 +39,6 @@
+4: -    { L_SEG, S_SEG, L_SEG },
+4: -    { L_SEG, S_SEG, R_SEG },
+4: -    { R_SEG, S_SEG, L_SEG },
+4: -    { R_SEG, S_SEG, R_SEG },
+4: -    { R_SEG, L_SEG, R_SEG },
+4: -    { L_SEG, R_SEG, L_SEG }
+4: +  {L_SEG, S_SEG, L_SEG},
+4: +  {L_SEG, S_SEG, R_SEG},
+4: +  {R_SEG, S_SEG, L_SEG},
+4: +  {R_SEG, S_SEG, R_SEG},
+4: +  {R_SEG, L_SEG, R_SEG},
+4: +  {L_SEG, R_SEG, L_SEG}
+4: @@ -47,11 +47,11 @@
+4: -typedef struct 
+4: -{
+4: -    double alpha;
+4: -    double beta;
+4: -    double d;
+4: -    double sa;
+4: -    double sb;
+4: -    double ca;
+4: -    double cb;
+4: -    double c_ab;
+4: -    double d_sq;
+4: +typedef struct
+4: +{
+4: +  double alpha;
+4: +  double beta;
+4: +  double d;
+4: +  double sa;
+4: +  double sb;
+4: +  double ca;
+4: +  double cb;
+4: +  double c_ab;
+4: +  double d_sq;
+4: @@ -61,2 +61,4 @@
+4: -int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]);
+4: -int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho);
+4: +int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3]);
+4: +int dubins_intermediate_results(
+4: +  DubinsIntermediateResults * in, double q0[3], double q1[3],
+4: +  double rho);
+4: @@ -69,14 +71,56 @@
+4: -double fmodr( double x, double y)
+4: -{
+4: -    return x - y*floor(x/y);
+4: -}
+4: -
+4: -double mod2pi( double theta )
+4: -{
+4: -    return fmodr( theta, 2 * M_PI );
+4: -}
+4: -
+4: -int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho)
+4: -{
+4: -    int i, errcode;
+4: -    DubinsIntermediateResults in;
+4: +double fmodr(double x, double y)
+4: +{
+4: +  return x - y * floor(x / y);
+4: +}
+4: +
+4: +double mod2pi(double theta)
+4: +{
+4: +  return fmodr(theta, 2 * M_PI);
+4: +}
+4: +
+4: +int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho)
+4: +{
+4: +  int i, errcode;
+4: +  DubinsIntermediateResults in;
+4: +  double params[3];
+4: +  double cost;
+4: +  double best_cost = INFINITY;
+4: +  int best_word = -1;
+4: +  errcode = dubins_intermediate_results(&in, q0, q1, rho);
+4: +  if(errcode != EDUBOK) {
+4: +    return errcode;
+4: +  }
+4: +
+4: +
+4: +  path->qi[0] = q0[0];
+4: +  path->qi[1] = q0[1];
+4: +  path->qi[2] = q0[2];
+4: +  path->rho = rho;
+4: +
+4: +  for( i = 0; i < 6; i++ ) {
+4: +    DubinsPathType pathType = (DubinsPathType)i;
+4: +    errcode = dubins_word(&in, pathType, params);
+4: +    if(errcode == EDUBOK) {
+4: +      cost = params[0] + params[1] + params[2];
+4: +      if(cost < best_cost) {
+4: +        best_word = i;
+4: +        best_cost = cost;
+4: +        path->param[0] = params[0];
+4: +        path->param[1] = params[1];
+4: +        path->param[2] = params[2];
+4: +        path->type = pathType;
+4: +      }
+4: +    }
+4: +  }
+4: +  if(best_word == -1) {
+4: +    return EDUBNOPATH;
+4: +  }
+4: +  return EDUBOK;
+4: +}
+4: +
+4: +int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType)
+4: +{
+4: +  int errcode;
+4: +  DubinsIntermediateResults in;
+4: +  errcode = dubins_intermediate_results(&in, q0, q1, rho);
+4: +  if(errcode == EDUBOK) {
+4: @@ -84,6 +128,10 @@
+4: -    double cost;
+4: -    double best_cost = INFINITY;
+4: -    int best_word = -1;
+4: -    errcode = dubins_intermediate_results(&in, q0, q1, rho);
+4: -    if(errcode != EDUBOK) {
+4: -        return errcode;
+4: +    errcode = dubins_word(&in, pathType, params);
+4: +    if(errcode == EDUBOK) {
+4: +      path->param[0] = params[0];
+4: +      path->param[1] = params[1];
+4: +      path->param[2] = params[2];
+4: +      path->qi[0] = q0[0];
+4: +      path->qi[1] = q0[1];
+4: +      path->qi[2] = q0[2];
+4: +      path->rho = rho;
+4: +      path->type = pathType;
+4: @@ -91,21 +139,110 @@
+4: -
+4: -
+4: -    path->qi[0] = q0[0];
+4: -    path->qi[1] = q0[1];
+4: -    path->qi[2] = q0[2];
+4: -    path->rho = rho;
+4: - 
+4: -    for( i = 0; i < 6; i++ ) {
+4: -        DubinsPathType pathType = (DubinsPathType)i;
+4: -        errcode = dubins_word(&in, pathType, params);
+4: -        if(errcode == EDUBOK) {
+4: -            cost = params[0] + params[1] + params[2];
+4: -            if(cost < best_cost) {
+4: -                best_word = i;
+4: -                best_cost = cost;
+4: -                path->param[0] = params[0];
+4: -                path->param[1] = params[1];
+4: -                path->param[2] = params[2];
+4: -                path->type = pathType;
+4: -            }
+4: -        }
+4: +  }
+4: +  return errcode;
+4: +}
+4: +
+4: +double dubins_path_length(DubinsPath * path)
+4: +{
+4: +  double length = 0.;
+4: +  length += path->param[0];
+4: +  length += path->param[1];
+4: +  length += path->param[2];
+4: +  length = length * path->rho;
+4: +  return length;
+4: +}
+4: +
+4: +double dubins_segment_length(DubinsPath * path, int i)
+4: +{
+4: +  if( (i < 0) || (i > 2) ) {
+4: +    return INFINITY;
+4: +  }
+4: +  return path->param[i] * path->rho;
+4: +}
+4: +
+4: +double dubins_segment_length_normalized(DubinsPath * path, int i)
+4: +{
+4: +  if( (i < 0) || (i > 2) ) {
+4: +    return INFINITY;
+4: +  }
+4: +  return path->param[i];
+4: +}
+4: +
+4: +DubinsPathType dubins_path_type(DubinsPath * path)
+4: +{
+4: +  return path->type;
+4: +}
+4: +
+4: +void dubins_segment(double t, double qi[3], double qt[3], SegmentType type)
+4: +{
+4: +  double st = sin(qi[2]);
+4: +  double ct = cos(qi[2]);
+4: +  if(type == L_SEG) {
+4: +    qt[0] = +sin(qi[2] + t) - st;
+4: +    qt[1] = -cos(qi[2] + t) + ct;
+4: +    qt[2] = t;
+4: +  } else if(type == R_SEG) {
+4: +    qt[0] = -sin(qi[2] - t) + st;
+4: +    qt[1] = +cos(qi[2] - t) - ct;
+4: +    qt[2] = -t;
+4: +  } else if(type == S_SEG) {
+4: +    qt[0] = ct * t;
+4: +    qt[1] = st * t;
+4: +    qt[2] = 0.0;
+4: +  }
+4: +  qt[0] += qi[0];
+4: +  qt[1] += qi[1];
+4: +  qt[2] += qi[2];
+4: +}
+4: +
+4: +int dubins_path_sample(DubinsPath * path, double t, double q[3])
+4: +{
+4: +    /* tprime is the normalised variant of the parameter t */
+4: +  double tprime = t / path->rho;
+4: +  double qi[3];   /* The translated initial configuration */
+4: +  double q1[3];   /* end-of segment 1 */
+4: +  double q2[3];   /* end-of segment 2 */
+4: +  const SegmentType * types = DIRDATA[path->type];
+4: +  double p1, p2;
+4: +
+4: +  if(t < 0 || t > dubins_path_length(path) ) {
+4: +    return EDUBPARAM;
+4: +  }
+4: +
+4: +    /* initial configuration */
+4: +  qi[0] = 0.0;
+4: +  qi[1] = 0.0;
+4: +  qi[2] = path->qi[2];
+4: +
+4: +    /* generate the target configuration */
+4: +  p1 = path->param[0];
+4: +  p2 = path->param[1];
+4: +  dubins_segment(p1, qi, q1, types[0]);
+4: +  dubins_segment(p2, q1, q2, types[1]);
+4: +  if(tprime < p1) {
+4: +    dubins_segment(tprime, qi, q, types[0]);
+4: +  } else if(tprime < (p1 + p2) ) {
+4: +    dubins_segment(tprime - p1, q1, q, types[1]);
+4: +  } else {
+4: +    dubins_segment(tprime - p1 - p2, q2, q, types[2]);
+4: +  }
+4: +
+4: +    /* scale the target configuration, translate back to the original starting point */
+4: +  q[0] = q[0] * path->rho + path->qi[0];
+4: +  q[1] = q[1] * path->rho + path->qi[1];
+4: +  q[2] = mod2pi(q[2]);
+4: +
+4: +  return EDUBOK;
+4: +}
+4: +
+4: +int dubins_path_sample_many(
+4: +  DubinsPath * path, double stepSize,
+4: +  DubinsPathSamplingCallback cb, void * user_data)
+4: +{
+4: +  int retcode;
+4: +  double q[3];
+4: +  double x = 0.0;
+4: +  double length = dubins_path_length(path);
+4: +  while(x < length) {
+4: +    dubins_path_sample(path, x, q);
+4: +    retcode = cb(q, x, user_data);
+4: +    if(retcode != 0) {
+4: +      return retcode;
+4: @@ -113,151 +250,11 @@
+4: -    if(best_word == -1) {
+4: -        return EDUBNOPATH;
+4: -    }
+4: -    return EDUBOK;
+4: -}
+4: -
+4: -int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType)
+4: -{
+4: -    int errcode;
+4: -    DubinsIntermediateResults in;
+4: -    errcode = dubins_intermediate_results(&in, q0, q1, rho);
+4: -    if(errcode == EDUBOK) {
+4: -        double params[3];
+4: -        errcode = dubins_word(&in, pathType, params);
+4: -        if(errcode == EDUBOK) {
+4: -            path->param[0] = params[0];
+4: -            path->param[1] = params[1];
+4: -            path->param[2] = params[2];
+4: -            path->qi[0] = q0[0];
+4: -            path->qi[1] = q0[1];
+4: -            path->qi[2] = q0[2];
+4: -            path->rho = rho;
+4: -            path->type = pathType;
+4: -        }
+4: -    }
+4: -    return errcode;
+4: -}
+4: -
+4: -double dubins_path_length( DubinsPath* path )
+4: -{
+4: -    double length = 0.;
+4: -    length += path->param[0];
+4: -    length += path->param[1];
+4: -    length += path->param[2];
+4: -    length = length * path->rho;
+4: -    return length;
+4: -}
+4: -
+4: -double dubins_segment_length( DubinsPath* path, int i )
+4: -{
+4: -    if( (i < 0) || (i > 2) )
+4: -    {
+4: -        return INFINITY;
+4: -    }
+4: -    return path->param[i] * path->rho;
+4: -}
+4: -
+4: -double dubins_segment_length_normalized( DubinsPath* path, int i )
+4: -{
+4: -    if( (i < 0) || (i > 2) )
+4: -    {
+4: -        return INFINITY;
+4: -    }
+4: -    return path->param[i];
+4: -} 
+4: -
+4: -DubinsPathType dubins_path_type( DubinsPath* path ) 
+4: -{
+4: -    return path->type;
+4: -}
+4: -
+4: -void dubins_segment( double t, double qi[3], double qt[3], SegmentType type)
+4: -{
+4: -    double st = sin(qi[2]);
+4: -    double ct = cos(qi[2]);
+4: -    if( type == L_SEG ) {
+4: -        qt[0] = +sin(qi[2]+t) - st;
+4: -        qt[1] = -cos(qi[2]+t) + ct;
+4: -        qt[2] = t;
+4: -    }
+4: -    else if( type == R_SEG ) {
+4: -        qt[0] = -sin(qi[2]-t) + st;
+4: -        qt[1] = +cos(qi[2]-t) - ct;
+4: -        qt[2] = -t;
+4: -    }
+4: -    else if( type == S_SEG ) {
+4: -        qt[0] = ct * t;
+4: -        qt[1] = st * t;
+4: -        qt[2] = 0.0;
+4: -    }
+4: -    qt[0] += qi[0];
+4: -    qt[1] += qi[1];
+4: -    qt[2] += qi[2];
+4: -}
+4: -
+4: -int dubins_path_sample( DubinsPath* path, double t, double q[3] )
+4: -{
+4: -    /* tprime is the normalised variant of the parameter t */
+4: -    double tprime = t / path->rho;
+4: -    double qi[3]; /* The translated initial configuration */
+4: -    double q1[3]; /* end-of segment 1 */
+4: -    double q2[3]; /* end-of segment 2 */
+4: -    const SegmentType* types = DIRDATA[path->type];
+4: -    double p1, p2;
+4: -
+4: -    if( t < 0 || t > dubins_path_length(path) ) {
+4: -        return EDUBPARAM;
+4: -    }
+4: -
+4: -    /* initial configuration */
+4: -    qi[0] = 0.0;
+4: -    qi[1] = 0.0;
+4: -    qi[2] = path->qi[2];
+4: -
+4: -    /* generate the target configuration */
+4: -    p1 = path->param[0];
+4: -    p2 = path->param[1];
+4: -    dubins_segment( p1,      qi,    q1, types[0] );
+4: -    dubins_segment( p2,      q1,    q2, types[1] );
+4: -    if( tprime < p1 ) {
+4: -        dubins_segment( tprime, qi, q, types[0] );
+4: -    }
+4: -    else if( tprime < (p1+p2) ) {
+4: -        dubins_segment( tprime-p1, q1, q,  types[1] );
+4: -    }
+4: -    else {
+4: -        dubins_segment( tprime-p1-p2, q2, q,  types[2] );
+4: -    }
+4: -
+4: -    /* scale the target configuration, translate back to the original starting point */
+4: -    q[0] = q[0] * path->rho + path->qi[0];
+4: -    q[1] = q[1] * path->rho + path->qi[1];
+4: -    q[2] = mod2pi(q[2]);
+4: -
+4: -    return EDUBOK;
+4: -}
+4: -
+4: -int dubins_path_sample_many(DubinsPath* path, double stepSize, 
+4: -                            DubinsPathSamplingCallback cb, void* user_data)
+4: -{
+4: -    int retcode;
+4: -    double q[3];
+4: -    double x = 0.0;
+4: -    double length = dubins_path_length(path);
+4: -    while( x <  length ) {
+4: -        dubins_path_sample( path, x, q );
+4: -        retcode = cb(q, x, user_data);
+4: -        if( retcode != 0 ) {
+4: -            return retcode;
+4: -        }
+4: -        x += stepSize;
+4: -    }
+4: -    return 0;
+4: -}
+4: -
+4: -int dubins_path_endpoint( DubinsPath* path, double q[3] )
+4: -{
+4: -    return dubins_path_sample( path, dubins_path_length(path) - EPSILON, q );
+4: -}
+4: -
+4: -int dubins_extract_subpath( DubinsPath* path, double t, DubinsPath* newpath )
+4: +    x += stepSize;
+4: +  }
+4: +  return 0;
+4: +}
+4: +
+4: +int dubins_path_endpoint(DubinsPath * path, double q[3])
+4: +{
+4: +  return dubins_path_sample(path, dubins_path_length(path) - EPSILON, q);
+4: +}
+4: +
+4: +int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath)
+4: @@ -266,6 +263,5 @@
+4: -    double tprime = t / path->rho;
+4: -
+4: -    if((t < 0) || (t > dubins_path_length(path)))
+4: -    {
+4: -        return EDUBPARAM; 
+4: -    }
+4: +  double tprime = t / path->rho;
+4: +
+4: +  if((t < 0) || (t > dubins_path_length(path))) {
+4: +    return EDUBPARAM;
+4: +  }
+4: @@ -274,5 +270,5 @@
+4: -    newpath->qi[0] = path->qi[0];
+4: -    newpath->qi[1] = path->qi[1];
+4: -    newpath->qi[2] = path->qi[2];
+4: -    newpath->rho   = path->rho;
+4: -    newpath->type  = path->type;
+4: +  newpath->qi[0] = path->qi[0];
+4: +  newpath->qi[1] = path->qi[1];
+4: +  newpath->qi[2] = path->qi[2];
+4: +  newpath->rho = path->rho;
+4: +  newpath->type = path->type;
+4: @@ -281,18 +277,20 @@
+4: -    newpath->param[0] = fmin( path->param[0], tprime );
+4: -    newpath->param[1] = fmin( path->param[1], tprime - newpath->param[0]);
+4: -    newpath->param[2] = fmin( path->param[2], tprime - newpath->param[0] - newpath->param[1]);
+4: -    return 0;
+4: -}
+4: -
+4: -int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho)
+4: -{
+4: -    double dx, dy, D, d, theta, alpha, beta;
+4: -    if( rho <= 0.0 ) {
+4: -        return EDUBBADRHO;
+4: -    }
+4: -
+4: -    dx = q1[0] - q0[0];
+4: -    dy = q1[1] - q0[1];
+4: -    D = sqrt( dx * dx + dy * dy );
+4: -    d = D / rho;
+4: -    theta = 0;
+4: +  newpath->param[0] = fmin(path->param[0], tprime);
+4: +  newpath->param[1] = fmin(path->param[1], tprime - newpath->param[0]);
+4: +  newpath->param[2] = fmin(path->param[2], tprime - newpath->param[0] - newpath->param[1]);
+4: +  return 0;
+4: +}
+4: +
+4: +int dubins_intermediate_results(
+4: +  DubinsIntermediateResults * in, double q0[3], double q1[3],
+4: +  double rho)
+4: +{
+4: +  double dx, dy, D, d, theta, alpha, beta;
+4: +  if(rho <= 0.0) {
+4: +    return EDUBBADRHO;
+4: +  }
+4: +
+4: +  dx = q1[0] - q0[0];
+4: +  dy = q1[1] - q0[1];
+4: +  D = sqrt(dx * dx + dy * dy);
+4: +  d = D / rho;
+4: +  theta = 0;
+4: @@ -301,114 +299,113 @@
+4: -    if(d > 0) {
+4: -        theta = mod2pi(atan2( dy, dx ));
+4: -    }
+4: -    alpha = mod2pi(q0[2] - theta);
+4: -    beta  = mod2pi(q1[2] - theta);
+4: -
+4: -    in->alpha = alpha;
+4: -    in->beta  = beta;
+4: -    in->d     = d;
+4: -    in->sa    = sin(alpha);
+4: -    in->sb    = sin(beta);
+4: -    in->ca    = cos(alpha);
+4: -    in->cb    = cos(beta);
+4: -    in->c_ab  = cos(alpha - beta);
+4: -    in->d_sq  = d * d;
+4: -
+4: -    return EDUBOK;
+4: -}
+4: -
+4: -int dubins_LSL(DubinsIntermediateResults* in, double out[3]) 
+4: -{
+4: -    double tmp0, tmp1, p_sq;
+4: -    
+4: -    tmp0 = in->d + in->sa - in->sb;
+4: -    p_sq = 2 + in->d_sq - (2*in->c_ab) + (2 * in->d * (in->sa - in->sb));
+4: -
+4: -    if(p_sq >= 0) {
+4: -        tmp1 = atan2( (in->cb - in->ca), tmp0 );
+4: -        out[0] = mod2pi(tmp1 - in->alpha);
+4: -        out[1] = sqrt(p_sq);
+4: -        out[2] = mod2pi(in->beta - tmp1);
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -
+4: -int dubins_RSR(DubinsIntermediateResults* in, double out[3]) 
+4: -{
+4: -    double tmp0 = in->d - in->sa + in->sb;
+4: -    double p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sb - in->sa));
+4: -    if( p_sq >= 0 ) {
+4: -        double tmp1 = atan2( (in->ca - in->cb), tmp0 );
+4: -        out[0] = mod2pi(in->alpha - tmp1);
+4: -        out[1] = sqrt(p_sq);
+4: -        out[2] = mod2pi(tmp1 -in->beta);
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -int dubins_LSR(DubinsIntermediateResults* in, double out[3]) 
+4: -{
+4: -    double p_sq = -2 + (in->d_sq) + (2 * in->c_ab) + (2 * in->d * (in->sa + in->sb));
+4: -    if( p_sq >= 0 ) {
+4: -        double p    = sqrt(p_sq);
+4: -        double tmp0 = atan2( (-in->ca - in->cb), (in->d + in->sa + in->sb) ) - atan2(-2.0, p);
+4: -        out[0] = mod2pi(tmp0 - in->alpha);
+4: -        out[1] = p;
+4: -        out[2] = mod2pi(tmp0 - mod2pi(in->beta));
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -int dubins_RSL(DubinsIntermediateResults* in, double out[3]) 
+4: -{
+4: -    double p_sq = -2 + in->d_sq + (2 * in->c_ab) - (2 * in->d * (in->sa + in->sb));
+4: -    if( p_sq >= 0 ) {
+4: -        double p    = sqrt(p_sq);
+4: -        double tmp0 = atan2( (in->ca + in->cb), (in->d - in->sa - in->sb) ) - atan2(2.0, p);
+4: -        out[0] = mod2pi(in->alpha - tmp0);
+4: -        out[1] = p;
+4: -        out[2] = mod2pi(in->beta - tmp0);
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -int dubins_RLR(DubinsIntermediateResults* in, double out[3]) 
+4: -{
+4: -    double tmp0 = (6. - in->d_sq + 2*in->c_ab + 2*in->d*(in->sa - in->sb)) / 8.;
+4: -    double phi  = atan2( in->ca - in->cb, in->d - in->sa + in->sb );
+4: -    if( fabs(tmp0) <= 1) {
+4: -        double p = mod2pi((2*M_PI) - acos(tmp0) );
+4: -        double t = mod2pi(in->alpha - phi + mod2pi(p/2.));
+4: -        out[0] = t;
+4: -        out[1] = p;
+4: -        out[2] = mod2pi(in->alpha - in->beta - t + mod2pi(p));
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -int dubins_LRL(DubinsIntermediateResults* in, double out[3])
+4: -{
+4: -    double tmp0 = (6. - in->d_sq + 2*in->c_ab + 2*in->d*(in->sb - in->sa)) / 8.;
+4: -    double phi = atan2( in->ca - in->cb, in->d + in->sa - in->sb );
+4: -    if( fabs(tmp0) <= 1) {
+4: -        double p = mod2pi( 2*M_PI - acos( tmp0) );
+4: -        double t = mod2pi(-in->alpha - phi + p/2.);
+4: -        out[0] = t;
+4: -        out[1] = p;
+4: -        out[2] = mod2pi(mod2pi(in->beta) - in->alpha -t + mod2pi(p));
+4: -        return EDUBOK;
+4: -    }
+4: -    return EDUBNOPATH;
+4: -}
+4: -
+4: -int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]) 
+4: -{
+4: -    int result;
+4: -    switch(pathType)
+4: -    {
+4: +  if(d > 0) {
+4: +    theta = mod2pi(atan2(dy, dx));
+4: +  }
+4: +  alpha = mod2pi(q0[2] - theta);
+4: +  beta = mod2pi(q1[2] - theta);
+4: +
+4: +  in->alpha = alpha;
+4: +  in->beta = beta;
+4: +  in->d = d;
+4: +  in->sa = sin(alpha);
+4: +  in->sb = sin(beta);
+4: +  in->ca = cos(alpha);
+4: +  in->cb = cos(beta);
+4: +  in->c_ab = cos(alpha - beta);
+4: +  in->d_sq = d * d;
+4: +
+4: +  return EDUBOK;
+4: +}
+4: +
+4: +int dubins_LSL(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double tmp0, tmp1, p_sq;
+4: +
+4: +  tmp0 = in->d + in->sa - in->sb;
+4: +  p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sa - in->sb));
+4: +
+4: +  if(p_sq >= 0) {
+4: +    tmp1 = atan2( (in->cb - in->ca), tmp0);
+4: +    out[0] = mod2pi(tmp1 - in->alpha);
+4: +    out[1] = sqrt(p_sq);
+4: +    out[2] = mod2pi(in->beta - tmp1);
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +
+4: +int dubins_RSR(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double tmp0 = in->d - in->sa + in->sb;
+4: +  double p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sb - in->sa));
+4: +  if(p_sq >= 0) {
+4: +    double tmp1 = atan2( (in->ca - in->cb), tmp0);
+4: +    out[0] = mod2pi(in->alpha - tmp1);
+4: +    out[1] = sqrt(p_sq);
+4: +    out[2] = mod2pi(tmp1 - in->beta);
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +int dubins_LSR(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double p_sq = -2 + (in->d_sq) + (2 * in->c_ab) + (2 * in->d * (in->sa + in->sb));
+4: +  if(p_sq >= 0) {
+4: +    double p = sqrt(p_sq);
+4: +    double tmp0 = atan2( (-in->ca - in->cb), (in->d + in->sa + in->sb) ) - atan2(-2.0, p);
+4: +    out[0] = mod2pi(tmp0 - in->alpha);
+4: +    out[1] = p;
+4: +    out[2] = mod2pi(tmp0 - mod2pi(in->beta));
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +int dubins_RSL(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double p_sq = -2 + in->d_sq + (2 * in->c_ab) - (2 * in->d * (in->sa + in->sb));
+4: +  if(p_sq >= 0) {
+4: +    double p = sqrt(p_sq);
+4: +    double tmp0 = atan2( (in->ca + in->cb), (in->d - in->sa - in->sb) ) - atan2(2.0, p);
+4: +    out[0] = mod2pi(in->alpha - tmp0);
+4: +    out[1] = p;
+4: +    out[2] = mod2pi(in->beta - tmp0);
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +int dubins_RLR(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double tmp0 = (6. - in->d_sq + 2 * in->c_ab + 2 * in->d * (in->sa - in->sb)) / 8.;
+4: +  double phi = atan2(in->ca - in->cb, in->d - in->sa + in->sb);
+4: +  if(fabs(tmp0) <= 1) {
+4: +    double p = mod2pi((2 * M_PI) - acos(tmp0) );
+4: +    double t = mod2pi(in->alpha - phi + mod2pi(p / 2.));
+4: +    out[0] = t;
+4: +    out[1] = p;
+4: +    out[2] = mod2pi(in->alpha - in->beta - t + mod2pi(p));
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +int dubins_LRL(DubinsIntermediateResults * in, double out[3])
+4: +{
+4: +  double tmp0 = (6. - in->d_sq + 2 * in->c_ab + 2 * in->d * (in->sb - in->sa)) / 8.;
+4: +  double phi = atan2(in->ca - in->cb, in->d + in->sa - in->sb);
+4: +  if(fabs(tmp0) <= 1) {
+4: +    double p = mod2pi(2 * M_PI - acos(tmp0) );
+4: +    double t = mod2pi(-in->alpha - phi + p / 2.);
+4: +    out[0] = t;
+4: +    out[1] = p;
+4: +    out[2] = mod2pi(mod2pi(in->beta) - in->alpha - t + mod2pi(p));
+4: +    return EDUBOK;
+4: +  }
+4: +  return EDUBNOPATH;
+4: +}
+4: +
+4: +int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3])
+4: +{
+4: +  int result;
+4: +  switch(pathType) {
+4: @@ -416,2 +413,2 @@
+4: -        result = dubins_LSL(in, out);
+4: -        break;
+4: +      result = dubins_LSL(in, out);
+4: +      break;
+4: @@ -419,2 +416,2 @@
+4: -        result = dubins_RSL(in, out);
+4: -        break;
+4: +      result = dubins_RSL(in, out);
+4: +      break;
+4: @@ -422,2 +419,2 @@
+4: -        result = dubins_LSR(in, out);
+4: -        break;
+4: +      result = dubins_LSR(in, out);
+4: +      break;
+4: @@ -425,2 +422,2 @@
+4: -        result = dubins_RSR(in, out);
+4: -        break;
+4: +      result = dubins_RSR(in, out);
+4: +      break;
+4: @@ -428,2 +425,2 @@
+4: -        result = dubins_LRL(in, out);
+4: -        break;
+4: +      result = dubins_LRL(in, out);
+4: +      break;
+4: @@ -431,2 +428,2 @@
+4: -        result = dubins_RLR(in, out);
+4: -        break;
+4: +      result = dubins_RLR(in, out);
+4: +      break;
+4: @@ -434,6 +431,4 @@
+4: -        result = EDUBNOPATH;
+4: -    }
+4: -    return result;
+4: -}
+4: -
+4: -
+4: +      result = EDUBNOPATH;
+4: +  }
+4: +  return result;
+4: +}
+4: 
+4: Code style divergence in file 'src/global_planner_node.cpp':
+4: 
+4: --- src/global_planner_node.cpp
+4: +++ src/global_planner_node.cpp.uncrustify
+4: @@ -9,4 +9,5 @@
+4: -int main() {
+4: -    double q0[3] = {0, 0, 0};
+4: -    double q1[3] = {10, 10, 0};
+4: -    double turning_radius = 4.0;
+4: +int main()
+4: +{
+4: +  double q0[3] = {0, 0, 0};
+4: +  double q1[3] = {10, 10, 0};
+4: +  double turning_radius = 4.0;
+4: @@ -14,6 +15,6 @@
+4: -    DubinsPath path;
+4: -    int result = dubins_shortest_path(&path, q0, q1, turning_radius);
+4: -    if (result != EDUBOK) {
+4: -        printf("No valid Dubins path found, error code: %d\n", result);
+4: -        return 1;
+4: -    }
+4: +  DubinsPath path;
+4: +  int result = dubins_shortest_path(&path, q0, q1, turning_radius);
+4: +  if (result != EDUBOK) {
+4: +    printf("No valid Dubins path found, error code: %d\n", result);
+4: +    return 1;
+4: +  }
+4: @@ -21,2 +22,2 @@
+4: -    double length = dubins_path_length(&path);
+4: -    printf("Path length: %.2f\n", length);
+4: +  double length = dubins_path_length(&path);
+4: +  printf("Path length: %.2f\n", length);
+4: @@ -24,5 +25,5 @@
+4: -    for (double t = 0; t < length; t += 1.0) {
+4: -        double q[3];
+4: -        dubins_path_sample(&path, t, q);
+4: -        printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\n", t, q[0], q[1], q[2]);
+4: -    }
+4: +  for (double t = 0; t < length; t += 1.0) {
+4: +    double q[3];
+4: +    dubins_path_sample(&path, t, q);
+4: +    printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\n", t, q[0], q[1], q[2]);
+4: +  }
+4: @@ -30 +31 @@
+4: -    return 0;
+4: +  return 0;
+4: 
+4: Code style divergence in file 'test/test_dubins.cpp':
+4: 
+4: --- test/test_dubins.cpp
+4: +++ test/test_dubins.cpp.uncrustify
+4: @@ -17 +17 @@
+4: -    double straight_line_dist = std::sqrt(10.0*10.0 + 10.0*10.0);
+4: +    double straight_line_dist = std::sqrt(10.0 * 10.0 + 10.0 * 10.0);
+4: 
+4: 4 files with code style divergence
+4: -- run_test.py: return code 1
+4: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml'
+4/5 Test #4: uncrustify .......................***Failed    0.25 sec
+test 5
+    Start 5: xmllint
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml"
+5: Working Directory: /home/shriperu/ros2_ws/src/global_planner
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':
+5:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml
+5: File 'package.xml' is valid
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml'
+5/5 Test #5: xmllint ..........................   Passed    0.64 sec
+
+80% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 5
+
+Label Time Summary:
+cppcheck      =   0.22 sec*proc (1 test)
+gtest         =   0.09 sec*proc (1 test)
+lint_cmake    =   0.18 sec*proc (1 test)
+linter        =   1.29 sec*proc (4 tests)
+uncrustify    =   0.25 sec*proc (1 test)
+xmllint       =   0.64 sec*proc (1 test)
+
+Total Test time (real) =   1.39 sec
+
+The following tests FAILED:
+	[0;31m  4 - uncrustify (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/shriperu/ros2_ws/build/global_planner/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

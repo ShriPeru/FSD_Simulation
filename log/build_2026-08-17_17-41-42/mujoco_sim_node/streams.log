@@ -1,0 +1,75 @@
+[0.021s] Invoking command in '/home/shriperu/ros2_ws/build/mujoco_sim_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/mujoco_sim_node -- -j16 -l16
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/mujoco_sim_node.dir/src/mujoco_sim_node.cpp.o[0m
+[3.145s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K mouse_button[m[K(GLFWwindow*, int, int, int)[m[K’:
+[3.146s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:27:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbutton[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.146s]    27 | void mouse_button(GLFWwindow* window, [01;35m[Kint button[m[K, int act, int mods) {
+[3.146s]       |                                       [01;35m[K~~~~^~~~~~[m[K
+[3.146s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:27:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kact[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.146s]    27 | void mouse_button(GLFWwindow* window, int button, [01;35m[Kint act[m[K, int mods) {
+[3.146s]       |                                                   [01;35m[K~~~~^~~[m[K
+[3.146s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:27:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.146s]    27 | void mouse_button(GLFWwindow* window, int button, int act, [01;35m[Kint mods[m[K) {
+[3.146s]       |                                                            [01;35m[K~~~~^~~~[m[K
+[3.146s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K scroll[m[K(GLFWwindow*, double, double)[m[K’:
+[3.146s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:59:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.147s]    59 | void scroll([01;35m[KGLFWwindow* window[m[K, double xoffset, double yoffset) {
+[3.147s]       |             [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.147s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:59:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kxoffset[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.147s]    59 | void scroll(GLFWwindow* window, [01;35m[Kdouble xoffset[m[K, double yoffset) {
+[3.147s]       |                                 [01;35m[K~~~~~~~^~~~~~~[m[K
+[3.147s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K keyboard[m[K(GLFWwindow*, int, int, int, int)[m[K’:
+[3.147s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:62:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwindow[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.147s]    62 | void keyboard([01;35m[KGLFWwindow* window[m[K, int key, int scancode, int act, int mods) {
+[3.147s]       |               [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.147s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:62:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscancode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.148s]    62 | void keyboard(GLFWwindow* window, int key, [01;35m[Kint scancode[m[K, int act, int mods) {
+[3.148s]       |                                            [01;35m[K~~~~^~~~~~~~[m[K
+[3.148s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:62:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.148s]    62 | void keyboard(GLFWwindow* window, int key, int scancode, int act, [01;35m[Kint mods[m[K) {
+[3.148s]       |                                                                   [01;35m[K~~~~^~~~[m[K
+[3.150s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[3.150s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:122:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[3.151s]   122 |             [01;31m[Kmsg[m[K.x = data->qpos[0];
+[3.151s]       |             [01;31m[K^~~[m[K
+[3.151s] [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:122:13:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[3.151s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:157[m[K,
+[3.151s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[3.151s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[3.151s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K,
+[3.151s]                  from [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:4[m[K:
+[3.151s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[3.151s]    31 | namespace [01;36m[Kmsg[m[K
+[3.152s]       |           [01;36m[K^~~[m[K
+[3.152s] In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:24[m[K,
+[3.152s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:268[m[K:
+[3.152s] [01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[3.152s]    31 | namespace [01;36m[Kmsg[m[K
+[3.152s]       |           [01;36m[K^~~[m[K
+[3.152s] [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:35:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[3.152s]    35 | namespace [01;36m[Kmsg[m[K
+[3.152s]       |           [01;36m[K^~~[m[K
+[3.152s] In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:27[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[3.153s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.154s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.154s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176[m[K:
+[3.154s] [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[3.154s]    31 | namespace [01;36m[Kmsg[m[K
+[3.154s]       |           [01;36m[K^~~[m[K
+[3.154s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/point.hpp:7[m[K,
+[3.154s]                  from [01m[K/home/shriperu/ros2_ws/src/mujoco_sim_node/src/mujoco_sim_node.cpp:5[m[K:
+[3.154s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:31:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.154s]    31 | namespace [01;36m[Kmsg[m[K
+[3.154s]       |           [01;36m[K^~~[m[K
+[4.410s] gmake[2]: *** [CMakeFiles/mujoco_sim_node.dir/build.make:76: CMakeFiles/mujoco_sim_node.dir/src/mujoco_sim_node.cpp.o] Error 1
+[4.410s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mujoco_sim_node.dir/all] Error 2
+[4.410s] gmake: *** [Makefile:146: all] Error 2
+[4.414s] Invoked command in '/home/shriperu/ros2_ws/build/mujoco_sim_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/mujoco_sim_node -- -j16 -l16

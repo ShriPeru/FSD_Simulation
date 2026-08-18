@@ -1,0 +1,17 @@
+/home/shriperu/ros2_ws/install/mujoco_sim_node/lib/mujoco_sim_node/mujoco_sim_node
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/model.xml
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/ament_index/resource_index/package_run_dependencies/mujoco_sim_node
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/ament_index/resource_index/parent_prefix_path/mujoco_sim_node
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/environment/ament_prefix_path.sh
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/environment/ament_prefix_path.dsv
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/environment/path.sh
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/environment/path.dsv
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/local_setup.bash
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/local_setup.sh
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/local_setup.zsh
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/local_setup.dsv
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/package.dsv
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/ament_index/resource_index/packages/mujoco_sim_node
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/cmake/mujoco_sim_nodeConfig.cmake
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/cmake/mujoco_sim_nodeConfig-version.cmake
+/home/shriperu/ros2_ws/install/mujoco_sim_node/share/mujoco_sim_node/package.xml

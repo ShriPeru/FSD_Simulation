@@ -1,0 +1,22 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/global_planner_node.dir/src/dubins.c.o[0m
+[100%] [32m[1mLinking CXX executable global_planner_node[0m
+[100%] Built target global_planner_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/lib/global_planner/global_planner_node
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.sh
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.dsv
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.bash
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.sh
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.zsh
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.dsv
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.dsv
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/packages/global_planner
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+-- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.xml

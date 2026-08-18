@@ -1,0 +1,41 @@
+cmake_minimum_required(VERSION 3.8)
+project(global_planner)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(ompl REQUIRED)
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  set(ament_cmake_copyright_FOUND TRUE)
+  set(ament_cmake_cpplint_FOUND TRUE)
+  set(ament_cmake_uncrustify_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(test_dubins test/test_dubins.cpp src/dubins.c)
+  target_include_directories(test_dubins PRIVATE include)
+endif()
+
+add_executable(global_planner_node
+  src/global_planner_node.cpp
+  src/dubins.c
+)
+
+add_executable(test_ompl_dubins test/test_ompl_dubins.cpp)
+target_include_directories(test_ompl_dubins PRIVATE ${OMPL_INCLUDE_DIRS})
+target_link_libraries(test_ompl_dubins ${OMPL_LIBRARIES})
+
+target_include_directories(global_planner_node PRIVATE include)
+
+ament_target_dependencies(global_planner_node rclcpp nav_msgs)
+
+install(TARGETS global_planner_node DESTINATION lib/${PROJECT_NAME})
+
+ament_package()

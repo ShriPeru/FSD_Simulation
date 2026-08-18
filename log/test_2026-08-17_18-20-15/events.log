@@ -1,0 +1,1048 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (global_planner) JobQueued: {'identifier': 'global_planner', 'dependencies': OrderedDict({'global_planner': '/home/shriperu/ros2_ws/install/global_planner'})}
+[0.000836] (global_planner) JobStarted: {'identifier': 'global_planner'}
+[0.099811] (-) TimerEvent: {}
+[0.200228] (-) TimerEvent: {}
+[0.300567] (-) TimerEvent: {}
+[0.337582] (global_planner) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/shriperu/ros2_ws/build/global_planner', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'shriperu', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'BUN_INSTALL': '/home/shriperu/.bun', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda-12.6/lib64:/usr/local/cuda/lib64:', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/shriperu', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/shriperu/ros2_ws/src/global_planner/test', 'NVM_BIN': '/home/shriperu/.nvm/versions/node/v24.18.0/bin', 'NVM_INC': '/home/shriperu/.nvm/versions/node/v24.18.0/include/node', 'ROS_PYTHON_VERSION': '3', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu', '_CONDA_ROOT': '/home/shriperu/miniconda3', 'NVM_DIR': '/home/shriperu/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/shriperu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'shriperu', 'NAME': 'ShriComputer', 'WSL_INTEROP': '/run/WSL/2170_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', '_CE_CONDA': '', 'PATH': '/home/shriperu/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/shriperu/.local/bin:/usr/local/cuda-12.6/bin:/usr/local/cuda/bin:/home/shriperu/.bun/bin:/home/shriperu/miniconda3/condabin:/home/shriperu/.nvm/versions/node/v24.18.0/bin:/home/shriperu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.2/:/mnt/c/Users/ShriP/miniconda3/envs/gesture:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Library/bin:/mnt/c/Users/ShriP/miniconda3/envs/gesture/Scripts:/mnt/c/Users/ShriP/miniconda3/envs/gesture/bin:/mnt/c/Users/ShriP/miniconda3/condabin:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Microsoft/jdk-17.0.16.8-hotspot/bin:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Amazon/AWSCLIV2:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/hadoop/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.3.0:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/lib64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/extras/CUPTI/include:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.9.4.25_cuda11-archive/include:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/bin:/mnt/c/tools/cudnn-windows-x86_64-8.6.0.163_cuda11-archive/include:/mnt/c/Windows/System32:/mnt/c/Program Files/PuTTY:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Neovim/bin:/mnt/h/Downloads/platform-tools-latest-windows/platform-tools:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/h/Downloads/kotlin-compiler-2.2.0/kotlinc/bin:/mnt/c/Users/ShriP/scoop/shims:/mnt/c/Users/ShriP/miniconda3:/mnt/c/Users/ShriP/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/ShriP/miniconda3/Library/usr/bin:/mnt/c/Users/ShriP/miniconda3/Library/bin:/mnt/c/Users/ShriP/miniconda3/Scripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/Users/ShriP/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.2.1/bin:/mnt/c/Users/ShriP/.dotnet/tools:/mnt/c/Users/ShriP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/ShriP/AppData/Local/GitHubDesktop/bin:/mnt/c/ProgramData/ShriP/GitHubDesktop/bin:/mnt/c/Users/ShriP/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm 2024.2.3/bin:/mnt/c/spark/bin:/mnt/c/Program Files/JetBrains/WebStorm 2024.3.2.1/bin:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0-essentials_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/obsidian:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build/bin:/mnt/c/Users/ShriP/AppData/Local/Programs/Warp/bin:/mnt/c/Users/ShriP/.vscode/extensions/ms-python.debugpy-2025.18.0/bundled/scripts/noConfigScripts:/mnt/c/Users/ShriP/AppData/Local/Microsoft/WinGet/Packages/Genymobile.scrcpy_Microsoft.Winget.Source_8wekyb3d8bbwe/scrcpy-win64-v3.3.4:/mnt/c/Users/ShriP/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/usr/local/go/bin:/opt/nvim/bin', 'WT_SESSION': '956bc4f4-8f1f-463d-8920-3d0e0bbc33c4', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/shriperu/ros2_ws/install/global_planner:/home/shriperu/ros2_ws/install/mujoco_sim_node:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/shriperu/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', '_CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/shriperu/ros2_ws/build/global_planner', 'CONDA_EXE': '/home/shriperu/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/shriperu/ros2_ws/install/global_planner:/home/shriperu/ros2_ws/install/mujoco_sim_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.351065] (global_planner) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini\n'}
+[0.351949] (global_planner) StdoutLine: {'line': b'Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini\n'}
+[0.352416] (global_planner) StdoutLine: {'line': b'   Site: ShriComputer\n'}
+[0.352672] (global_planner) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.352785] (global_planner) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.352888] (global_planner) StdoutLine: {'line': b'Create new tag: 20260818-0120 - Experimental\n'}
+[0.352985] (global_planner) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini\n'}
+[0.353125] (global_planner) StdoutLine: {'line': b'Parse Config file:/home/shriperu/ros2_ws/build/global_planner/CTestConfiguration.ini\n'}
+[0.353220] (global_planner) StdoutLine: {'line': b'Test project /home/shriperu/ros2_ws/build/global_planner\n'}
+[0.353318] (global_planner) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.353555] (global_planner) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.353665] (global_planner) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.353763] (global_planner) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.353858] (global_planner) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.354163] (global_planner) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.354281] (global_planner) StdoutLine: {'line': b'test 1\n'}
+[0.354382] (global_planner) StdoutLine: {'line': b'    Start 1: test_dubins\n'}
+[0.354496] (global_planner) StdoutLine: {'line': b'\n'}
+[0.354635] (global_planner) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cmake_gtest/test_dubins.txt" "--command" "/home/shriperu/ros2_ws/build/global_planner/test_dubins" "--gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml"\n'}
+[0.354776] (global_planner) StdoutLine: {'line': b'1: Working Directory: /home/shriperu/ros2_ws/build/global_planner\n'}
+[0.354931] (global_planner) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.400716] (-) TimerEvent: {}
+[0.427281] (global_planner) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/build/global_planner':\n"}
+[0.427566] (global_planner) StdoutLine: {'line': b'1:  - /home/shriperu/ros2_ws/build/global_planner/test_dubins --gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml\n'}
+[0.429420] (global_planner) StdoutLine: {'line': b'1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc\n'}
+[0.429726] (global_planner) StdoutLine: {'line': b'1: [==========] Running 3 tests from 1 test suite.\n'}
+[0.429872] (global_planner) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.430074] (global_planner) StdoutLine: {'line': b'1: [----------] 3 tests from DubinsTest\n'}
+[0.430291] (global_planner) StdoutLine: {'line': b'1: [ RUN      ] DubinsTest.PathLengthAtLeastStraightLineDistance\n'}
+[0.430583] (global_planner) StdoutLine: {'line': b'1: [       OK ] DubinsTest.PathLengthAtLeastStraightLineDistance (0 ms)\n'}
+[0.430716] (global_planner) StdoutLine: {'line': b'1: [ RUN      ] DubinsTest.SamplingAtZeroReturnsStart\n'}
+[0.430822] (global_planner) StdoutLine: {'line': b'1: [       OK ] DubinsTest.SamplingAtZeroReturnsStart (0 ms)\n'}
+[0.430919] (global_planner) StdoutLine: {'line': b'1: [ RUN      ] DubinsTest.EndpointMatchesGoal\n'}
+[0.431021] (global_planner) StdoutLine: {'line': b'1: [       OK ] DubinsTest.EndpointMatchesGoal (0 ms)\n'}
+[0.431131] (global_planner) StdoutLine: {'line': b'1: [----------] 3 tests from DubinsTest (0 ms total)\n'}
+[0.431230] (global_planner) StdoutLine: {'line': b'1: \n'}
+[0.431324] (global_planner) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.431419] (global_planner) StdoutLine: {'line': b'1: [==========] 3 tests from 1 test suite ran. (0 ms total)\n'}
+[0.431641] (global_planner) StdoutLine: {'line': b'1: [  PASSED  ] 3 tests.\n'}
+[0.431745] (global_planner) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.431847] (global_planner) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'\n"}
+[0.431947] (global_planner) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'\n"}
+[0.441751] (global_planner) StdoutLine: {'line': b'1/5 Test #1: test_dubins ......................   Passed    0.09 sec\n'}
+[0.442223] (global_planner) StdoutLine: {'line': b'test 2\n'}
+[0.442347] (global_planner) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.442424] (global_planner) StdoutLine: {'line': b'\n'}
+[0.442490] (global_planner) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml" "--include_dirs" "/home/shriperu/ros2_ws/src/global_planner/include"\n'}
+[0.442591] (global_planner) StdoutLine: {'line': b'2: Working Directory: /home/shriperu/ros2_ws/src/global_planner\n'}
+[0.442739] (global_planner) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.500838] (-) TimerEvent: {}
+[0.506785] (global_planner) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':\n"}
+[0.507035] (global_planner) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml --include_dirs /home/shriperu/ros2_ws/src/global_planner/include\n'}
+[0.601003] (-) TimerEvent: {}
+[0.625051] (global_planner) StdoutLine: {'line': b'2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.644899] (global_planner) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.645338] (global_planner) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/cppcheck.xunit.xml'\n"}
+[0.661370] (global_planner) StdoutLine: {'line': b'2/5 Test #2: cppcheck .........................   Passed    0.22 sec\n'}
+[0.661754] (global_planner) StdoutLine: {'line': b'test 3\n'}
+[0.661842] (global_planner) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.661914] (global_planner) StdoutLine: {'line': b'\n'}
+[0.661985] (global_planner) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml"\n'}
+[0.662118] (global_planner) StdoutLine: {'line': b'3: Working Directory: /home/shriperu/ros2_ws/src/global_planner\n'}
+[0.662214] (global_planner) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.701117] (-) TimerEvent: {}
+[0.730652] (global_planner) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':\n"}
+[0.730967] (global_planner) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml\n'}
+[0.801306] (-) TimerEvent: {}
+[0.813491] (global_planner) StdoutLine: {'line': b'3: \n'}
+[0.813850] (global_planner) StdoutLine: {'line': b'3: No problems found\n'}
+[0.828508] (global_planner) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.828817] (global_planner) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/lint_cmake.xunit.xml'\n"}
+[0.839172] (global_planner) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.18 sec\n'}
+[0.839572] (global_planner) StdoutLine: {'line': b'test 4\n'}
+[0.839656] (global_planner) StdoutLine: {'line': b'    Start 4: uncrustify\n'}
+[0.839728] (global_planner) StdoutLine: {'line': b'\n'}
+[0.839793] (global_planner) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml"\n'}
+[0.839861] (global_planner) StdoutLine: {'line': b'4: Working Directory: /home/shriperu/ros2_ws/src/global_planner\n'}
+[0.839943] (global_planner) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.901431] (-) TimerEvent: {}
+[0.902659] (global_planner) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':\n"}
+[0.902910] (global_planner) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml\n'}
+[1.001713] (-) TimerEvent: {}
+[1.053715] (global_planner) StdoutLine: {'line': b"4: Code style divergence in file 'include/dubins.h':\n"}
+[1.054226] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.054370] (global_planner) StdoutLine: {'line': b'4: --- include/dubins.h\n'}
+[1.054478] (global_planner) StdoutLine: {'line': b'4: +++ include/dubins.h.uncrustify\n'}
+[1.054621] (global_planner) StdoutLine: {'line': b'4: @@ -25 +25 @@\n'}
+[1.054917] (global_planner) StdoutLine: {'line': b'4: -typedef enum \n'}
+[1.055078] (global_planner) StdoutLine: {'line': b'4: +typedef enum\n'}
+[1.055244] (global_planner) StdoutLine: {'line': b'4: @@ -27,6 +27,6 @@\n'}
+[1.055378] (global_planner) StdoutLine: {'line': b'4: -    LSL = 0,\n'}
+[1.055543] (global_planner) StdoutLine: {'line': b'4: -    LSR = 1,\n'}
+[1.055694] (global_planner) StdoutLine: {'line': b'4: -    RSL = 2,\n'}
+[1.055854] (global_planner) StdoutLine: {'line': b'4: -    RSR = 3,\n'}
+[1.056056] (global_planner) StdoutLine: {'line': b'4: -    RLR = 4,\n'}
+[1.056229] (global_planner) StdoutLine: {'line': b'4: -    LRL = 5\n'}
+[1.056661] (global_planner) StdoutLine: {'line': b'4: +  LSL = 0,\n'}
+[1.056889] (global_planner) StdoutLine: {'line': b'4: +  LSR = 1,\n'}
+[1.057020] (global_planner) StdoutLine: {'line': b'4: +  RSL = 2,\n'}
+[1.057139] (global_planner) StdoutLine: {'line': b'4: +  RSR = 3,\n'}
+[1.058696] (global_planner) StdoutLine: {'line': b'4: +  RLR = 4,\n'}
+[1.059189] (global_planner) StdoutLine: {'line': b'4: +  LRL = 5\n'}
+[1.059481] (global_planner) StdoutLine: {'line': b'4: @@ -35 +35 @@\n'}
+[1.059688] (global_planner) StdoutLine: {'line': b'4: -typedef struct \n'}
+[1.059791] (global_planner) StdoutLine: {'line': b'4: +typedef struct\n'}
+[1.059880] (global_planner) StdoutLine: {'line': b'4: @@ -38 +38 @@\n'}
+[1.059971] (global_planner) StdoutLine: {'line': b'4: -    double qi[3];        \n'}
+[1.061309] (global_planner) StdoutLine: {'line': b'4: +  double qi[3];\n'}
+[1.061449] (global_planner) StdoutLine: {'line': b'4: @@ -40 +40 @@\n'}
+[1.061561] (global_planner) StdoutLine: {'line': b'4: -    double param[3];     \n'}
+[1.061663] (global_planner) StdoutLine: {'line': b'4: +  double param[3];\n'}
+[1.061793] (global_planner) StdoutLine: {'line': b'4: @@ -42 +42 @@\n'}
+[1.061923] (global_planner) StdoutLine: {'line': b'4: -    double rho;          \n'}
+[1.062009] (global_planner) StdoutLine: {'line': b'4: +  double rho;\n'}
+[1.062100] (global_planner) StdoutLine: {'line': b'4: @@ -44 +44 @@\n'}
+[1.062165] (global_planner) StdoutLine: {'line': b'4: -    DubinsPathType type; \n'}
+[1.062228] (global_planner) StdoutLine: {'line': b'4: +  DubinsPathType type;\n'}
+[1.062287] (global_planner) StdoutLine: {'line': b'4: @@ -61 +61 @@\n'}
+[1.062348] (global_planner) StdoutLine: {'line': b'4: -typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void* user_data);\n'}
+[1.062415] (global_planner) StdoutLine: {'line': b'4: +typedef int (*DubinsPathSamplingCallback)(double q[3], double t, void * user_data);\n'}
+[1.062477] (global_planner) StdoutLine: {'line': b'4: @@ -77 +77 @@\n'}
+[1.062538] (global_planner) StdoutLine: {'line': b'4: -int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho);\n'}
+[1.062599] (global_planner) StdoutLine: {'line': b'4: +int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho);\n'}
+[1.062657] (global_planner) StdoutLine: {'line': b'4: @@ -81 +81 @@\n'}
+[1.062718] (global_planner) StdoutLine: {'line': b'4: - * a target configuration, with a specified turning radius \n'}
+[1.062824] (global_planner) StdoutLine: {'line': b'4: + * a target configuration, with a specified turning radius\n'}
+[1.062891] (global_planner) StdoutLine: {'line': b'4: @@ -90 +90 @@\n'}
+[1.062962] (global_planner) StdoutLine: {'line': b'4: -int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType);\n'}
+[1.063037] (global_planner) StdoutLine: {'line': b'4: +int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType);\n'}
+[1.063104] (global_planner) StdoutLine: {'line': b'4: @@ -97 +97 @@\n'}
+[1.063164] (global_planner) StdoutLine: {'line': b'4: -double dubins_path_length(DubinsPath* path);\n'}
+[1.063220] (global_planner) StdoutLine: {'line': b'4: +double dubins_path_length(DubinsPath * path);\n'}
+[1.063280] (global_planner) StdoutLine: {'line': b'4: @@ -105 +105 @@\n'}
+[1.063339] (global_planner) StdoutLine: {'line': b'4: -double dubins_segment_length(DubinsPath* path, int i);\n'}
+[1.063408] (global_planner) StdoutLine: {'line': b'4: +double dubins_segment_length(DubinsPath * path, int i);\n'}
+[1.063473] (global_planner) StdoutLine: {'line': b'4: @@ -113 +113 @@\n'}
+[1.063533] (global_planner) StdoutLine: {'line': b'4: -double dubins_segment_length_normalized( DubinsPath* path, int i );\n'}
+[1.063590] (global_planner) StdoutLine: {'line': b'4: +double dubins_segment_length_normalized(DubinsPath * path, int i);\n'}
+[1.063648] (global_planner) StdoutLine: {'line': b'4: @@ -119 +119 @@\n'}
+[1.063704] (global_planner) StdoutLine: {'line': b'4: - * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL \n'}
+[1.063793] (global_planner) StdoutLine: {'line': b'4: + * @return        - one of LSL, LSR, RSL, RSR, RLR or LRL\n'}
+[1.063875] (global_planner) StdoutLine: {'line': b'4: @@ -121 +121 @@\n'}
+[1.063942] (global_planner) StdoutLine: {'line': b'4: -DubinsPathType dubins_path_type(DubinsPath* path);\n'}
+[1.064006] (global_planner) StdoutLine: {'line': b'4: +DubinsPathType dubins_path_type(DubinsPath * path);\n'}
+[1.064106] (global_planner) StdoutLine: {'line': b'4: @@ -131 +131 @@\n'}
+[1.064327] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_sample(DubinsPath* path, double t, double q[3]);\n'}
+[1.064406] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_sample(DubinsPath * path, double t, double q[3]);\n'}
+[1.064473] (global_planner) StdoutLine: {'line': b'4: @@ -146,4 +146,5 @@\n'}
+[1.064540] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_sample_many(DubinsPath* path, \n'}
+[1.064604] (global_planner) StdoutLine: {'line': b'4: -                            double stepSize, \n'}
+[1.064665] (global_planner) StdoutLine: {'line': b'4: -                            DubinsPathSamplingCallback cb, \n'}
+[1.064729] (global_planner) StdoutLine: {'line': b'4: -                            void* user_data);\n'}
+[1.064790] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_sample_many(\n'}
+[1.064850] (global_planner) StdoutLine: {'line': b'4: +  DubinsPath * path,\n'}
+[1.064913] (global_planner) StdoutLine: {'line': b'4: +  double stepSize,\n'}
+[1.064975] (global_planner) StdoutLine: {'line': b'4: +  DubinsPathSamplingCallback cb,\n'}
+[1.065050] (global_planner) StdoutLine: {'line': b'4: +  void * user_data);\n'}
+[1.065111] (global_planner) StdoutLine: {'line': b'4: @@ -157 +158 @@\n'}
+[1.065173] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_endpoint(DubinsPath* path, double q[3]);\n'}
+[1.065275] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_endpoint(DubinsPath * path, double q[3]);\n'}
+[1.065363] (global_planner) StdoutLine: {'line': b'4: @@ -166 +167 @@\n'}
+[1.065430] (global_planner) StdoutLine: {'line': b'4: -int dubins_extract_subpath(DubinsPath* path, double t, DubinsPath* newpath);\n'}
+[1.065491] (global_planner) StdoutLine: {'line': b'4: +int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath);\n'}
+[1.065553] (global_planner) StdoutLine: {'line': b'4: @@ -170 +170,0 @@\n'}
+[1.065612] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.065670] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.065729] (global_planner) StdoutLine: {'line': b"4: Code style divergence in file 'src/dubins.c':\n"}
+[1.065789] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.065848] (global_planner) StdoutLine: {'line': b'4: --- src/dubins.c\n'}
+[1.065905] (global_planner) StdoutLine: {'line': b'4: +++ src/dubins.c.uncrustify\n'}
+[1.065959] (global_planner) StdoutLine: {'line': b'4: @@ -30,5 +30,5 @@\n'}
+[1.066018] (global_planner) StdoutLine: {'line': b'4: -typedef enum \n'}
+[1.066076] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.066133] (global_planner) StdoutLine: {'line': b'4: -    L_SEG = 0,\n'}
+[1.066192] (global_planner) StdoutLine: {'line': b'4: -    S_SEG = 1,\n'}
+[1.066249] (global_planner) StdoutLine: {'line': b'4: -    R_SEG = 2\n'}
+[1.066306] (global_planner) StdoutLine: {'line': b'4: +typedef enum\n'}
+[1.066365] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.066420] (global_planner) StdoutLine: {'line': b'4: +  L_SEG = 0,\n'}
+[1.066479] (global_planner) StdoutLine: {'line': b'4: +  S_SEG = 1,\n'}
+[1.066549] (global_planner) StdoutLine: {'line': b'4: +  R_SEG = 2\n'}
+[1.066618] (global_planner) StdoutLine: {'line': b'4: @@ -39,6 +39,6 @@\n'}
+[1.066680] (global_planner) StdoutLine: {'line': b'4: -    { L_SEG, S_SEG, L_SEG },\n'}
+[1.066749] (global_planner) StdoutLine: {'line': b'4: -    { L_SEG, S_SEG, R_SEG },\n'}
+[1.066806] (global_planner) StdoutLine: {'line': b'4: -    { R_SEG, S_SEG, L_SEG },\n'}
+[1.066863] (global_planner) StdoutLine: {'line': b'4: -    { R_SEG, S_SEG, R_SEG },\n'}
+[1.066921] (global_planner) StdoutLine: {'line': b'4: -    { R_SEG, L_SEG, R_SEG },\n'}
+[1.066976] (global_planner) StdoutLine: {'line': b'4: -    { L_SEG, R_SEG, L_SEG }\n'}
+[1.067034] (global_planner) StdoutLine: {'line': b'4: +  {L_SEG, S_SEG, L_SEG},\n'}
+[1.067102] (global_planner) StdoutLine: {'line': b'4: +  {L_SEG, S_SEG, R_SEG},\n'}
+[1.067162] (global_planner) StdoutLine: {'line': b'4: +  {R_SEG, S_SEG, L_SEG},\n'}
+[1.067261] (global_planner) StdoutLine: {'line': b'4: +  {R_SEG, S_SEG, R_SEG},\n'}
+[1.067349] (global_planner) StdoutLine: {'line': b'4: +  {R_SEG, L_SEG, R_SEG},\n'}
+[1.067415] (global_planner) StdoutLine: {'line': b'4: +  {L_SEG, R_SEG, L_SEG}\n'}
+[1.067476] (global_planner) StdoutLine: {'line': b'4: @@ -47,11 +47,11 @@\n'}
+[1.067534] (global_planner) StdoutLine: {'line': b'4: -typedef struct \n'}
+[1.067595] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.067655] (global_planner) StdoutLine: {'line': b'4: -    double alpha;\n'}
+[1.067711] (global_planner) StdoutLine: {'line': b'4: -    double beta;\n'}
+[1.067770] (global_planner) StdoutLine: {'line': b'4: -    double d;\n'}
+[1.067828] (global_planner) StdoutLine: {'line': b'4: -    double sa;\n'}
+[1.067886] (global_planner) StdoutLine: {'line': b'4: -    double sb;\n'}
+[1.067955] (global_planner) StdoutLine: {'line': b'4: -    double ca;\n'}
+[1.068079] (global_planner) StdoutLine: {'line': b'4: -    double cb;\n'}
+[1.068270] (global_planner) StdoutLine: {'line': b'4: -    double c_ab;\n'}
+[1.068387] (global_planner) StdoutLine: {'line': b'4: -    double d_sq;\n'}
+[1.068492] (global_planner) StdoutLine: {'line': b'4: +typedef struct\n'}
+[1.068594] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.068696] (global_planner) StdoutLine: {'line': b'4: +  double alpha;\n'}
+[1.068800] (global_planner) StdoutLine: {'line': b'4: +  double beta;\n'}
+[1.068899] (global_planner) StdoutLine: {'line': b'4: +  double d;\n'}
+[1.068997] (global_planner) StdoutLine: {'line': b'4: +  double sa;\n'}
+[1.069114] (global_planner) StdoutLine: {'line': b'4: +  double sb;\n'}
+[1.069235] (global_planner) StdoutLine: {'line': b'4: +  double ca;\n'}
+[1.069341] (global_planner) StdoutLine: {'line': b'4: +  double cb;\n'}
+[1.069441] (global_planner) StdoutLine: {'line': b'4: +  double c_ab;\n'}
+[1.069553] (global_planner) StdoutLine: {'line': b'4: +  double d_sq;\n'}
+[1.069653] (global_planner) StdoutLine: {'line': b'4: @@ -61,2 +61,4 @@\n'}
+[1.069793] (global_planner) StdoutLine: {'line': b'4: -int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]);\n'}
+[1.069910] (global_planner) StdoutLine: {'line': b'4: -int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho);\n'}
+[1.070012] (global_planner) StdoutLine: {'line': b'4: +int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3]);\n'}
+[1.070111] (global_planner) StdoutLine: {'line': b'4: +int dubins_intermediate_results(\n'}
+[1.070211] (global_planner) StdoutLine: {'line': b'4: +  DubinsIntermediateResults * in, double q0[3], double q1[3],\n'}
+[1.070308] (global_planner) StdoutLine: {'line': b'4: +  double rho);\n'}
+[1.070401] (global_planner) StdoutLine: {'line': b'4: @@ -69,14 +71,56 @@\n'}
+[1.070492] (global_planner) StdoutLine: {'line': b'4: -double fmodr( double x, double y)\n'}
+[1.070592] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.070687] (global_planner) StdoutLine: {'line': b'4: -    return x - y*floor(x/y);\n'}
+[1.070779] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.070872] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.070971] (global_planner) StdoutLine: {'line': b'4: -double mod2pi( double theta )\n'}
+[1.071075] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.071183] (global_planner) StdoutLine: {'line': b'4: -    return fmodr( theta, 2 * M_PI );\n'}
+[1.071282] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.071407] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.071510] (global_planner) StdoutLine: {'line': b'4: -int dubins_shortest_path(DubinsPath* path, double q0[3], double q1[3], double rho)\n'}
+[1.071624] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.071724] (global_planner) StdoutLine: {'line': b'4: -    int i, errcode;\n'}
+[1.071869] (global_planner) StdoutLine: {'line': b'4: -    DubinsIntermediateResults in;\n'}
+[1.071985] (global_planner) StdoutLine: {'line': b'4: +double fmodr(double x, double y)\n'}
+[1.072101] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.072265] (global_planner) StdoutLine: {'line': b'4: +  return x - y * floor(x / y);\n'}
+[1.072376] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.072478] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.072578] (global_planner) StdoutLine: {'line': b'4: +double mod2pi(double theta)\n'}
+[1.072669] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.072767] (global_planner) StdoutLine: {'line': b'4: +  return fmodr(theta, 2 * M_PI);\n'}
+[1.072864] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.072958] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.073054] (global_planner) StdoutLine: {'line': b'4: +int dubins_shortest_path(DubinsPath * path, double q0[3], double q1[3], double rho)\n'}
+[1.073171] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.073275] (global_planner) StdoutLine: {'line': b'4: +  int i, errcode;\n'}
+[1.073389] (global_planner) StdoutLine: {'line': b'4: +  DubinsIntermediateResults in;\n'}
+[1.073488] (global_planner) StdoutLine: {'line': b'4: +  double params[3];\n'}
+[1.073592] (global_planner) StdoutLine: {'line': b'4: +  double cost;\n'}
+[1.073711] (global_planner) StdoutLine: {'line': b'4: +  double best_cost = INFINITY;\n'}
+[1.073845] (global_planner) StdoutLine: {'line': b'4: +  int best_word = -1;\n'}
+[1.073944] (global_planner) StdoutLine: {'line': b'4: +  errcode = dubins_intermediate_results(&in, q0, q1, rho);\n'}
+[1.074041] (global_planner) StdoutLine: {'line': b'4: +  if(errcode != EDUBOK) {\n'}
+[1.074156] (global_planner) StdoutLine: {'line': b'4: +    return errcode;\n'}
+[1.074254] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.074343] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.074458] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.074573] (global_planner) StdoutLine: {'line': b'4: +  path->qi[0] = q0[0];\n'}
+[1.074676] (global_planner) StdoutLine: {'line': b'4: +  path->qi[1] = q0[1];\n'}
+[1.074776] (global_planner) StdoutLine: {'line': b'4: +  path->qi[2] = q0[2];\n'}
+[1.074879] (global_planner) StdoutLine: {'line': b'4: +  path->rho = rho;\n'}
+[1.074984] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.075083] (global_planner) StdoutLine: {'line': b'4: +  for( i = 0; i < 6; i++ ) {\n'}
+[1.075184] (global_planner) StdoutLine: {'line': b'4: +    DubinsPathType pathType = (DubinsPathType)i;\n'}
+[1.075273] (global_planner) StdoutLine: {'line': b'4: +    errcode = dubins_word(&in, pathType, params);\n'}
+[1.075359] (global_planner) StdoutLine: {'line': b'4: +    if(errcode == EDUBOK) {\n'}
+[1.075448] (global_planner) StdoutLine: {'line': b'4: +      cost = params[0] + params[1] + params[2];\n'}
+[1.075541] (global_planner) StdoutLine: {'line': b'4: +      if(cost < best_cost) {\n'}
+[1.075640] (global_planner) StdoutLine: {'line': b'4: +        best_word = i;\n'}
+[1.075734] (global_planner) StdoutLine: {'line': b'4: +        best_cost = cost;\n'}
+[1.075854] (global_planner) StdoutLine: {'line': b'4: +        path->param[0] = params[0];\n'}
+[1.075959] (global_planner) StdoutLine: {'line': b'4: +        path->param[1] = params[1];\n'}
+[1.076052] (global_planner) StdoutLine: {'line': b'4: +        path->param[2] = params[2];\n'}
+[1.076201] (global_planner) StdoutLine: {'line': b'4: +        path->type = pathType;\n'}
+[1.076306] (global_planner) StdoutLine: {'line': b'4: +      }\n'}
+[1.076393] (global_planner) StdoutLine: {'line': b'4: +    }\n'}
+[1.076478] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.076578] (global_planner) StdoutLine: {'line': b'4: +  if(best_word == -1) {\n'}
+[1.076676] (global_planner) StdoutLine: {'line': b'4: +    return EDUBNOPATH;\n'}
+[1.076759] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.076842] (global_planner) StdoutLine: {'line': b'4: +  return EDUBOK;\n'}
+[1.076925] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.077009] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.077135] (global_planner) StdoutLine: {'line': b'4: +int dubins_path(DubinsPath * path, double q0[3], double q1[3], double rho, DubinsPathType pathType)\n'}
+[1.077245] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.077335] (global_planner) StdoutLine: {'line': b'4: +  int errcode;\n'}
+[1.077424] (global_planner) StdoutLine: {'line': b'4: +  DubinsIntermediateResults in;\n'}
+[1.077514] (global_planner) StdoutLine: {'line': b'4: +  errcode = dubins_intermediate_results(&in, q0, q1, rho);\n'}
+[1.077614] (global_planner) StdoutLine: {'line': b'4: +  if(errcode == EDUBOK) {\n'}
+[1.077703] (global_planner) StdoutLine: {'line': b'4: @@ -84,6 +128,10 @@\n'}
+[1.077807] (global_planner) StdoutLine: {'line': b'4: -    double cost;\n'}
+[1.077908] (global_planner) StdoutLine: {'line': b'4: -    double best_cost = INFINITY;\n'}
+[1.077997] (global_planner) StdoutLine: {'line': b'4: -    int best_word = -1;\n'}
+[1.078085] (global_planner) StdoutLine: {'line': b'4: -    errcode = dubins_intermediate_results(&in, q0, q1, rho);\n'}
+[1.078211] (global_planner) StdoutLine: {'line': b'4: -    if(errcode != EDUBOK) {\n'}
+[1.078288] (global_planner) StdoutLine: {'line': b'4: -        return errcode;\n'}
+[1.078353] (global_planner) StdoutLine: {'line': b'4: +    errcode = dubins_word(&in, pathType, params);\n'}
+[1.078476] (global_planner) StdoutLine: {'line': b'4: +    if(errcode == EDUBOK) {\n'}
+[1.078680] (global_planner) StdoutLine: {'line': b'4: +      path->param[0] = params[0];\n'}
+[1.078840] (global_planner) StdoutLine: {'line': b'4: +      path->param[1] = params[1];\n'}
+[1.078994] (global_planner) StdoutLine: {'line': b'4: +      path->param[2] = params[2];\n'}
+[1.079143] (global_planner) StdoutLine: {'line': b'4: +      path->qi[0] = q0[0];\n'}
+[1.079350] (global_planner) StdoutLine: {'line': b'4: +      path->qi[1] = q0[1];\n'}
+[1.079633] (global_planner) StdoutLine: {'line': b'4: +      path->qi[2] = q0[2];\n'}
+[1.079712] (global_planner) StdoutLine: {'line': b'4: +      path->rho = rho;\n'}
+[1.079778] (global_planner) StdoutLine: {'line': b'4: +      path->type = pathType;\n'}
+[1.079840] (global_planner) StdoutLine: {'line': b'4: @@ -91,21 +139,110 @@\n'}
+[1.079902] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.079962] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.080020] (global_planner) StdoutLine: {'line': b'4: -    path->qi[0] = q0[0];\n'}
+[1.080089] (global_planner) StdoutLine: {'line': b'4: -    path->qi[1] = q0[1];\n'}
+[1.080271] (global_planner) StdoutLine: {'line': b'4: -    path->qi[2] = q0[2];\n'}
+[1.080356] (global_planner) StdoutLine: {'line': b'4: -    path->rho = rho;\n'}
+[1.080420] (global_planner) StdoutLine: {'line': b'4: - \n'}
+[1.080489] (global_planner) StdoutLine: {'line': b'4: -    for( i = 0; i < 6; i++ ) {\n'}
+[1.080569] (global_planner) StdoutLine: {'line': b'4: -        DubinsPathType pathType = (DubinsPathType)i;\n'}
+[1.080645] (global_planner) StdoutLine: {'line': b'4: -        errcode = dubins_word(&in, pathType, params);\n'}
+[1.080707] (global_planner) StdoutLine: {'line': b'4: -        if(errcode == EDUBOK) {\n'}
+[1.080766] (global_planner) StdoutLine: {'line': b'4: -            cost = params[0] + params[1] + params[2];\n'}
+[1.080825] (global_planner) StdoutLine: {'line': b'4: -            if(cost < best_cost) {\n'}
+[1.080884] (global_planner) StdoutLine: {'line': b'4: -                best_word = i;\n'}
+[1.080941] (global_planner) StdoutLine: {'line': b'4: -                best_cost = cost;\n'}
+[1.080997] (global_planner) StdoutLine: {'line': b'4: -                path->param[0] = params[0];\n'}
+[1.081056] (global_planner) StdoutLine: {'line': b'4: -                path->param[1] = params[1];\n'}
+[1.081112] (global_planner) StdoutLine: {'line': b'4: -                path->param[2] = params[2];\n'}
+[1.081184] (global_planner) StdoutLine: {'line': b'4: -                path->type = pathType;\n'}
+[1.081242] (global_planner) StdoutLine: {'line': b'4: -            }\n'}
+[1.081300] (global_planner) StdoutLine: {'line': b'4: -        }\n'}
+[1.081358] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.081422] (global_planner) StdoutLine: {'line': b'4: +  return errcode;\n'}
+[1.081482] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.081539] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.081644] (global_planner) StdoutLine: {'line': b'4: +double dubins_path_length(DubinsPath * path)\n'}
+[1.081723] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.081789] (global_planner) StdoutLine: {'line': b'4: +  double length = 0.;\n'}
+[1.081881] (global_planner) StdoutLine: {'line': b'4: +  length += path->param[0];\n'}
+[1.081947] (global_planner) StdoutLine: {'line': b'4: +  length += path->param[1];\n'}
+[1.082004] (global_planner) StdoutLine: {'line': b'4: +  length += path->param[2];\n'}
+[1.082063] (global_planner) StdoutLine: {'line': b'4: +  length = length * path->rho;\n'}
+[1.082121] (global_planner) StdoutLine: {'line': b'4: +  return length;\n'}
+[1.082177] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.082238] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.082292] (global_planner) StdoutLine: {'line': b'4: +double dubins_segment_length(DubinsPath * path, int i)\n'}
+[1.082350] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.082407] (global_planner) StdoutLine: {'line': b'4: +  if( (i < 0) || (i > 2) ) {\n'}
+[1.082464] (global_planner) StdoutLine: {'line': b'4: +    return INFINITY;\n'}
+[1.082523] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.082578] (global_planner) StdoutLine: {'line': b'4: +  return path->param[i] * path->rho;\n'}
+[1.082636] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.082701] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.082764] (global_planner) StdoutLine: {'line': b'4: +double dubins_segment_length_normalized(DubinsPath * path, int i)\n'}
+[1.082825] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.082880] (global_planner) StdoutLine: {'line': b'4: +  if( (i < 0) || (i > 2) ) {\n'}
+[1.082937] (global_planner) StdoutLine: {'line': b'4: +    return INFINITY;\n'}
+[1.082990] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.083073] (global_planner) StdoutLine: {'line': b'4: +  return path->param[i];\n'}
+[1.083133] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.083194] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.083267] (global_planner) StdoutLine: {'line': b'4: +DubinsPathType dubins_path_type(DubinsPath * path)\n'}
+[1.083331] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.083387] (global_planner) StdoutLine: {'line': b'4: +  return path->type;\n'}
+[1.083455] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.083517] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.083575] (global_planner) StdoutLine: {'line': b'4: +void dubins_segment(double t, double qi[3], double qt[3], SegmentType type)\n'}
+[1.083634] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.083690] (global_planner) StdoutLine: {'line': b'4: +  double st = sin(qi[2]);\n'}
+[1.083750] (global_planner) StdoutLine: {'line': b'4: +  double ct = cos(qi[2]);\n'}
+[1.083807] (global_planner) StdoutLine: {'line': b'4: +  if(type == L_SEG) {\n'}
+[1.083906] (global_planner) StdoutLine: {'line': b'4: +    qt[0] = +sin(qi[2] + t) - st;\n'}
+[1.083969] (global_planner) StdoutLine: {'line': b'4: +    qt[1] = -cos(qi[2] + t) + ct;\n'}
+[1.084029] (global_planner) StdoutLine: {'line': b'4: +    qt[2] = t;\n'}
+[1.084087] (global_planner) StdoutLine: {'line': b'4: +  } else if(type == R_SEG) {\n'}
+[1.084183] (global_planner) StdoutLine: {'line': b'4: +    qt[0] = -sin(qi[2] - t) + st;\n'}
+[1.084270] (global_planner) StdoutLine: {'line': b'4: +    qt[1] = +cos(qi[2] - t) - ct;\n'}
+[1.084331] (global_planner) StdoutLine: {'line': b'4: +    qt[2] = -t;\n'}
+[1.084394] (global_planner) StdoutLine: {'line': b'4: +  } else if(type == S_SEG) {\n'}
+[1.084451] (global_planner) StdoutLine: {'line': b'4: +    qt[0] = ct * t;\n'}
+[1.084509] (global_planner) StdoutLine: {'line': b'4: +    qt[1] = st * t;\n'}
+[1.084568] (global_planner) StdoutLine: {'line': b'4: +    qt[2] = 0.0;\n'}
+[1.084622] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.084681] (global_planner) StdoutLine: {'line': b'4: +  qt[0] += qi[0];\n'}
+[1.084746] (global_planner) StdoutLine: {'line': b'4: +  qt[1] += qi[1];\n'}
+[1.084802] (global_planner) StdoutLine: {'line': b'4: +  qt[2] += qi[2];\n'}
+[1.084859] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.084916] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.084975] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_sample(DubinsPath * path, double t, double q[3])\n'}
+[1.085031] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.085087] (global_planner) StdoutLine: {'line': b'4: +    /* tprime is the normalised variant of the parameter t */\n'}
+[1.085160] (global_planner) StdoutLine: {'line': b'4: +  double tprime = t / path->rho;\n'}
+[1.085218] (global_planner) StdoutLine: {'line': b'4: +  double qi[3];   /* The translated initial configuration */\n'}
+[1.085279] (global_planner) StdoutLine: {'line': b'4: +  double q1[3];   /* end-of segment 1 */\n'}
+[1.085334] (global_planner) StdoutLine: {'line': b'4: +  double q2[3];   /* end-of segment 2 */\n'}
+[1.085392] (global_planner) StdoutLine: {'line': b'4: +  const SegmentType * types = DIRDATA[path->type];\n'}
+[1.085448] (global_planner) StdoutLine: {'line': b'4: +  double p1, p2;\n'}
+[1.085506] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.085564] (global_planner) StdoutLine: {'line': b'4: +  if(t < 0 || t > dubins_path_length(path) ) {\n'}
+[1.085620] (global_planner) StdoutLine: {'line': b'4: +    return EDUBPARAM;\n'}
+[1.085677] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.085736] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.085793] (global_planner) StdoutLine: {'line': b'4: +    /* initial configuration */\n'}
+[1.085875] (global_planner) StdoutLine: {'line': b'4: +  qi[0] = 0.0;\n'}
+[1.085943] (global_planner) StdoutLine: {'line': b'4: +  qi[1] = 0.0;\n'}
+[1.086003] (global_planner) StdoutLine: {'line': b'4: +  qi[2] = path->qi[2];\n'}
+[1.086061] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.086118] (global_planner) StdoutLine: {'line': b'4: +    /* generate the target configuration */\n'}
+[1.086212] (global_planner) StdoutLine: {'line': b'4: +  p1 = path->param[0];\n'}
+[1.086300] (global_planner) StdoutLine: {'line': b'4: +  p2 = path->param[1];\n'}
+[1.086427] (global_planner) StdoutLine: {'line': b'4: +  dubins_segment(p1, qi, q1, types[0]);\n'}
+[1.086747] (global_planner) StdoutLine: {'line': b'4: +  dubins_segment(p2, q1, q2, types[1]);\n'}
+[1.086859] (global_planner) StdoutLine: {'line': b'4: +  if(tprime < p1) {\n'}
+[1.086932] (global_planner) StdoutLine: {'line': b'4: +    dubins_segment(tprime, qi, q, types[0]);\n'}
+[1.086995] (global_planner) StdoutLine: {'line': b'4: +  } else if(tprime < (p1 + p2) ) {\n'}
+[1.087058] (global_planner) StdoutLine: {'line': b'4: +    dubins_segment(tprime - p1, q1, q, types[1]);\n'}
+[1.087119] (global_planner) StdoutLine: {'line': b'4: +  } else {\n'}
+[1.087200] (global_planner) StdoutLine: {'line': b'4: +    dubins_segment(tprime - p1 - p2, q2, q, types[2]);\n'}
+[1.087286] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.087353] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.087414] (global_planner) StdoutLine: {'line': b'4: +    /* scale the target configuration, translate back to the original starting point */\n'}
+[1.087493] (global_planner) StdoutLine: {'line': b'4: +  q[0] = q[0] * path->rho + path->qi[0];\n'}
+[1.087555] (global_planner) StdoutLine: {'line': b'4: +  q[1] = q[1] * path->rho + path->qi[1];\n'}
+[1.087620] (global_planner) StdoutLine: {'line': b'4: +  q[2] = mod2pi(q[2]);\n'}
+[1.087680] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.087739] (global_planner) StdoutLine: {'line': b'4: +  return EDUBOK;\n'}
+[1.087798] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.087854] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.087915] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_sample_many(\n'}
+[1.087981] (global_planner) StdoutLine: {'line': b'4: +  DubinsPath * path, double stepSize,\n'}
+[1.088079] (global_planner) StdoutLine: {'line': b'4: +  DubinsPathSamplingCallback cb, void * user_data)\n'}
+[1.088238] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.088311] (global_planner) StdoutLine: {'line': b'4: +  int retcode;\n'}
+[1.088377] (global_planner) StdoutLine: {'line': b'4: +  double q[3];\n'}
+[1.088442] (global_planner) StdoutLine: {'line': b'4: +  double x = 0.0;\n'}
+[1.088501] (global_planner) StdoutLine: {'line': b'4: +  double length = dubins_path_length(path);\n'}
+[1.088561] (global_planner) StdoutLine: {'line': b'4: +  while(x < length) {\n'}
+[1.088617] (global_planner) StdoutLine: {'line': b'4: +    dubins_path_sample(path, x, q);\n'}
+[1.088690] (global_planner) StdoutLine: {'line': b'4: +    retcode = cb(q, x, user_data);\n'}
+[1.088768] (global_planner) StdoutLine: {'line': b'4: +    if(retcode != 0) {\n'}
+[1.088837] (global_planner) StdoutLine: {'line': b'4: +      return retcode;\n'}
+[1.088895] (global_planner) StdoutLine: {'line': b'4: @@ -113,151 +250,11 @@\n'}
+[1.088955] (global_planner) StdoutLine: {'line': b'4: -    if(best_word == -1) {\n'}
+[1.089079] (global_planner) StdoutLine: {'line': b'4: -        return EDUBNOPATH;\n'}
+[1.089144] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.089243] (global_planner) StdoutLine: {'line': b'4: -    return EDUBOK;\n'}
+[1.089312] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.089376] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.089437] (global_planner) StdoutLine: {'line': b'4: -int dubins_path(DubinsPath* path, double q0[3], double q1[3], double rho, DubinsPathType pathType)\n'}
+[1.089496] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.089571] (global_planner) StdoutLine: {'line': b'4: -    int errcode;\n'}
+[1.089635] (global_planner) StdoutLine: {'line': b'4: -    DubinsIntermediateResults in;\n'}
+[1.089704] (global_planner) StdoutLine: {'line': b'4: -    errcode = dubins_intermediate_results(&in, q0, q1, rho);\n'}
+[1.089766] (global_planner) StdoutLine: {'line': b'4: -    if(errcode == EDUBOK) {\n'}
+[1.089822] (global_planner) StdoutLine: {'line': b'4: -        double params[3];\n'}
+[1.089882] (global_planner) StdoutLine: {'line': b'4: -        errcode = dubins_word(&in, pathType, params);\n'}
+[1.089940] (global_planner) StdoutLine: {'line': b'4: -        if(errcode == EDUBOK) {\n'}
+[1.089997] (global_planner) StdoutLine: {'line': b'4: -            path->param[0] = params[0];\n'}
+[1.090054] (global_planner) StdoutLine: {'line': b'4: -            path->param[1] = params[1];\n'}
+[1.090110] (global_planner) StdoutLine: {'line': b'4: -            path->param[2] = params[2];\n'}
+[1.090166] (global_planner) StdoutLine: {'line': b'4: -            path->qi[0] = q0[0];\n'}
+[1.090224] (global_planner) StdoutLine: {'line': b'4: -            path->qi[1] = q0[1];\n'}
+[1.090280] (global_planner) StdoutLine: {'line': b'4: -            path->qi[2] = q0[2];\n'}
+[1.090337] (global_planner) StdoutLine: {'line': b'4: -            path->rho = rho;\n'}
+[1.090393] (global_planner) StdoutLine: {'line': b'4: -            path->type = pathType;\n'}
+[1.090448] (global_planner) StdoutLine: {'line': b'4: -        }\n'}
+[1.090509] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.090579] (global_planner) StdoutLine: {'line': b'4: -    return errcode;\n'}
+[1.090639] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.090695] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.090752] (global_planner) StdoutLine: {'line': b'4: -double dubins_path_length( DubinsPath* path )\n'}
+[1.090811] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.090873] (global_planner) StdoutLine: {'line': b'4: -    double length = 0.;\n'}
+[1.090955] (global_planner) StdoutLine: {'line': b'4: -    length += path->param[0];\n'}
+[1.091029] (global_planner) StdoutLine: {'line': b'4: -    length += path->param[1];\n'}
+[1.091089] (global_planner) StdoutLine: {'line': b'4: -    length += path->param[2];\n'}
+[1.091149] (global_planner) StdoutLine: {'line': b'4: -    length = length * path->rho;\n'}
+[1.091206] (global_planner) StdoutLine: {'line': b'4: -    return length;\n'}
+[1.091264] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.091321] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.091388] (global_planner) StdoutLine: {'line': b'4: -double dubins_segment_length( DubinsPath* path, int i )\n'}
+[1.091446] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.091518] (global_planner) StdoutLine: {'line': b'4: -    if( (i < 0) || (i > 2) )\n'}
+[1.091578] (global_planner) StdoutLine: {'line': b'4: -    {\n'}
+[1.091633] (global_planner) StdoutLine: {'line': b'4: -        return INFINITY;\n'}
+[1.091693] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.091747] (global_planner) StdoutLine: {'line': b'4: -    return path->param[i] * path->rho;\n'}
+[1.091804] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.091859] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.091914] (global_planner) StdoutLine: {'line': b'4: -double dubins_segment_length_normalized( DubinsPath* path, int i )\n'}
+[1.091974] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.092032] (global_planner) StdoutLine: {'line': b'4: -    if( (i < 0) || (i > 2) )\n'}
+[1.092090] (global_planner) StdoutLine: {'line': b'4: -    {\n'}
+[1.092212] (global_planner) StdoutLine: {'line': b'4: -        return INFINITY;\n'}
+[1.092353] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.092443] (global_planner) StdoutLine: {'line': b'4: -    return path->param[i];\n'}
+[1.092510] (global_planner) StdoutLine: {'line': b'4: -} \n'}
+[1.092573] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.092768] (global_planner) StdoutLine: {'line': b'4: -DubinsPathType dubins_path_type( DubinsPath* path ) \n'}
+[1.092844] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.093082] (global_planner) StdoutLine: {'line': b'4: -    return path->type;\n'}
+[1.093205] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.093317] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.093433] (global_planner) StdoutLine: {'line': b'4: -void dubins_segment( double t, double qi[3], double qt[3], SegmentType type)\n'}
+[1.093566] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.093671] (global_planner) StdoutLine: {'line': b'4: -    double st = sin(qi[2]);\n'}
+[1.093771] (global_planner) StdoutLine: {'line': b'4: -    double ct = cos(qi[2]);\n'}
+[1.093869] (global_planner) StdoutLine: {'line': b'4: -    if( type == L_SEG ) {\n'}
+[1.094007] (global_planner) StdoutLine: {'line': b'4: -        qt[0] = +sin(qi[2]+t) - st;\n'}
+[1.094113] (global_planner) StdoutLine: {'line': b'4: -        qt[1] = -cos(qi[2]+t) + ct;\n'}
+[1.094215] (global_planner) StdoutLine: {'line': b'4: -        qt[2] = t;\n'}
+[1.094332] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.094431] (global_planner) StdoutLine: {'line': b'4: -    else if( type == R_SEG ) {\n'}
+[1.094533] (global_planner) StdoutLine: {'line': b'4: -        qt[0] = -sin(qi[2]-t) + st;\n'}
+[1.094623] (global_planner) StdoutLine: {'line': b'4: -        qt[1] = +cos(qi[2]-t) - ct;\n'}
+[1.094727] (global_planner) StdoutLine: {'line': b'4: -        qt[2] = -t;\n'}
+[1.094836] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.094937] (global_planner) StdoutLine: {'line': b'4: -    else if( type == S_SEG ) {\n'}
+[1.095047] (global_planner) StdoutLine: {'line': b'4: -        qt[0] = ct * t;\n'}
+[1.095158] (global_planner) StdoutLine: {'line': b'4: -        qt[1] = st * t;\n'}
+[1.095263] (global_planner) StdoutLine: {'line': b'4: -        qt[2] = 0.0;\n'}
+[1.095362] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.095468] (global_planner) StdoutLine: {'line': b'4: -    qt[0] += qi[0];\n'}
+[1.095567] (global_planner) StdoutLine: {'line': b'4: -    qt[1] += qi[1];\n'}
+[1.095671] (global_planner) StdoutLine: {'line': b'4: -    qt[2] += qi[2];\n'}
+[1.095771] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.095872] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.096037] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_sample( DubinsPath* path, double t, double q[3] )\n'}
+[1.096182] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.096286] (global_planner) StdoutLine: {'line': b'4: -    /* tprime is the normalised variant of the parameter t */\n'}
+[1.096366] (global_planner) StdoutLine: {'line': b'4: -    double tprime = t / path->rho;\n'}
+[1.096439] (global_planner) StdoutLine: {'line': b'4: -    double qi[3]; /* The translated initial configuration */\n'}
+[1.096516] (global_planner) StdoutLine: {'line': b'4: -    double q1[3]; /* end-of segment 1 */\n'}
+[1.096578] (global_planner) StdoutLine: {'line': b'4: -    double q2[3]; /* end-of segment 2 */\n'}
+[1.096641] (global_planner) StdoutLine: {'line': b'4: -    const SegmentType* types = DIRDATA[path->type];\n'}
+[1.096701] (global_planner) StdoutLine: {'line': b'4: -    double p1, p2;\n'}
+[1.096762] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.096818] (global_planner) StdoutLine: {'line': b'4: -    if( t < 0 || t > dubins_path_length(path) ) {\n'}
+[1.096879] (global_planner) StdoutLine: {'line': b'4: -        return EDUBPARAM;\n'}
+[1.096937] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.096993] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.097052] (global_planner) StdoutLine: {'line': b'4: -    /* initial configuration */\n'}
+[1.097109] (global_planner) StdoutLine: {'line': b'4: -    qi[0] = 0.0;\n'}
+[1.097166] (global_planner) StdoutLine: {'line': b'4: -    qi[1] = 0.0;\n'}
+[1.097223] (global_planner) StdoutLine: {'line': b'4: -    qi[2] = path->qi[2];\n'}
+[1.097279] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.097337] (global_planner) StdoutLine: {'line': b'4: -    /* generate the target configuration */\n'}
+[1.097395] (global_planner) StdoutLine: {'line': b'4: -    p1 = path->param[0];\n'}
+[1.097457] (global_planner) StdoutLine: {'line': b'4: -    p2 = path->param[1];\n'}
+[1.097525] (global_planner) StdoutLine: {'line': b'4: -    dubins_segment( p1,      qi,    q1, types[0] );\n'}
+[1.097583] (global_planner) StdoutLine: {'line': b'4: -    dubins_segment( p2,      q1,    q2, types[1] );\n'}
+[1.097641] (global_planner) StdoutLine: {'line': b'4: -    if( tprime < p1 ) {\n'}
+[1.097697] (global_planner) StdoutLine: {'line': b'4: -        dubins_segment( tprime, qi, q, types[0] );\n'}
+[1.097760] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.097819] (global_planner) StdoutLine: {'line': b'4: -    else if( tprime < (p1+p2) ) {\n'}
+[1.097877] (global_planner) StdoutLine: {'line': b'4: -        dubins_segment( tprime-p1, q1, q,  types[1] );\n'}
+[1.097955] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.098028] (global_planner) StdoutLine: {'line': b'4: -    else {\n'}
+[1.098091] (global_planner) StdoutLine: {'line': b'4: -        dubins_segment( tprime-p1-p2, q2, q,  types[2] );\n'}
+[1.098149] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.098209] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.098267] (global_planner) StdoutLine: {'line': b'4: -    /* scale the target configuration, translate back to the original starting point */\n'}
+[1.098386] (global_planner) StdoutLine: {'line': b'4: -    q[0] = q[0] * path->rho + path->qi[0];\n'}
+[1.098464] (global_planner) StdoutLine: {'line': b'4: -    q[1] = q[1] * path->rho + path->qi[1];\n'}
+[1.098555] (global_planner) StdoutLine: {'line': b'4: -    q[2] = mod2pi(q[2]);\n'}
+[1.098617] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.098692] (global_planner) StdoutLine: {'line': b'4: -    return EDUBOK;\n'}
+[1.098753] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.098835] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.098893] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_sample_many(DubinsPath* path, double stepSize, \n'}
+[1.098968] (global_planner) StdoutLine: {'line': b'4: -                            DubinsPathSamplingCallback cb, void* user_data)\n'}
+[1.099038] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.099099] (global_planner) StdoutLine: {'line': b'4: -    int retcode;\n'}
+[1.099157] (global_planner) StdoutLine: {'line': b'4: -    double q[3];\n'}
+[1.099216] (global_planner) StdoutLine: {'line': b'4: -    double x = 0.0;\n'}
+[1.099274] (global_planner) StdoutLine: {'line': b'4: -    double length = dubins_path_length(path);\n'}
+[1.099335] (global_planner) StdoutLine: {'line': b'4: -    while( x <  length ) {\n'}
+[1.099399] (global_planner) StdoutLine: {'line': b'4: -        dubins_path_sample( path, x, q );\n'}
+[1.099468] (global_planner) StdoutLine: {'line': b'4: -        retcode = cb(q, x, user_data);\n'}
+[1.099533] (global_planner) StdoutLine: {'line': b'4: -        if( retcode != 0 ) {\n'}
+[1.099593] (global_planner) StdoutLine: {'line': b'4: -            return retcode;\n'}
+[1.099648] (global_planner) StdoutLine: {'line': b'4: -        }\n'}
+[1.099705] (global_planner) StdoutLine: {'line': b'4: -        x += stepSize;\n'}
+[1.099763] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.099818] (global_planner) StdoutLine: {'line': b'4: -    return 0;\n'}
+[1.099875] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.099931] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.100032] (global_planner) StdoutLine: {'line': b'4: -int dubins_path_endpoint( DubinsPath* path, double q[3] )\n'}
+[1.100098] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.100210] (global_planner) StdoutLine: {'line': b'4: -    return dubins_path_sample( path, dubins_path_length(path) - EPSILON, q );\n'}
+[1.100277] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.100336] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.100395] (global_planner) StdoutLine: {'line': b'4: -int dubins_extract_subpath( DubinsPath* path, double t, DubinsPath* newpath )\n'}
+[1.100470] (global_planner) StdoutLine: {'line': b'4: +    x += stepSize;\n'}
+[1.100538] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.100595] (global_planner) StdoutLine: {'line': b'4: +  return 0;\n'}
+[1.100653] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.100711] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.100767] (global_planner) StdoutLine: {'line': b'4: +int dubins_path_endpoint(DubinsPath * path, double q[3])\n'}
+[1.100827] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.100883] (global_planner) StdoutLine: {'line': b'4: +  return dubins_path_sample(path, dubins_path_length(path) - EPSILON, q);\n'}
+[1.100942] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.100997] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.101053] (global_planner) StdoutLine: {'line': b'4: +int dubins_extract_subpath(DubinsPath * path, double t, DubinsPath * newpath)\n'}
+[1.101111] (global_planner) StdoutLine: {'line': b'4: @@ -266,6 +263,5 @@\n'}
+[1.101176] (global_planner) StdoutLine: {'line': b'4: -    double tprime = t / path->rho;\n'}
+[1.101243] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.101299] (global_planner) StdoutLine: {'line': b'4: -    if((t < 0) || (t > dubins_path_length(path)))\n'}
+[1.101356] (global_planner) StdoutLine: {'line': b'4: -    {\n'}
+[1.101410] (global_planner) StdoutLine: {'line': b'4: -        return EDUBPARAM; \n'}
+[1.101467] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.101525] (global_planner) StdoutLine: {'line': b'4: +  double tprime = t / path->rho;\n'}
+[1.101580] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.101638] (global_planner) StdoutLine: {'line': b'4: +  if((t < 0) || (t > dubins_path_length(path))) {\n'}
+[1.101694] (-) TimerEvent: {}
+[1.101792] (global_planner) StdoutLine: {'line': b'4: +    return EDUBPARAM;\n'}
+[1.101878] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.101974] (global_planner) StdoutLine: {'line': b'4: @@ -274,5 +270,5 @@\n'}
+[1.102072] (global_planner) StdoutLine: {'line': b'4: -    newpath->qi[0] = path->qi[0];\n'}
+[1.102141] (global_planner) StdoutLine: {'line': b'4: -    newpath->qi[1] = path->qi[1];\n'}
+[1.102259] (global_planner) StdoutLine: {'line': b'4: -    newpath->qi[2] = path->qi[2];\n'}
+[1.102321] (global_planner) StdoutLine: {'line': b'4: -    newpath->rho   = path->rho;\n'}
+[1.102378] (global_planner) StdoutLine: {'line': b'4: -    newpath->type  = path->type;\n'}
+[1.102481] (global_planner) StdoutLine: {'line': b'4: +  newpath->qi[0] = path->qi[0];\n'}
+[1.102593] (global_planner) StdoutLine: {'line': b'4: +  newpath->qi[1] = path->qi[1];\n'}
+[1.102675] (global_planner) StdoutLine: {'line': b'4: +  newpath->qi[2] = path->qi[2];\n'}
+[1.102745] (global_planner) StdoutLine: {'line': b'4: +  newpath->rho = path->rho;\n'}
+[1.102805] (global_planner) StdoutLine: {'line': b'4: +  newpath->type = path->type;\n'}
+[1.102864] (global_planner) StdoutLine: {'line': b'4: @@ -281,18 +277,20 @@\n'}
+[1.102919] (global_planner) StdoutLine: {'line': b'4: -    newpath->param[0] = fmin( path->param[0], tprime );\n'}
+[1.102980] (global_planner) StdoutLine: {'line': b'4: -    newpath->param[1] = fmin( path->param[1], tprime - newpath->param[0]);\n'}
+[1.103038] (global_planner) StdoutLine: {'line': b'4: -    newpath->param[2] = fmin( path->param[2], tprime - newpath->param[0] - newpath->param[1]);\n'}
+[1.103096] (global_planner) StdoutLine: {'line': b'4: -    return 0;\n'}
+[1.103153] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.103231] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.103304] (global_planner) StdoutLine: {'line': b'4: -int dubins_intermediate_results(DubinsIntermediateResults* in, double q0[3], double q1[3], double rho)\n'}
+[1.103376] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.103440] (global_planner) StdoutLine: {'line': b'4: -    double dx, dy, D, d, theta, alpha, beta;\n'}
+[1.103497] (global_planner) StdoutLine: {'line': b'4: -    if( rho <= 0.0 ) {\n'}
+[1.103569] (global_planner) StdoutLine: {'line': b'4: -        return EDUBBADRHO;\n'}
+[1.103647] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.103706] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.103763] (global_planner) StdoutLine: {'line': b'4: -    dx = q1[0] - q0[0];\n'}
+[1.103820] (global_planner) StdoutLine: {'line': b'4: -    dy = q1[1] - q0[1];\n'}
+[1.103878] (global_planner) StdoutLine: {'line': b'4: -    D = sqrt( dx * dx + dy * dy );\n'}
+[1.103935] (global_planner) StdoutLine: {'line': b'4: -    d = D / rho;\n'}
+[1.104024] (global_planner) StdoutLine: {'line': b'4: -    theta = 0;\n'}
+[1.104087] (global_planner) StdoutLine: {'line': b'4: +  newpath->param[0] = fmin(path->param[0], tprime);\n'}
+[1.104267] (global_planner) StdoutLine: {'line': b'4: +  newpath->param[1] = fmin(path->param[1], tprime - newpath->param[0]);\n'}
+[1.104385] (global_planner) StdoutLine: {'line': b'4: +  newpath->param[2] = fmin(path->param[2], tprime - newpath->param[0] - newpath->param[1]);\n'}
+[1.104500] (global_planner) StdoutLine: {'line': b'4: +  return 0;\n'}
+[1.104604] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.104702] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.104880] (global_planner) StdoutLine: {'line': b'4: +int dubins_intermediate_results(\n'}
+[1.104959] (global_planner) StdoutLine: {'line': b'4: +  DubinsIntermediateResults * in, double q0[3], double q1[3],\n'}
+[1.105029] (global_planner) StdoutLine: {'line': b'4: +  double rho)\n'}
+[1.105089] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.105151] (global_planner) StdoutLine: {'line': b'4: +  double dx, dy, D, d, theta, alpha, beta;\n'}
+[1.105225] (global_planner) StdoutLine: {'line': b'4: +  if(rho <= 0.0) {\n'}
+[1.105287] (global_planner) StdoutLine: {'line': b'4: +    return EDUBBADRHO;\n'}
+[1.105366] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.105452] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.105551] (global_planner) StdoutLine: {'line': b'4: +  dx = q1[0] - q0[0];\n'}
+[1.105616] (global_planner) StdoutLine: {'line': b'4: +  dy = q1[1] - q0[1];\n'}
+[1.105676] (global_planner) StdoutLine: {'line': b'4: +  D = sqrt(dx * dx + dy * dy);\n'}
+[1.105735] (global_planner) StdoutLine: {'line': b'4: +  d = D / rho;\n'}
+[1.105797] (global_planner) StdoutLine: {'line': b'4: +  theta = 0;\n'}
+[1.105859] (global_planner) StdoutLine: {'line': b'4: @@ -301,114 +299,113 @@\n'}
+[1.105955] (global_planner) StdoutLine: {'line': b'4: -    if(d > 0) {\n'}
+[1.106026] (global_planner) StdoutLine: {'line': b'4: -        theta = mod2pi(atan2( dy, dx ));\n'}
+[1.106090] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.106150] (global_planner) StdoutLine: {'line': b'4: -    alpha = mod2pi(q0[2] - theta);\n'}
+[1.106207] (global_planner) StdoutLine: {'line': b'4: -    beta  = mod2pi(q1[2] - theta);\n'}
+[1.106279] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.106343] (global_planner) StdoutLine: {'line': b'4: -    in->alpha = alpha;\n'}
+[1.106404] (global_planner) StdoutLine: {'line': b'4: -    in->beta  = beta;\n'}
+[1.106462] (global_planner) StdoutLine: {'line': b'4: -    in->d     = d;\n'}
+[1.106528] (global_planner) StdoutLine: {'line': b'4: -    in->sa    = sin(alpha);\n'}
+[1.106602] (global_planner) StdoutLine: {'line': b'4: -    in->sb    = sin(beta);\n'}
+[1.106663] (global_planner) StdoutLine: {'line': b'4: -    in->ca    = cos(alpha);\n'}
+[1.106723] (global_planner) StdoutLine: {'line': b'4: -    in->cb    = cos(beta);\n'}
+[1.106782] (global_planner) StdoutLine: {'line': b'4: -    in->c_ab  = cos(alpha - beta);\n'}
+[1.106847] (global_planner) StdoutLine: {'line': b'4: -    in->d_sq  = d * d;\n'}
+[1.106918] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.107025] (global_planner) StdoutLine: {'line': b'4: -    return EDUBOK;\n'}
+[1.107105] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.107174] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.107247] (global_planner) StdoutLine: {'line': b'4: -int dubins_LSL(DubinsIntermediateResults* in, double out[3]) \n'}
+[1.107313] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.107386] (global_planner) StdoutLine: {'line': b'4: -    double tmp0, tmp1, p_sq;\n'}
+[1.107445] (global_planner) StdoutLine: {'line': b'4: -    \n'}
+[1.107505] (global_planner) StdoutLine: {'line': b'4: -    tmp0 = in->d + in->sa - in->sb;\n'}
+[1.107567] (global_planner) StdoutLine: {'line': b'4: -    p_sq = 2 + in->d_sq - (2*in->c_ab) + (2 * in->d * (in->sa - in->sb));\n'}
+[1.107627] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.107684] (global_planner) StdoutLine: {'line': b'4: -    if(p_sq >= 0) {\n'}
+[1.107744] (global_planner) StdoutLine: {'line': b'4: -        tmp1 = atan2( (in->cb - in->ca), tmp0 );\n'}
+[1.107801] (global_planner) StdoutLine: {'line': b'4: -        out[0] = mod2pi(tmp1 - in->alpha);\n'}
+[1.107857] (global_planner) StdoutLine: {'line': b'4: -        out[1] = sqrt(p_sq);\n'}
+[1.107959] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(in->beta - tmp1);\n'}
+[1.108027] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.108088] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.108237] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.108312] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.108376] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.108440] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.108499] (global_planner) StdoutLine: {'line': b'4: -int dubins_RSR(DubinsIntermediateResults* in, double out[3]) \n'}
+[1.108556] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.108616] (global_planner) StdoutLine: {'line': b'4: -    double tmp0 = in->d - in->sa + in->sb;\n'}
+[1.108692] (global_planner) StdoutLine: {'line': b'4: -    double p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sb - in->sa));\n'}
+[1.108821] (global_planner) StdoutLine: {'line': b'4: -    if( p_sq >= 0 ) {\n'}
+[1.108892] (global_planner) StdoutLine: {'line': b'4: -        double tmp1 = atan2( (in->ca - in->cb), tmp0 );\n'}
+[1.108951] (global_planner) StdoutLine: {'line': b'4: -        out[0] = mod2pi(in->alpha - tmp1);\n'}
+[1.109009] (global_planner) StdoutLine: {'line': b'4: -        out[1] = sqrt(p_sq);\n'}
+[1.109082] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(tmp1 -in->beta);\n'}
+[1.109140] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.109203] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.109275] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.109339] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.109430] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.109520] (global_planner) StdoutLine: {'line': b'4: -int dubins_LSR(DubinsIntermediateResults* in, double out[3]) \n'}
+[1.109607] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.109690] (global_planner) StdoutLine: {'line': b'4: -    double p_sq = -2 + (in->d_sq) + (2 * in->c_ab) + (2 * in->d * (in->sa + in->sb));\n'}
+[1.109785] (global_planner) StdoutLine: {'line': b'4: -    if( p_sq >= 0 ) {\n'}
+[1.109871] (global_planner) StdoutLine: {'line': b'4: -        double p    = sqrt(p_sq);\n'}
+[1.109993] (global_planner) StdoutLine: {'line': b'4: -        double tmp0 = atan2( (-in->ca - in->cb), (in->d + in->sa + in->sb) ) - atan2(-2.0, p);\n'}
+[1.110084] (global_planner) StdoutLine: {'line': b'4: -        out[0] = mod2pi(tmp0 - in->alpha);\n'}
+[1.110165] (global_planner) StdoutLine: {'line': b'4: -        out[1] = p;\n'}
+[1.110229] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(tmp0 - mod2pi(in->beta));\n'}
+[1.110291] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.110359] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.110458] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.110527] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.110604] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.110669] (global_planner) StdoutLine: {'line': b'4: -int dubins_RSL(DubinsIntermediateResults* in, double out[3]) \n'}
+[1.110751] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.110819] (global_planner) StdoutLine: {'line': b'4: -    double p_sq = -2 + in->d_sq + (2 * in->c_ab) - (2 * in->d * (in->sa + in->sb));\n'}
+[1.110923] (global_planner) StdoutLine: {'line': b'4: -    if( p_sq >= 0 ) {\n'}
+[1.110989] (global_planner) StdoutLine: {'line': b'4: -        double p    = sqrt(p_sq);\n'}
+[1.111057] (global_planner) StdoutLine: {'line': b'4: -        double tmp0 = atan2( (in->ca + in->cb), (in->d - in->sa - in->sb) ) - atan2(2.0, p);\n'}
+[1.111120] (global_planner) StdoutLine: {'line': b'4: -        out[0] = mod2pi(in->alpha - tmp0);\n'}
+[1.111180] (global_planner) StdoutLine: {'line': b'4: -        out[1] = p;\n'}
+[1.111250] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(in->beta - tmp0);\n'}
+[1.111312] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.111371] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.111429] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.111485] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.111545] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.111618] (global_planner) StdoutLine: {'line': b'4: -int dubins_RLR(DubinsIntermediateResults* in, double out[3]) \n'}
+[1.111692] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.111756] (global_planner) StdoutLine: {'line': b'4: -    double tmp0 = (6. - in->d_sq + 2*in->c_ab + 2*in->d*(in->sa - in->sb)) / 8.;\n'}
+[1.111831] (global_planner) StdoutLine: {'line': b'4: -    double phi  = atan2( in->ca - in->cb, in->d - in->sa + in->sb );\n'}
+[1.111889] (global_planner) StdoutLine: {'line': b'4: -    if( fabs(tmp0) <= 1) {\n'}
+[1.111979] (global_planner) StdoutLine: {'line': b'4: -        double p = mod2pi((2*M_PI) - acos(tmp0) );\n'}
+[1.112044] (global_planner) StdoutLine: {'line': b'4: -        double t = mod2pi(in->alpha - phi + mod2pi(p/2.));\n'}
+[1.112106] (global_planner) StdoutLine: {'line': b'4: -        out[0] = t;\n'}
+[1.112220] (global_planner) StdoutLine: {'line': b'4: -        out[1] = p;\n'}
+[1.112287] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(in->alpha - in->beta - t + mod2pi(p));\n'}
+[1.112351] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.112410] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.112470] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.112526] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.112587] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.112660] (global_planner) StdoutLine: {'line': b'4: -int dubins_LRL(DubinsIntermediateResults* in, double out[3])\n'}
+[1.112718] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.112778] (global_planner) StdoutLine: {'line': b'4: -    double tmp0 = (6. - in->d_sq + 2*in->c_ab + 2*in->d*(in->sb - in->sa)) / 8.;\n'}
+[1.112837] (global_planner) StdoutLine: {'line': b'4: -    double phi = atan2( in->ca - in->cb, in->d + in->sa - in->sb );\n'}
+[1.112902] (global_planner) StdoutLine: {'line': b'4: -    if( fabs(tmp0) <= 1) {\n'}
+[1.112963] (global_planner) StdoutLine: {'line': b'4: -        double p = mod2pi( 2*M_PI - acos( tmp0) );\n'}
+[1.113023] (global_planner) StdoutLine: {'line': b'4: -        double t = mod2pi(-in->alpha - phi + p/2.);\n'}
+[1.113081] (global_planner) StdoutLine: {'line': b'4: -        out[0] = t;\n'}
+[1.113137] (global_planner) StdoutLine: {'line': b'4: -        out[1] = p;\n'}
+[1.113212] (global_planner) StdoutLine: {'line': b'4: -        out[2] = mod2pi(mod2pi(in->beta) - in->alpha -t + mod2pi(p));\n'}
+[1.113272] (global_planner) StdoutLine: {'line': b'4: -        return EDUBOK;\n'}
+[1.113329] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.113388] (global_planner) StdoutLine: {'line': b'4: -    return EDUBNOPATH;\n'}
+[1.113444] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.113500] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.113559] (global_planner) StdoutLine: {'line': b'4: -int dubins_word(DubinsIntermediateResults* in, DubinsPathType pathType, double out[3]) \n'}
+[1.113615] (global_planner) StdoutLine: {'line': b'4: -{\n'}
+[1.113672] (global_planner) StdoutLine: {'line': b'4: -    int result;\n'}
+[1.113732] (global_planner) StdoutLine: {'line': b'4: -    switch(pathType)\n'}
+[1.113791] (global_planner) StdoutLine: {'line': b'4: -    {\n'}
+[1.113850] (global_planner) StdoutLine: {'line': b'4: +  if(d > 0) {\n'}
+[1.113923] (global_planner) StdoutLine: {'line': b'4: +    theta = mod2pi(atan2(dy, dx));\n'}
+[1.113998] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.114057] (global_planner) StdoutLine: {'line': b'4: +  alpha = mod2pi(q0[2] - theta);\n'}
+[1.114118] (global_planner) StdoutLine: {'line': b'4: +  beta = mod2pi(q1[2] - theta);\n'}
+[1.114177] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.114234] (global_planner) StdoutLine: {'line': b'4: +  in->alpha = alpha;\n'}
+[1.114292] (global_planner) StdoutLine: {'line': b'4: +  in->beta = beta;\n'}
+[1.114349] (global_planner) StdoutLine: {'line': b'4: +  in->d = d;\n'}
+[1.114403] (global_planner) StdoutLine: {'line': b'4: +  in->sa = sin(alpha);\n'}
+[1.114461] (global_planner) StdoutLine: {'line': b'4: +  in->sb = sin(beta);\n'}
+[1.114518] (global_planner) StdoutLine: {'line': b'4: +  in->ca = cos(alpha);\n'}
+[1.114572] (global_planner) StdoutLine: {'line': b'4: +  in->cb = cos(beta);\n'}
+[1.114630] (global_planner) StdoutLine: {'line': b'4: +  in->c_ab = cos(alpha - beta);\n'}
+[1.114684] (global_planner) StdoutLine: {'line': b'4: +  in->d_sq = d * d;\n'}
+[1.114743] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.114802] (global_planner) StdoutLine: {'line': b'4: +  return EDUBOK;\n'}
+[1.114856] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.115038] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.115118] (global_planner) StdoutLine: {'line': b'4: +int dubins_LSL(DubinsIntermediateResults * in, double out[3])\n'}
+[1.115191] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.115252] (global_planner) StdoutLine: {'line': b'4: +  double tmp0, tmp1, p_sq;\n'}
+[1.115311] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.115369] (global_planner) StdoutLine: {'line': b'4: +  tmp0 = in->d + in->sa - in->sb;\n'}
+[1.115427] (global_planner) StdoutLine: {'line': b'4: +  p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sa - in->sb));\n'}
+[1.115483] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.115540] (global_planner) StdoutLine: {'line': b'4: +  if(p_sq >= 0) {\n'}
+[1.115596] (global_planner) StdoutLine: {'line': b'4: +    tmp1 = atan2( (in->cb - in->ca), tmp0);\n'}
+[1.115653] (global_planner) StdoutLine: {'line': b'4: +    out[0] = mod2pi(tmp1 - in->alpha);\n'}
+[1.115712] (global_planner) StdoutLine: {'line': b'4: +    out[1] = sqrt(p_sq);\n'}
+[1.115767] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(in->beta - tmp1);\n'}
+[1.115824] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.115879] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.115973] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.116038] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.116098] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.116222] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.116325] (global_planner) StdoutLine: {'line': b'4: +int dubins_RSR(DubinsIntermediateResults * in, double out[3])\n'}
+[1.116452] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.116551] (global_planner) StdoutLine: {'line': b'4: +  double tmp0 = in->d - in->sa + in->sb;\n'}
+[1.116638] (global_planner) StdoutLine: {'line': b'4: +  double p_sq = 2 + in->d_sq - (2 * in->c_ab) + (2 * in->d * (in->sb - in->sa));\n'}
+[1.116737] (global_planner) StdoutLine: {'line': b'4: +  if(p_sq >= 0) {\n'}
+[1.116831] (global_planner) StdoutLine: {'line': b'4: +    double tmp1 = atan2( (in->ca - in->cb), tmp0);\n'}
+[1.116937] (global_planner) StdoutLine: {'line': b'4: +    out[0] = mod2pi(in->alpha - tmp1);\n'}
+[1.117031] (global_planner) StdoutLine: {'line': b'4: +    out[1] = sqrt(p_sq);\n'}
+[1.117122] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(tmp1 - in->beta);\n'}
+[1.117214] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.117315] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.117417] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.117510] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.117598] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.117687] (global_planner) StdoutLine: {'line': b'4: +int dubins_LSR(DubinsIntermediateResults * in, double out[3])\n'}
+[1.117773] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.117865] (global_planner) StdoutLine: {'line': b'4: +  double p_sq = -2 + (in->d_sq) + (2 * in->c_ab) + (2 * in->d * (in->sa + in->sb));\n'}
+[1.117995] (global_planner) StdoutLine: {'line': b'4: +  if(p_sq >= 0) {\n'}
+[1.118105] (global_planner) StdoutLine: {'line': b'4: +    double p = sqrt(p_sq);\n'}
+[1.118206] (global_planner) StdoutLine: {'line': b'4: +    double tmp0 = atan2( (-in->ca - in->cb), (in->d + in->sa + in->sb) ) - atan2(-2.0, p);\n'}
+[1.118301] (global_planner) StdoutLine: {'line': b'4: +    out[0] = mod2pi(tmp0 - in->alpha);\n'}
+[1.118397] (global_planner) StdoutLine: {'line': b'4: +    out[1] = p;\n'}
+[1.118489] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(tmp0 - mod2pi(in->beta));\n'}
+[1.118577] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.118669] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.118759] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.118853] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.119020] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.119173] (global_planner) StdoutLine: {'line': b'4: +int dubins_RSL(DubinsIntermediateResults * in, double out[3])\n'}
+[1.119284] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.119384] (global_planner) StdoutLine: {'line': b'4: +  double p_sq = -2 + in->d_sq + (2 * in->c_ab) - (2 * in->d * (in->sa + in->sb));\n'}
+[1.119485] (global_planner) StdoutLine: {'line': b'4: +  if(p_sq >= 0) {\n'}
+[1.119589] (global_planner) StdoutLine: {'line': b'4: +    double p = sqrt(p_sq);\n'}
+[1.119697] (global_planner) StdoutLine: {'line': b'4: +    double tmp0 = atan2( (in->ca + in->cb), (in->d - in->sa - in->sb) ) - atan2(2.0, p);\n'}
+[1.119804] (global_planner) StdoutLine: {'line': b'4: +    out[0] = mod2pi(in->alpha - tmp0);\n'}
+[1.119899] (global_planner) StdoutLine: {'line': b'4: +    out[1] = p;\n'}
+[1.120038] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(in->beta - tmp0);\n'}
+[1.120162] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.120266] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.120362] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.120460] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.120574] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.120776] (global_planner) StdoutLine: {'line': b'4: +int dubins_RLR(DubinsIntermediateResults * in, double out[3])\n'}
+[1.120855] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.120917] (global_planner) StdoutLine: {'line': b'4: +  double tmp0 = (6. - in->d_sq + 2 * in->c_ab + 2 * in->d * (in->sa - in->sb)) / 8.;\n'}
+[1.120979] (global_planner) StdoutLine: {'line': b'4: +  double phi = atan2(in->ca - in->cb, in->d - in->sa + in->sb);\n'}
+[1.121040] (global_planner) StdoutLine: {'line': b'4: +  if(fabs(tmp0) <= 1) {\n'}
+[1.121098] (global_planner) StdoutLine: {'line': b'4: +    double p = mod2pi((2 * M_PI) - acos(tmp0) );\n'}
+[1.121155] (global_planner) StdoutLine: {'line': b'4: +    double t = mod2pi(in->alpha - phi + mod2pi(p / 2.));\n'}
+[1.121215] (global_planner) StdoutLine: {'line': b'4: +    out[0] = t;\n'}
+[1.121271] (global_planner) StdoutLine: {'line': b'4: +    out[1] = p;\n'}
+[1.121345] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(in->alpha - in->beta - t + mod2pi(p));\n'}
+[1.121408] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.121467] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.121536] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.121595] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.121657] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.121715] (global_planner) StdoutLine: {'line': b'4: +int dubins_LRL(DubinsIntermediateResults * in, double out[3])\n'}
+[1.121776] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.121835] (global_planner) StdoutLine: {'line': b'4: +  double tmp0 = (6. - in->d_sq + 2 * in->c_ab + 2 * in->d * (in->sb - in->sa)) / 8.;\n'}
+[1.121893] (global_planner) StdoutLine: {'line': b'4: +  double phi = atan2(in->ca - in->cb, in->d + in->sa - in->sb);\n'}
+[1.121975] (global_planner) StdoutLine: {'line': b'4: +  if(fabs(tmp0) <= 1) {\n'}
+[1.122047] (global_planner) StdoutLine: {'line': b'4: +    double p = mod2pi(2 * M_PI - acos(tmp0) );\n'}
+[1.122111] (global_planner) StdoutLine: {'line': b'4: +    double t = mod2pi(-in->alpha - phi + p / 2.);\n'}
+[1.122182] (global_planner) StdoutLine: {'line': b'4: +    out[0] = t;\n'}
+[1.122243] (global_planner) StdoutLine: {'line': b'4: +    out[1] = p;\n'}
+[1.122304] (global_planner) StdoutLine: {'line': b'4: +    out[2] = mod2pi(mod2pi(in->beta) - in->alpha - t + mod2pi(p));\n'}
+[1.122365] (global_planner) StdoutLine: {'line': b'4: +    return EDUBOK;\n'}
+[1.122423] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.122494] (global_planner) StdoutLine: {'line': b'4: +  return EDUBNOPATH;\n'}
+[1.122609] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.122702] (global_planner) StdoutLine: {'line': b'4: +\n'}
+[1.122764] (global_planner) StdoutLine: {'line': b'4: +int dubins_word(DubinsIntermediateResults * in, DubinsPathType pathType, double out[3])\n'}
+[1.122852] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.122913] (global_planner) StdoutLine: {'line': b'4: +  int result;\n'}
+[1.122975] (global_planner) StdoutLine: {'line': b'4: +  switch(pathType) {\n'}
+[1.123036] (global_planner) StdoutLine: {'line': b'4: @@ -416,2 +413,2 @@\n'}
+[1.123096] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_LSL(in, out);\n'}
+[1.123156] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.123216] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_LSL(in, out);\n'}
+[1.123274] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.123333] (global_planner) StdoutLine: {'line': b'4: @@ -419,2 +416,2 @@\n'}
+[1.123389] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_RSL(in, out);\n'}
+[1.123445] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.123503] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_RSL(in, out);\n'}
+[1.123558] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.123619] (global_planner) StdoutLine: {'line': b'4: @@ -422,2 +419,2 @@\n'}
+[1.123697] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_LSR(in, out);\n'}
+[1.123761] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.123827] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_LSR(in, out);\n'}
+[1.123888] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.123945] (global_planner) StdoutLine: {'line': b'4: @@ -425,2 +422,2 @@\n'}
+[1.124035] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_RSR(in, out);\n'}
+[1.124098] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.124191] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_RSR(in, out);\n'}
+[1.124253] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.124312] (global_planner) StdoutLine: {'line': b'4: @@ -428,2 +425,2 @@\n'}
+[1.124371] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_LRL(in, out);\n'}
+[1.124430] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.124487] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_LRL(in, out);\n'}
+[1.124545] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.124602] (global_planner) StdoutLine: {'line': b'4: @@ -431,2 +428,2 @@\n'}
+[1.124660] (global_planner) StdoutLine: {'line': b'4: -        result = dubins_RLR(in, out);\n'}
+[1.124729] (global_planner) StdoutLine: {'line': b'4: -        break;\n'}
+[1.124787] (global_planner) StdoutLine: {'line': b'4: +      result = dubins_RLR(in, out);\n'}
+[1.124843] (global_planner) StdoutLine: {'line': b'4: +      break;\n'}
+[1.124904] (global_planner) StdoutLine: {'line': b'4: @@ -434,6 +431,4 @@\n'}
+[1.124960] (global_planner) StdoutLine: {'line': b'4: -        result = EDUBNOPATH;\n'}
+[1.125017] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.125075] (global_planner) StdoutLine: {'line': b'4: -    return result;\n'}
+[1.125131] (global_planner) StdoutLine: {'line': b'4: -}\n'}
+[1.125184] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.125243] (global_planner) StdoutLine: {'line': b'4: -\n'}
+[1.125300] (global_planner) StdoutLine: {'line': b'4: +      result = EDUBNOPATH;\n'}
+[1.125355] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.125413] (global_planner) StdoutLine: {'line': b'4: +  return result;\n'}
+[1.125468] (global_planner) StdoutLine: {'line': b'4: +}\n'}
+[1.125526] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.125584] (global_planner) StdoutLine: {'line': b"4: Code style divergence in file 'src/global_planner_node.cpp':\n"}
+[1.125658] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.125717] (global_planner) StdoutLine: {'line': b'4: --- src/global_planner_node.cpp\n'}
+[1.125776] (global_planner) StdoutLine: {'line': b'4: +++ src/global_planner_node.cpp.uncrustify\n'}
+[1.125834] (global_planner) StdoutLine: {'line': b'4: @@ -9,4 +9,5 @@\n'}
+[1.125893] (global_planner) StdoutLine: {'line': b'4: -int main() {\n'}
+[1.125951] (global_planner) StdoutLine: {'line': b'4: -    double q0[3] = {0, 0, 0};\n'}
+[1.126046] (global_planner) StdoutLine: {'line': b'4: -    double q1[3] = {10, 10, 0};\n'}
+[1.126111] (global_planner) StdoutLine: {'line': b'4: -    double turning_radius = 4.0;\n'}
+[1.126173] (global_planner) StdoutLine: {'line': b'4: +int main()\n'}
+[1.126233] (global_planner) StdoutLine: {'line': b'4: +{\n'}
+[1.126291] (global_planner) StdoutLine: {'line': b'4: +  double q0[3] = {0, 0, 0};\n'}
+[1.126347] (global_planner) StdoutLine: {'line': b'4: +  double q1[3] = {10, 10, 0};\n'}
+[1.126405] (global_planner) StdoutLine: {'line': b'4: +  double turning_radius = 4.0;\n'}
+[1.126461] (global_planner) StdoutLine: {'line': b'4: @@ -14,6 +15,6 @@\n'}
+[1.126516] (global_planner) StdoutLine: {'line': b'4: -    DubinsPath path;\n'}
+[1.126573] (global_planner) StdoutLine: {'line': b'4: -    int result = dubins_shortest_path(&path, q0, q1, turning_radius);\n'}
+[1.126629] (global_planner) StdoutLine: {'line': b'4: -    if (result != EDUBOK) {\n'}
+[1.126686] (global_planner) StdoutLine: {'line': b'4: -        printf("No valid Dubins path found, error code: %d\\n", result);\n'}
+[1.126745] (global_planner) StdoutLine: {'line': b'4: -        return 1;\n'}
+[1.126800] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.126873] (global_planner) StdoutLine: {'line': b'4: +  DubinsPath path;\n'}
+[1.126933] (global_planner) StdoutLine: {'line': b'4: +  int result = dubins_shortest_path(&path, q0, q1, turning_radius);\n'}
+[1.126992] (global_planner) StdoutLine: {'line': b'4: +  if (result != EDUBOK) {\n'}
+[1.127048] (global_planner) StdoutLine: {'line': b'4: +    printf("No valid Dubins path found, error code: %d\\n", result);\n'}
+[1.127107] (global_planner) StdoutLine: {'line': b'4: +    return 1;\n'}
+[1.127162] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.127231] (global_planner) StdoutLine: {'line': b'4: @@ -21,2 +22,2 @@\n'}
+[1.127292] (global_planner) StdoutLine: {'line': b'4: -    double length = dubins_path_length(&path);\n'}
+[1.127351] (global_planner) StdoutLine: {'line': b'4: -    printf("Path length: %.2f\\n", length);\n'}
+[1.127408] (global_planner) StdoutLine: {'line': b'4: +  double length = dubins_path_length(&path);\n'}
+[1.127467] (global_planner) StdoutLine: {'line': b'4: +  printf("Path length: %.2f\\n", length);\n'}
+[1.127522] (global_planner) StdoutLine: {'line': b'4: @@ -24,5 +25,5 @@\n'}
+[1.127577] (global_planner) StdoutLine: {'line': b'4: -    for (double t = 0; t < length; t += 1.0) {\n'}
+[1.127635] (global_planner) StdoutLine: {'line': b'4: -        double q[3];\n'}
+[1.127690] (global_planner) StdoutLine: {'line': b'4: -        dubins_path_sample(&path, t, q);\n'}
+[1.127769] (global_planner) StdoutLine: {'line': b'4: -        printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\\n", t, q[0], q[1], q[2]);\n'}
+[1.127889] (global_planner) StdoutLine: {'line': b'4: -    }\n'}
+[1.128025] (global_planner) StdoutLine: {'line': b'4: +  for (double t = 0; t < length; t += 1.0) {\n'}
+[1.128159] (global_planner) StdoutLine: {'line': b'4: +    double q[3];\n'}
+[1.128249] (global_planner) StdoutLine: {'line': b'4: +    dubins_path_sample(&path, t, q);\n'}
+[1.128325] (global_planner) StdoutLine: {'line': b'4: +    printf("t=%.1f  x=%.2f  y=%.2f  theta=%.2f\\n", t, q[0], q[1], q[2]);\n'}
+[1.128390] (global_planner) StdoutLine: {'line': b'4: +  }\n'}
+[1.128446] (global_planner) StdoutLine: {'line': b'4: @@ -30 +31 @@\n'}
+[1.128506] (global_planner) StdoutLine: {'line': b'4: -    return 0;\n'}
+[1.128562] (global_planner) StdoutLine: {'line': b'4: +  return 0;\n'}
+[1.128651] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.128713] (global_planner) StdoutLine: {'line': b"4: Code style divergence in file 'test/test_dubins.cpp':\n"}
+[1.128787] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.128849] (global_planner) StdoutLine: {'line': b'4: --- test/test_dubins.cpp\n'}
+[1.128910] (global_planner) StdoutLine: {'line': b'4: +++ test/test_dubins.cpp.uncrustify\n'}
+[1.128992] (global_planner) StdoutLine: {'line': b'4: @@ -17 +17 @@\n'}
+[1.129056] (global_planner) StdoutLine: {'line': b'4: -    double straight_line_dist = std::sqrt(10.0*10.0 + 10.0*10.0);\n'}
+[1.129159] (global_planner) StdoutLine: {'line': b'4: +    double straight_line_dist = std::sqrt(10.0 * 10.0 + 10.0 * 10.0);\n'}
+[1.129229] (global_planner) StdoutLine: {'line': b'4: \n'}
+[1.129343] (global_planner) StdoutLine: {'line': b'4: 4 files with code style divergence\n'}
+[1.129454] (global_planner) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[1.129559] (global_planner) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/uncrustify.xunit.xml'\n"}
+[1.129680] (global_planner) StdoutLine: {'line': b'4/5 Test #4: uncrustify .......................***Failed    0.25 sec\n'}
+[1.129825] (global_planner) StdoutLine: {'line': b'test 5\n'}
+[1.129921] (global_planner) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.130040] (global_planner) StdoutLine: {'line': b'\n'}
+[1.130140] (global_planner) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml" "--package-name" "global_planner" "--output-file" "/home/shriperu/ros2_ws/build/global_planner/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml"\n'}
+[1.130245] (global_planner) StdoutLine: {'line': b'5: Working Directory: /home/shriperu/ros2_ws/src/global_planner\n'}
+[1.130340] (global_planner) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.154255] (global_planner) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/shriperu/ros2_ws/src/global_planner':\n"}
+[1.154433] (global_planner) StdoutLine: {'line': b'5:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml\n'}
+[1.201894] (-) TimerEvent: {}
+[1.302392] (-) TimerEvent: {}
+[1.402974] (-) TimerEvent: {}
+[1.503641] (-) TimerEvent: {}
+[1.604242] (-) TimerEvent: {}
+[1.703868] (global_planner) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[1.704087] (global_planner) StdoutLine: {'line': b'5: \n'}
+[1.704263] (-) TimerEvent: {}
+[1.704399] (global_planner) StdoutLine: {'line': b'5: No problems found\n'}
+[1.720786] (global_planner) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.721156] (global_planner) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/xmllint.xunit.xml'\n"}
+[1.738307] (global_planner) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    0.64 sec\n'}
+[1.738943] (global_planner) StdoutLine: {'line': b'\n'}
+[1.739120] (global_planner) StdoutLine: {'line': b'80% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 5\n'}
+[1.739293] (global_planner) StdoutLine: {'line': b'\n'}
+[1.739689] (global_planner) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.739834] (global_planner) StdoutLine: {'line': b'cppcheck      =   0.22 sec*proc (1 test)\n'}
+[1.739959] (global_planner) StdoutLine: {'line': b'gtest         =   0.09 sec*proc (1 test)\n'}
+[1.740068] (global_planner) StdoutLine: {'line': b'lint_cmake    =   0.18 sec*proc (1 test)\n'}
+[1.740232] (global_planner) StdoutLine: {'line': b'linter        =   1.29 sec*proc (4 tests)\n'}
+[1.740348] (global_planner) StdoutLine: {'line': b'uncrustify    =   0.25 sec*proc (1 test)\n'}
+[1.740460] (global_planner) StdoutLine: {'line': b'xmllint       =   0.64 sec*proc (1 test)\n'}
+[1.740582] (global_planner) StdoutLine: {'line': b'\n'}
+[1.740718] (global_planner) StdoutLine: {'line': b'Total Test time (real) =   1.39 sec\n'}
+[1.740829] (global_planner) StdoutLine: {'line': b'\n'}
+[1.740953] (global_planner) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.741049] (global_planner) StdoutLine: {'line': b'\t\x1b[0;31m  4 - uncrustify (Failed)\x1b[0;0m\n'}
+[1.745140] (global_planner) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.745366] (global_planner) StderrLine: {'line': b'Output from these tests are in: /home/shriperu/ros2_ws/build/global_planner/Testing/Temporary/LastTest.log\n'}
+[1.745475] (global_planner) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.748947] (global_planner) CommandEnded: {'returncode': 8}
+[1.750040] (global_planner) TestFailure: {'identifier': 'global_planner'}
+[1.750461] (global_planner) JobEnded: {'identifier': 'global_planner', 'rc': 0}
+[1.751191] (-) EventReactorShutdown: {}

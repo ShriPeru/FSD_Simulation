@@ -1,0 +1,26 @@
+[0.030s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[0.162s] [ 33%] [32mBuilding CXX object CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o[0m
+[0.163s] [ 66%] [32mBuilding C object CMakeFiles/global_planner_node.dir/src/dubins.c.o[0m
+[3.864s] [100%] [32m[1mLinking CXX executable global_planner_node[0m
+[4.599s] [100%] Built target global_planner_node
+[4.616s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shriperu/ros2_ws/build/global_planner -- -j16 -l16
+[4.618s] Invoking command in '/home/shriperu/ros2_ws/build/global_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shriperu/ros2_ws/build/global_planner
+[4.629s] -- Install configuration: ""
+[4.630s] -- Execute custom install script
+[4.632s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/lib/global_planner/global_planner_node
+[4.648s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/package_run_dependencies/global_planner
+[4.663s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/parent_prefix_path/global_planner
+[4.678s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.sh
+[4.690s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/ament_prefix_path.dsv
+[4.704s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.sh
+[4.718s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/environment/path.dsv
+[4.732s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.bash
+[4.746s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.sh
+[4.759s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.zsh
+[4.774s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/local_setup.dsv
+[4.788s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.dsv
+[4.803s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/ament_index/resource_index/packages/global_planner
+[4.817s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig.cmake
+[4.830s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/cmake/global_plannerConfig-version.cmake
+[4.843s] -- Symlinking: /home/shriperu/ros2_ws/install/global_planner/share/global_planner/package.xml
+[4.858s] Invoked command in '/home/shriperu/ros2_ws/build/global_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shriperu/ros2_ws/build/global_planner

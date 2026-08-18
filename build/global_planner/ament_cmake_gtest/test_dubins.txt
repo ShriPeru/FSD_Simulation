@@ -1,0 +1,23 @@
+-- run_test.py: invoking following command in '/home/shriperu/ros2_ws/build/global_planner':
+ - /home/shriperu/ros2_ws/build/global_planner/test_dubins --gtest_output=xml:/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml
+
+Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from DubinsTest
+[ RUN      ] DubinsTest.PathLengthAtLeastStraightLineDistance
+[       OK ] DubinsTest.PathLengthAtLeastStraightLineDistance (0 ms)
+[ RUN      ] DubinsTest.SamplingAtZeroReturnsStart
+[       OK ] DubinsTest.SamplingAtZeroReturnsStart (0 ms)
+[ RUN      ] DubinsTest.EndpointMatchesGoal
+[       OK ] DubinsTest.EndpointMatchesGoal (0 ms)
+[----------] 3 tests from DubinsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
+-- run_test.py: verify result file '/home/shriperu/ros2_ws/build/global_planner/test_results/global_planner/test_dubins.gtest.xml'
