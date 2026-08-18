@@ -268,7 +268,6 @@ src/dubins.o: src/dubins.c.o
 # target to build an object file
 src/dubins.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dubins.dir/build.make CMakeFiles/test_dubins.dir/src/dubins.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_planner_node.dir/build.make CMakeFiles/global_planner_node.dir/src/dubins.c.o
 .PHONY : src/dubins.c.o
 
 src/dubins.i: src/dubins.c.i
@@ -277,7 +276,6 @@ src/dubins.i: src/dubins.c.i
 # target to preprocess a source file
 src/dubins.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dubins.dir/build.make CMakeFiles/test_dubins.dir/src/dubins.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_planner_node.dir/build.make CMakeFiles/global_planner_node.dir/src/dubins.c.i
 .PHONY : src/dubins.c.i
 
 src/dubins.s: src/dubins.c.s
@@ -286,7 +284,6 @@ src/dubins.s: src/dubins.c.s
 # target to generate assembly for a file
 src/dubins.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_dubins.dir/build.make CMakeFiles/test_dubins.dir/src/dubins.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/global_planner_node.dir/build.make CMakeFiles/global_planner_node.dir/src/dubins.c.s
 .PHONY : src/dubins.c.s
 
 src/global_planner_node.o: src/global_planner_node.cpp.o

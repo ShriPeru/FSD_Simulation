@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shriperu/ros2_ws/src/global_planner/src/dubins.c" "CMakeFiles/global_planner_node.dir/src/dubins.c.o" "gcc" "CMakeFiles/global_planner_node.dir/src/dubins.c.o.d"
   "/home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp" "CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o" "gcc" "CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o.d"
   )
 

@@ -83,31 +83,19 @@ CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shriperu/ros2_ws/src/global_planner/src/global_planner_node.cpp -o CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.s
 
-CMakeFiles/global_planner_node.dir/src/dubins.c.o: CMakeFiles/global_planner_node.dir/flags.make
-CMakeFiles/global_planner_node.dir/src/dubins.c.o: /home/shriperu/ros2_ws/src/global_planner/src/dubins.c
-CMakeFiles/global_planner_node.dir/src/dubins.c.o: CMakeFiles/global_planner_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shriperu/ros2_ws/build/global_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/global_planner_node.dir/src/dubins.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/global_planner_node.dir/src/dubins.c.o -MF CMakeFiles/global_planner_node.dir/src/dubins.c.o.d -o CMakeFiles/global_planner_node.dir/src/dubins.c.o -c /home/shriperu/ros2_ws/src/global_planner/src/dubins.c
-
-CMakeFiles/global_planner_node.dir/src/dubins.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/global_planner_node.dir/src/dubins.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shriperu/ros2_ws/src/global_planner/src/dubins.c > CMakeFiles/global_planner_node.dir/src/dubins.c.i
-
-CMakeFiles/global_planner_node.dir/src/dubins.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/global_planner_node.dir/src/dubins.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shriperu/ros2_ws/src/global_planner/src/dubins.c -o CMakeFiles/global_planner_node.dir/src/dubins.c.s
-
 # Object files for target global_planner_node
 global_planner_node_OBJECTS = \
-"CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o" \
-"CMakeFiles/global_planner_node.dir/src/dubins.c.o"
+"CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o"
 
 # External object files for target global_planner_node
 global_planner_node_EXTERNAL_OBJECTS =
 
 global_planner_node: CMakeFiles/global_planner_node.dir/src/global_planner_node.cpp.o
-global_planner_node: CMakeFiles/global_planner_node.dir/src/dubins.c.o
 global_planner_node: CMakeFiles/global_planner_node.dir/build.make
+global_planner_node: /usr/lib/x86_64-linux-gnu/libompl.so
+global_planner_node: /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+global_planner_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+global_planner_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
 global_planner_node: /opt/ros/jazzy/lib/librclcpp.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -115,6 +103,12 @@ global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introspe
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_py.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_py.so
 global_planner_node: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 global_planner_node: /opt/ros/jazzy/lib/librcl.so
 global_planner_node: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -155,23 +149,18 @@ global_planner_node: /opt/ros/jazzy/lib/libtracetools.so
 global_planner_node: /opt/ros/jazzy/lib/librcl_logging_interface.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_typesupport_c.so
 global_planner_node: /opt/ros/jazzy/lib/libnav_msgs__rosidl_generator_c.so
-global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 global_planner_node: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
+global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
 global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
 global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+global_planner_node: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
 global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 global_planner_node: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 global_planner_node: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -197,7 +186,7 @@ global_planner_node: /opt/ros/jazzy/lib/librcpputils.so
 global_planner_node: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 global_planner_node: /opt/ros/jazzy/lib/librcutils.so
 global_planner_node: CMakeFiles/global_planner_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shriperu/ros2_ws/build/global_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable global_planner_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shriperu/ros2_ws/build/global_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable global_planner_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/global_planner_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
