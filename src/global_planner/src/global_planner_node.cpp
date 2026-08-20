@@ -50,11 +50,13 @@ bool isStateValid(const ob::State* state) {
     double x = se2state->getX();
     double y = se2state->getY();
 
+    const double vehicle_safety_radius = 0.224;  // car's half-diagonal, from size 0.2 x 0.1
+
     for (const auto& obs : currentObstacles) {
         double dx = x - obs.x;
         double dy = y - obs.y;
         double dist = std::sqrt(dx * dx + dy * dy);
-        if (dist < obs.radius) {
+        if (dist < obs.radius + vehicle_safety_radius) {
             return false;
         }
     }
@@ -100,7 +102,7 @@ private:
     void planAndPublish() {
         const double start_x = 0.0, start_y = 0.0, start_theta = 0.0;
         const double goal_x = 10.0, goal_y = 10.0, goal_theta = 0.0;
-        double turning_radius_;
+       //  double turning_radius_;
         currentObstacles = {
           {5.0, 5.0, 1.5},
           {3.0, 7.0, 1.0},

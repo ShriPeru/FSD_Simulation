@@ -1,6 +1,6 @@
 global_planner_node:
   ros__parameters:
-    turning_radius: 0.8
+    turning_radius: 1.5
 
 local_planner_node:
   ros__parameters:

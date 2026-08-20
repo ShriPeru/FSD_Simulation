@@ -61,7 +61,39 @@ void mouse_move(GLFWwindow* window, double xpos, double ypos) {
 
     mjv_moveCamera(model, action, dx / height, dy / height, &cam);
 }
+void updateCameraMovement(GLFWwindow* window) {
+    const double move_speed = 0.05;
 
+    // Forward/backward and left/right move relative to the camera's current azimuth (facing direction)
+    double azimuth_rad = cam.azimuth * M_PI / 180.0;
+    double forward_x = -sin(azimuth_rad);
+    double forward_y = cos(azimuth_rad);
+    double right_x = cos(azimuth_rad);
+    double right_y = sin(azimuth_rad);
+
+    if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
+        cam.lookat[0] += forward_x * move_speed;
+        cam.lookat[1] += forward_y * move_speed;
+    }
+    if (glfwGetKey(window, GLFW_KEY_DOWN) == GLFW_PRESS) {
+        cam.lookat[0] -= forward_x * move_speed;
+        cam.lookat[1] -= forward_y * move_speed;
+    }
+    if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
+        cam.lookat[0] -= right_x * move_speed;
+        cam.lookat[1] -= right_y * move_speed;
+    }
+    if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
+        cam.lookat[0] += right_x * move_speed;
+        cam.lookat[1] += right_y * move_speed;
+    }
+    if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        cam.lookat[2] += move_speed;
+    }
+    if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
+        cam.lookat[2] -= move_speed;
+    }
+}
 void scroll(GLFWwindow* window, double xoffset, double yoffset) {
     mjv_moveCamera(model, mjMOUSE_ZOOM, 0, -0.05 * yoffset, &cam);
 }
@@ -151,6 +183,7 @@ int main() {
 
         glfwSwapBuffers(window);
         glfwPollEvents();
+        updateCameraMovement(window);
         rclcpp::spin_some(ros_node);
     }
 

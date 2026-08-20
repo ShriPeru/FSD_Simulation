@@ -228,7 +228,7 @@ private:
 
     double lookahead_distance_;
     double wheelbase_;
-    const double constant_speed_ = 0.5;
+    const double constant_speed_ = 2.0;
     const double goal_tolerance_ = 0.5;  // meters - how close counts as "arrived"
 };
 
